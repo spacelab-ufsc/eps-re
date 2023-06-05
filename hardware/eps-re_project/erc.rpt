@@ -1,0 +1,31 @@
+ERC report (dom 04 jun 2023 16:25:33, Encoding UTF8)
+
+***** Sheet /
+[multiple_net_names]: Both X+Panels and Y-Panels are attached to the same items; X+Panels will be used in the netlist
+    ; Severity: warning
+    @(30,4800 mm, 21,5900 mm): Label 'X+Panels'
+    @(30,4800 mm, 52,0700 mm): Label 'Y-Panels'
+
+***** Sheet /U_3V3_Load_Swiches/
+[multiple_net_names]: Both +3V3 and 3V3 are attached to the same items; +3V3 will be used in the netlist
+    ; Severity: warning
+    @(50,8000 mm, 160,0200 mm): Symbol #PWR02 Hidden pin 1 [+3V3, Power input, Line]
+    @(19,0500 mm, 29,2100 mm): Hierarchical Label '3V3'
+
+***** Sheet /U_5V0_Load_Switches/
+[multiple_net_names]: Both +5V and 5V0 are attached to the same items; +5V will be used in the netlist
+    ; Severity: warning
+    @(260,3500 mm, 162,5600 mm): Symbol #PWR048 Hidden pin 1 [+5V, Power input, Line]
+    @(252,7300 mm, 162,5600 mm): Hierarchical Label '5V0'
+
+***** Sheet /U_5V0_Load_Converters/
+
+***** Sheet /U_3V3_Load_Converters/
+
+***** Sheet /U_Energy Distribution/
+
+***** Sheet /U_MPPT_Batery_Charger/
+
+***** Sheet /U_House_Keeping/
+
+ ** ERC messages: 3  Errors 0  Warnings 3

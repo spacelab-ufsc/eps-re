@@ -1,0 +1,42 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Kemet C0805C105K5RACTU
+#
+DEF C0805C105K5RACTU C 0 40 Y Y 1 L N
+F0 "C" 0 100 50 H V L CNN 
+F1 "C0805C105K5RACTU" 0 200 50 H V L CNN 
+F2 "Kemet-C0805-0-0-*" 0 300 50 H I L CNN 
+F3 "http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf" 0 400 50 H I L CNN 
+F4 "1uF" 0 500 50 H I L CNN "capacitance"
+F5 "Cap" 0 600 50 H I L CNN "category"
+F6 "Passive Components" 0 700 50 H I L CNN "device class L1"
+F7 "Capacitors" 0 800 50 H I L CNN "device class L2"
+F8 "Ceramic Capacitors" 0 900 50 H I L CNN "device class L3"
+F9 "CAP CER 1UF 50V X7R 0805" 0 1000 50 H I L CNN "digikey description"
+F10 "399-7409-2-ND" 0 1100 50 H I L CNN "digikey part number"
+F11 "1.4mm" 0 1200 50 H I L CNN "height"
+F12 "CAPC200125X787" 0 1300 50 H I L CNN "ipc land pattern name"
+F13 "yes" 0 1400 50 H I L CNN "lead free"
+F14 "ac83af3950e2a3c3" 0 1500 50 H I L CNN "library id"
+F15 "Kemet" 0 1600 50 H I L CNN "manufacturer"
+F16 "Ceramic" 0 1700 50 H I L CNN "material"
+F17 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 50 Volts 10% X7R" 0 1800 50 H I L CNN "mouser description"
+F18 "80-C0805C105K5R" 0 1900 50 H I L CNN "mouser part number"
+F19 "0805 (2012 metric)" 0 2000 50 H I L CNN "package"
+F20 "yes" 0 2100 50 H I L CNN "rohs"
+F21 "0mm" 0 2200 50 H I L CNN "standoff height"
+F22 "X7R" 0 2300 50 H I L CNN "temperature characteristic"
+F23 "+125°C" 0 2400 50 H I L CNN "temperature range high"
+F24 "-55°C" 0 2500 50 H I L CNN "temperature range low"
+F25 "10%" 0 2600 50 H I L CNN "tolerance"
+F26 "50V" 0 2700 50 H I L CNN "voltage rating"
+DRAW
+X 1 1 0 0 70 D 40 0 1 1 P 
+X 2 2 0 -200 60 U 40 0 1 1 P 
+P 2 1 1 0 100 -70 -100 -70 N
+P 2 1 1 0 100 -130 -100 -130 N
+ENDDRAW
+ENDDEF
+#
+# End Library

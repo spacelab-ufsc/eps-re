@@ -1,0 +1,67 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# On Semiconductor NVTFS5116PLWFTAG
+#
+DEF NVTFS5116PLWFTAG Q 0 40 Y Y 1 L N
+F0 "Q" 0 300 50 H V L CNN 
+F1 "NVTFS5116PLWFTAG" 0 400 50 H V L CNN 
+F2 "On_Semiconductor-NVTFS5116PLWFTAG-*" 0 500 50 H I L CNN 
+F3 "http://www.onsemi.com/pub_link/Collateral/NVTFS5116PL-D.PDF" 0 600 50 H I L CNN 
+F4 "P Channel" 0 700 50 H I L CNN "Channel Polarity"
+F5 "1258" 0 800 50 H I L CNN "Ciss Typ pF"
+F6 "Manufacturer URL" 0 900 50 H I L CNN "Component Link 1 Description"
+F7 "http://www.onsemi.com/" 0 1000 50 H I L CNN "Component Link 1 URL"
+F8 "Package Specification" 0 1100 50 H I L CNN "Component Link 3 Description"
+F9 "http://www.onsemi.com/pub_link/Collateral/511AB.PDF" 0 1200 50 H I L CNN "Component Link 3 URL"
+F10 "Single" 0 1300 50 H I L CNN "Configuration"
+F11 "127" 0 1400 50 H I L CNN "Coss Typ pF"
+F12 "84" 0 1500 50 H I L CNN "Crss Typ pF"
+F13 "Rev. 2" 0 1600 50 H I L CNN "Datasheet Version"
+F14 "14" 0 1700 50 H I L CNN "ID Max A"
+F15 "Surface Mount" 0 1800 50 H I L CNN "Mounting Technology"
+F16 "8-Pin Small Outline No-Lead, Body 3.05 x 3.05 mm, Pitch 0.65 mm" 0 1900 50 H I L CNN "Package Description"
+F17 "u8FL / WDFN-8" 0 2000 50 H I L CNN "Package Type"
+F18 "Rev. D, 04/2012" 0 2100 50 H I L CNN "Package Version"
+F19 "Tape and Reel" 0 2200 50 H I L CNN "Packing"
+F20 "24" 0 2300 50 H I L CNN "Qrr Typ nC"
+F21 "60" 0 2400 50 H I L CNN "VBRDSS Min V"
+F22 "20" 0 2500 50 H I L CNN "VGS Max V"
+F23 "3" 0 2600 50 H I L CNN "VGSth Max V"
+F24 "Trans" 0 2700 50 H I L CNN "category"
+F25 "12963858" 0 2800 50 H I L CNN "ciiva ids"
+F26 "d77bd95aa7027fec" 0 2900 50 H I L CNN "library id"
+F27 "On Semiconductor" 0 3000 50 H I L CNN "manufacturer"
+F28 "WDFN-8-511AB" 0 3100 50 H I L CNN "package"
+F29 "1407152079" 0 3200 50 H I L CNN "release date"
+F30 "No" 0 3300 50 H I L CNN "rohs"
+F31 "F245D843-06C5-4E04-AF31-2D62FA8FA176" 0 3400 50 H I L CNN "vault revision"
+F32 "yes" 0 3500 50 H I L CNN "imported"
+DRAW
+X S 1 300 -200 100 U 40 0 1 1 P 
+X G 4 0 0 100 R 40 0 1 1 P 
+X D 5 300 200 100 D 40 0 1 1 P 
+T 1 280 -270 60 1 1 1, 2, 3
+P 2 1 1 0 300 70 200 70 N
+P 2 1 1 0 300 0 200 0 N
+P 2 1 1 0 300 -70 200 -70 N
+P 2 1 1 0 300 0 300 -100 N
+P 2 1 1 0 180 90 180 -90 N
+P 2 1 1 0 200 90 200 50 N
+P 2 1 1 0 200 -20 200 20 N
+P 2 1 1 0 200 -90 200 -50 N
+P 2 1 1 0 100 0 180 0 N
+P 4 1 1 0 240 20 240 -20 300 0 240 20 N
+P 2 1 1 0 300 70 300 100 N
+P 2 1 1 0 300 100 400 100 N
+P 2 1 1 0 300 -100 400 -100 N
+P 2 1 1 0 400 100 400 30 N
+P 2 1 1 0 400 -100 400 -20 N
+P 4 1 1 0 430 30 370 30 400 -20 430 30 N
+P 2 1 1 0 430 -20 370 -20 N
+P 2 1 1 0 300 -100 300 -200 N
+P 2 1 1 0 300 -100 300 -200 N
+ENDDRAW
+ENDDEF
+#
+# End Library

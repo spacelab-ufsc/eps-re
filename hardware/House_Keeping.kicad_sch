@@ -1165,10 +1165,10 @@
   (symbol (lib_id "CRCW0603100KFKEAHP:CRCW0603100KFKEAHP") (at 110.49 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4211244c-40d0-45bf-bb4d-3fac82f6adcc)
-    (property "Reference" "R1" (at 105.41 100.33 0)
+    (property "Reference" "R1" (at 104.14 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100K" (at 105.41 97.79 0)
+    (property "Value" "100K" (at 104.14 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "footprints:CRCW0603100KFKEAHP" (at 96.52 96.52 0)
@@ -1201,8 +1201,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0603100kfkeahp/vishay?region=nac" (at 96.52 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 277f87d7-a449-4168-a070-541b6047447a))
-    (pin "2" (uuid e345562d-619b-437e-a590-0e0340f2a010))
+    (pin "1" (uuid bbef39ee-6d40-49f5-8c1f-45ad0b076972))
+    (pin "2" (uuid 92c8675b-19e5-4273-b13f-c0d12c26eceb))
     (instances
       (project "Multiplex"
         (path "/1bb7c5d2-51c2-4535-b9ca-b37a37d39320"

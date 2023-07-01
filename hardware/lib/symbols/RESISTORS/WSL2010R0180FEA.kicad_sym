@@ -3,7 +3,7 @@
     (property "Reference" "R" (at 12.7 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Value" "WSL2010R0180FEA" (at 5.08 2.54 0)
+    (property "Value" "18mR" (at 11.43 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (property "Footprint" "footprints:WSL2010R0180FEA" (at -1.27 -3.81 0)

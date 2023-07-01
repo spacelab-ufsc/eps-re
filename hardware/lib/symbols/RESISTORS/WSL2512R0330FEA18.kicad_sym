@@ -6,7 +6,7 @@
     (property "Value" "33m" (at 6.35 2.54 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "footprints:WSL2512R0330FEA18" (at 6.35 -8.509 0)
+    (property "Footprint" "footprints:WSL2512R0330FEA18" (at 7.62 -3.81 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)

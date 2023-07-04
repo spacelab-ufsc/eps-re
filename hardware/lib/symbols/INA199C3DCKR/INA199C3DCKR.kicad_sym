@@ -3,7 +3,7 @@
     (property "Reference" "U" (at 21.336 25.146 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "INA199xxDCK" (at 16.51 22.86 0)
+    (property "Value" "INA199C3DCKR" (at 15.24 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 23.622 0.762 0)

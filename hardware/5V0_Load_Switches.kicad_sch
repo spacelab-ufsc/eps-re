@@ -3367,9 +3367,9 @@
     (property "Manufacturer_Part_Number" "SI2302DDS-T1-GE3" (at 196.85 938.43 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid bc74208d-bf67-458a-9ceb-3f326c8e0d55))
-    (pin "2" (uuid 8f4c5fd9-bc02-4009-9457-acdb11fea840))
-    (pin "3" (uuid c9f35f9b-d69d-453f-af59-ac1d7d3cd4ab))
+    (pin "1" (uuid fe750e54-ca59-4800-b476-6013aa9de6d7))
+    (pin "2" (uuid 10275cec-0e4d-4e53-a664-128cb610c44c))
+    (pin "3" (uuid 50ec94ac-e7b6-42f9-9f63-6265bb33ea21))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -3721,9 +3721,9 @@
     (property "Manufacturer_Part_Number" "SI2302DDS-T1-GE3" (at 195.58 895.25 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 3671bf1f-1464-4ec1-9e8d-9fb80e5da437))
-    (pin "2" (uuid d40699df-362d-4023-8e27-77a3cc881253))
-    (pin "3" (uuid b20c1c7a-8bbb-4a96-8518-4256b67f4fd9))
+    (pin "1" (uuid ba686ae2-15a3-4d39-989c-ce621c5b92ce))
+    (pin "2" (uuid 21b12416-5a19-472e-b47f-72be4f699970))
+    (pin "3" (uuid adf9b088-afcf-4519-997d-c7351fda3187))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -4819,9 +4819,9 @@
     (property "Manufacturer_Part_Number" "SI2302DDS-T1-GE3" (at 196.85 852.07 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 4dd5f3f4-b7fd-4025-9dcb-9c1400116dd3))
-    (pin "2" (uuid 8720ae90-eb3e-4baa-8d17-90b905eb6660))
-    (pin "3" (uuid 4be7f8ff-5b7d-4f39-8e3b-f8948cd23bc2))
+    (pin "1" (uuid 76dd2c3a-0ea4-4d98-b0b3-91cbd10dce5a))
+    (pin "2" (uuid 2842379e-1b8d-43f7-bf5f-7c4cc030e04e))
+    (pin "3" (uuid 6fc67010-b540-4e51-9555-295489e0fe5e))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"

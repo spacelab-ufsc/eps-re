@@ -10878,8 +10878,8 @@
     (property "voltage rating" "50V" (at 270.51 -3.81 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 6ce20939-bfa5-48ad-bb1c-a968e2cb3520))
-    (pin "2" (uuid 3ecf296b-d4c9-44b4-a9cb-664988e2533a))
+    (pin "1" (uuid 801d5eb1-1537-4cc1-b425-f7bb385770bc))
+    (pin "2" (uuid 3039b6ea-99ac-4195-bfa9-b20960e1e757))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"

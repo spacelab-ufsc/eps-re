@@ -908,7 +908,7 @@
     (property "ki_description" "Wurth WE-PD Series Shielded Wire-wound SMD Inductor 12 uH +/-20% 5.9A Idc")
     (path "/0b69622c-4960-45c0-904b-657ff8db02ea/aaca3b5f-f681-4ab4-bda4-af2d0d12eed3")
     (attr smd)
-    (fp_text reference "L5" (at -4.44 -7.41) (layer "F.SilkS")
+    (fp_text reference "L5" (at -3.55 -6.175) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp ef9057f8-4a5a-4bb6-b13e-9c17e510e4b0)
     )
@@ -1441,7 +1441,7 @@
 
   (footprint "footprints:533980471" (layer "F.Cu")
     (tstamp 1bec6d17-3667-49c8-9be2-24d7a590b6a2)
-    (at 99.875 92.25)
+    (at 112.125 65.75)
     (descr "Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex PicoBlade side entry")
     (property "Sheetfile" "eps-re_project.kicad_sch")
@@ -4830,7 +4830,7 @@
 
   (footprint "footprints:533980471" (layer "F.Cu")
     (tstamp 6bb46727-3814-4b86-ba5a-638d71712f19)
-    (at 99.875 64.45)
+    (at 99.5 67)
     (descr "Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex PicoBlade side entry")
     (property "Sheetfile" "eps-re_project.kicad_sch")
@@ -6190,7 +6190,7 @@
     (property "voltage rating" "50V")
     (path "/0b69622c-4960-45c0-904b-657ff8db02ea/dca51159-2360-45a9-82fb-fe769550ac31")
     (attr smd)
-    (fp_text reference "C74" (at 0 2.5) (layer "F.SilkS")
+    (fp_text reference "C74" (at 13.175 -0.889999) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7f8ca7d1-18a6-402b-93a4-ea7ce2f4384f)
     )
@@ -6509,7 +6509,7 @@
 
   (footprint "footprints:533980471" (layer "F.Cu")
     (tstamp 98f9b839-8480-4c69-af45-57322ad86752)
-    (at 99.875 85.3)
+    (at 99.875 89.25)
     (descr "Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex PicoBlade side entry")
     (property "Sheetfile" "eps-re_project.kicad_sch")
@@ -7520,7 +7520,7 @@
 
   (footprint "footprints:533980471" (layer "F.Cu")
     (tstamp b031c75f-6fce-4694-acef-6ecf765095fc)
-    (at 99.875 71.4)
+    (at 99.575 74.5)
     (descr "Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex PicoBlade side entry")
     (property "Sheetfile" "eps-re_project.kicad_sch")
@@ -7729,7 +7729,7 @@
 
   (footprint "footprints:533980471" (layer "F.Cu")
     (tstamp b34a30a3-ef82-4f39-ab90-be5eccf9111a)
-    (at 99.875 57.5)
+    (at 99.714999 58.589998)
     (descr "Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex PicoBlade side entry")
     (property "Sheetfile" "eps-re_project.kicad_sch")
@@ -8070,7 +8070,7 @@
 
   (footprint "footprints:533980471" (layer "F.Cu")
     (tstamp b5bfaf19-61a0-4fbd-8ba7-fb79c1fc7fb3)
-    (at 99.875 99.2)
+    (at 112 74)
     (descr "Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex PicoBlade side entry")
     (property "Sheetfile" "eps-re_project.kicad_sch")
@@ -9874,7 +9874,7 @@
 
   (footprint "footprints:533980471" (layer "F.Cu")
     (tstamp e6043b7f-987c-44bf-9c36-b4151f46f39f)
-    (at 99.875 78.35)
+    (at 100.075 82)
     (descr "Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex PicoBlade side entry")
     (property "Sheetfile" "eps-re_project.kicad_sch")
@@ -11046,7 +11046,7 @@
 
   (footprint "footprints:C1210C106K5RACTU" (layer "B.Cu")
     (tstamp 002b8dca-65e1-4306-b554-5814857db31f)
-    (at 100.124999 85.014998 -90)
+    (at 99.5 80.525 -90)
     (descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -11372,7 +11372,7 @@
 
   (footprint "footprints:C1210C106K5RACTU" (layer "B.Cu")
     (tstamp 07c28f1e-19ff-408d-af1c-8d9002b0e973)
-    (at 105.124999 85.139998 -90)
+    (at 104.5 80.65 -90)
     (descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -11463,7 +11463,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
       (tstamp 749011c3-ca0e-4396-b5bb-232082f732ba)
     )
-    (fp_text value "61300311121" (at -0.19 -2.66 90) (layer "B.Fab")
+    (fp_text value "61300311121" (at 7.435001 -1.460002 90) (layer "B.Fab")
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
       (tstamp 1c7ca826-386f-4df1-b692-8bf6eb35b188)
     )
@@ -12349,7 +12349,7 @@
 
   (footprint "footprints:CRCW0603100KFKEAHP" (layer "B.Cu")
     (tstamp 1cf7b2b3-aac3-424a-8a49-21b861db1abc)
-    (at 101.124999 65.139998 90)
+    (at 101 58.175 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Arrow Part Number" "CRCW0603100KFKEAHP")
@@ -12538,7 +12538,7 @@
 
   (footprint "footprints:NVTFS5116PLTAG" (layer "B.Cu")
     (tstamp 1f891afa-1bde-4fdf-898e-691517a104bb)
-    (at 173.462497 93.684998 90)
+    (at 173.5 98.5 90)
     (property "Sheetfile" "5V0_Load_Switches.kicad_sch")
     (property "Sheetname" "U_5V0_Load_Switches")
     (property "ki_keywords" "NVTFS5116PLTAG")
@@ -12995,7 +12995,7 @@
 
   (footprint "footprints:WSL20108L000FEA18" (layer "B.Cu")
     (tstamp 27b0b28f-eb3d-47cd-8192-ee635e6ff5fd)
-    (at 148.149999 52.852498 90)
+    (at 154 52.852498 90)
     (descr "Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -13202,7 +13202,7 @@
 
   (footprint "footprints:C0603C104K5RACTU" (layer "B.Cu")
     (tstamp 2975ff71-cc3e-413e-9832-4eaefcee2d56)
-    (at 154.937499 100.664998 -90)
+    (at 151.6 101.5 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "3V3_Load_Switches.kicad_sch")
@@ -13582,7 +13582,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6" (layer "B.Cu")
     (tstamp 30dac69a-630d-4d46-806d-a0b228d62a24)
-    (at 108.574999 47.089998 90)
+    (at 112.15 47.089998 90)
     (descr "SOT-363, SC-70-6")
     (tags "SOT-363 SC-70-6")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -13591,11 +13591,11 @@
     (property "ki_keywords" "current monitor shunt sensor bidirectional")
     (path "/6f34948c-43a8-4614-b8ed-90c5b6b9b243/25e7d398-c41a-4258-add6-755f898c297f")
     (attr smd)
-    (fp_text reference "U21" (at -5.8625 -3.225 90) (layer "B.SilkS")
+    (fp_text reference "U21" (at -1.5375 -3.225 90) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 39b5800a-e569-4764-94ff-88a8787ae971)
     )
-    (fp_text value "INA199C3DCKR" (at -5.725 -2.725 90) (layer "B.Fab")
+    (fp_text value "INA199C3DCKR" (at -1.4 -2.725 90) (layer "B.Fab")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0f87e8ab-633e-4bfd-a40e-02dec4943e54)
     )
@@ -13710,7 +13710,7 @@
 
   (footprint "footprints:WSL20105L000FEA" (layer "B.Cu")
     (tstamp 323c368c-e682-4033-a029-86f04cda7e83)
-    (at 112.074999 48.402498 -90)
+    (at 116.5 48.5 -90)
     (descr "Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -13891,7 +13891,7 @@
 
   (footprint "footprints:CRCW060382K0FKEA" (layer "B.Cu")
     (tstamp 3896fe40-e7da-4cff-9404-eb660dde6bd8)
-    (at 111.849999 54.414998 -90)
+    (at 116.5 54.675 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -14342,7 +14342,7 @@
 
   (footprint "footprints:C0603C104K5RACTU" (layer "B.Cu")
     (tstamp 4675f0a0-8b36-4086-b234-f6c234218c45)
-    (at 108.574999 50.089998)
+    (at 113.225 50.35)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -14589,7 +14589,7 @@
 
   (footprint "footprints:CRCW060312K0FKEAHP" (layer "B.Cu")
     (tstamp 4942c8ae-775c-45cf-a383-f01b36e2f0a0)
-    (at 108.849999 53.414998 -90)
+    (at 113.5 53.675 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -14789,7 +14789,7 @@
 
   (footprint "footprints:T495X476K035ATE300" (layer "B.Cu")
     (tstamp 4d00b6f6-d1f4-4b08-b449-5fe180a95ad1)
-    (at 102.737499 78.139998)
+    (at 102.1125 73.65)
     (descr "Tantalum Capacitor SMD Kemet-W (7343-15 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -15339,7 +15339,7 @@
 
   (footprint "footprints:CRCW060310R0FKEAHP" (layer "B.Cu")
     (tstamp 579f96a5-009c-4829-a722-4dedee93db75)
-    (at 100.624999 68.639998)
+    (at 99 62.775)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Arrow Part Number" "CRCW060310R0FKEAHP")
@@ -15358,7 +15358,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2daae0b1-5842-4824-a496-e1e9ea1671f0)
     )
-    (fp_text value "10R" (at 0 -1.43) (layer "B.Fab")
+    (fp_text value "10R" (at 2.875001 -9.869998) (layer "B.Fab")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e57d95fa-6b29-4812-92a2-a25e6061adf4)
     )
@@ -15411,7 +15411,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 794b5b21-4478-4be0-af48-8cd4d2f1e0a1)
     )
-    (fp_text value "5m" (at 0 -2.28 90) (layer "B.Fab")
+    (fp_text value "5m" (at 2.065 -2.580001 90) (layer "B.Fab")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8b53634f-b3e5-4302-b868-0388ca529b99)
     )
@@ -15695,7 +15695,7 @@
 
   (footprint "footprints:C0603C104K5RACTU" (layer "B.Cu")
     (tstamp 62aa482d-5de4-4988-b8bf-381957f27ce9)
-    (at 101.124999 55.639998 -90)
+    (at 105 47.5 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -16000,7 +16000,7 @@
 
   (footprint "footprints:LMV321RIYLT" (layer "B.Cu")
     (tstamp 67ad341b-caa2-4667-a282-604a15f9c975)
-    (at 174.749999 61.669998 90)
+    (at 174.55 61.7 90)
     (descr "SOT23-5")
     (tags "Integrated Circuit")
     (property "Sheetfile" "5V0_Load_Switches.kicad_sch")
@@ -16301,7 +16301,7 @@
 
   (footprint "footprints:744325240" (layer "B.Cu")
     (tstamp 6cf5e6a2-989c-4695-a6ce-f4a112f80c39)
-    (at 157.874998 50.414998 180)
+    (at 164.675 51 180)
     (descr "WE-HCI_105023")
     (tags "Inductor")
     (property "Height" "")
@@ -16359,7 +16359,7 @@
 
   (footprint "footprints:C0603C104K5RACTU" (layer "B.Cu")
     (tstamp 6e1dbbd2-5f64-4a9e-b66e-3265a4f5f8e8)
-    (at 98.624999 93.664998 90)
+    (at 99.824997 86.039997 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "5V0_Load_Converters.kicad_sch")
@@ -17848,7 +17848,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6" (layer "B.Cu")
     (tstamp 81f5b494-dbaf-4bf6-a463-bbe1b8e91d5a)
-    (at 106.2 90.314999 90)
+    (at 107.5 86.5 90)
     (descr "SOT-363, SC-70-6")
     (tags "SOT-363 SC-70-6")
     (property "Sheetfile" "5V0_Load_Converters.kicad_sch")
@@ -17861,7 +17861,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4732b6f6-34ac-4c7b-8214-21142d417c30)
     )
-    (fp_text value "INA199C3DCKR" (at -1.3 -4.774999 90) (layer "B.Fab")
+    (fp_text value "INA199C3DCKR" (at 10.814999 -4.2 90) (layer "B.Fab")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 25017141-efae-4367-977c-38a9b8e0467e)
     )
@@ -18101,7 +18101,7 @@
 
   (footprint "footprints:61300311121" (layer "B.Cu")
     (tstamp 874fa97d-b409-4201-bc32-78a0ef9b588a)
-    (at 104.124999 62.599998 90)
+    (at 106.5 54.785 90)
     (property "Height" "8.69")
     (property "Manufacturer_Name" "Wurth Elektronik")
     (property "Manufacturer_Part_Number" "61300311121")
@@ -18116,7 +18116,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
       (tstamp 659ffc6a-eb6f-4e73-81ea-fca3d637214d)
     )
-    (fp_text value "61300311121" (at -0.19 -2.66 90) (layer "B.Fab")
+    (fp_text value "61300311121" (at -0.900002 -19.624999 90) (layer "B.Fab")
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
       (tstamp 594c7a15-2324-4e24-9e4e-d32e00550f0b)
     )
@@ -18913,7 +18913,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6" (layer "B.Cu")
     (tstamp 9b316f76-864b-4387-99f4-0d4a0872afed)
-    (at 158.937499 100.664998 90)
+    (at 157.15 101.05 90)
     (descr "SOT-363, SC-70-6")
     (tags "SOT-363 SC-70-6")
     (property "Sheetfile" "3V3_Load_Switches.kicad_sch")
@@ -19210,7 +19210,7 @@
 
   (footprint "footprints:WSL2010R0330FEA" (layer "B.Cu")
     (tstamp 9eb310d1-124d-469c-9645-ed7e699a67bf)
-    (at 172.449999 102.714998)
+    (at 165.1875 103)
     (descr "Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "5V0_Load_Switches.kicad_sch")
@@ -19270,7 +19270,7 @@
     (property "ki_keywords" "LTC3833EUDC#TRPBF")
     (path "/6f34948c-43a8-4614-b8ed-90c5b6b9b243/804bb4f3-c31e-47bf-a991-912eab9939c1")
     (attr smd)
-    (fp_text reference "U30" (at 0.25 4.049999 90 unlocked) (layer "B.SilkS")
+    (fp_text reference "U30" (at 0.25 3.399998 90 unlocked) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3c4bf96b-7ac0-4fe0-8c0e-b082cfeca051)
     )
@@ -20198,7 +20198,7 @@
 
   (footprint "footprints:WSL2010R0330FEA" (layer "B.Cu")
     (tstamp a4d50390-474e-4923-b130-49d991d712f7)
-    (at 157.124999 95.664998)
+    (at 153.7875 96.5)
     (descr "Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "3V3_Load_Switches.kicad_sch")
@@ -20741,7 +20741,7 @@
 
   (footprint "footprints:CRCW06032R20FKEAHP" (layer "B.Cu")
     (tstamp aba79916-4a35-4ac3-b0fd-5bf1aa9046be)
-    (at 101.624999 93.489998 90)
+    (at 102.824997 85.864997 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "5V0_Load_Converters.kicad_sch")
@@ -20869,7 +20869,7 @@
 
   (footprint "footprints:GCM32ER71C226KE19L" (layer "B.Cu")
     (tstamp acb88e93-25f9-43b0-9581-c96d8c91b78b)
-    (at 138.825 127.389999 90)
+    (at 152 124 90)
     (descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "5V0_Load_Converters.kicad_sch")
@@ -21806,7 +21806,7 @@
 
   (footprint "footprints:CRCW060310R0FKEAHP" (layer "B.Cu")
     (tstamp b936f486-7a75-4609-b1ab-bcb4b1a744bc)
-    (at 100.624999 71.639998 180)
+    (at 99 65.775 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Arrow Part Number" "CRCW060310R0FKEAHP")
@@ -22710,7 +22710,7 @@
 
   (footprint "footprints:C0603C104K5RACTU" (layer "B.Cu")
     (tstamp c9cad2a0-1c37-4e65-8d1c-7ccc6dc575be)
-    (at 171.449999 127.439998 -90)
+    (at 162.5 122.225 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "5V0_Load_Switches.kicad_sch")
@@ -22959,7 +22959,7 @@
 
   (footprint "footprints:SI2302DDS-T1-GE3" (layer "B.Cu")
     (tstamp cd1e3e9d-f6d4-4d3f-8a3f-56a005e9e4fa)
-    (at 96.074999 98.714998 -90)
+    (at 97.5 95 -90)
     (descr "SI2302DDS-T1-GE3-1")
     (tags "MOSFET (N-Channel)")
     (property "Height" "1.12")
@@ -23162,7 +23162,7 @@
 
   (footprint "footprints:C0603C104K5RACTU" (layer "B.Cu")
     (tstamp d024160d-8882-4b61-9319-fe5c560597a5)
-    (at 174.449999 57.614998 180)
+    (at 174.25 57.645 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "5V0_Load_Switches.kicad_sch")
@@ -23449,7 +23449,7 @@
 
   (footprint "footprints:INA199C1DCKR " (layer "B.Cu")
     (tstamp d2de8acf-2b7c-49da-98e5-89d74c583d6f)
-    (at 174.449999 127.479998 90)
+    (at 165.5 122.265 90)
     (property "Sheetfile" "5V0_Load_Switches.kicad_sch")
     (property "Sheetname" "U_5V0_Load_Switches")
     (property "ki_description" "INA199 26-V, Bidirectional, Zero-Drift, Low- or High-Side, Voltage-Output, Current-Shunt Monitor, SOT-363, SC-70")
@@ -23647,7 +23647,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
       (tstamp 60daa9d2-9281-4a8b-ba5c-c6148001de8a)
     )
-    (fp_text value "NVTFS5116PLTAG" (at -0.04 -2.94 90) (layer "B.Fab")
+    (fp_text value "NVTFS5116PLTAG" (at -0.875002 -6.277499 90) (layer "B.Fab")
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
       (tstamp 57dfa7b3-0f63-4405-bd3c-14292c05b99c)
     )
@@ -23892,7 +23892,7 @@
 
   (footprint "footprints:GCM32ER71C226KE19L" (layer "B.Cu")
     (tstamp d6ec31d1-a9e2-45dd-8763-11018f13773d)
-    (at 143.825 127.389999 90)
+    (at 157 124 90)
     (descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "5V0_Load_Converters.kicad_sch")
@@ -24099,7 +24099,7 @@
 
   (footprint "footprints:C0603C102F3GACTU" (layer "B.Cu")
     (tstamp d892a57f-25c6-4164-9edf-87f4c7569c98)
-    (at 104.624999 69.864998 90)
+    (at 103 64 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -24175,7 +24175,7 @@
 
   (footprint "footprints:SI2302DDS-T1-GE3" (layer "B.Cu")
     (tstamp db0c4e5d-eb21-4a72-938f-c31ad90b852d)
-    (at 98.124999 61.089998 -90)
+    (at 101 52.65 -90)
     (descr "SI2302DDS-T1-GE3-1")
     (tags "MOSFET (N-Channel)")
     (property "Height" "1.12")
@@ -24303,7 +24303,7 @@
 
   (footprint "footprints:CRCW0603100KFKEAHP" (layer "B.Cu")
     (tstamp e08f05f8-c2d6-4a54-a99f-33f6cdf49b52)
-    (at 95.074999 94.589998 -90)
+    (at 100.5 91 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Arrow Part Number" "CRCW0603100KFKEAHP")
@@ -24363,7 +24363,7 @@
 
   (footprint "footprints:CRCW0603100KFKEAHP" (layer "B.Cu")
     (tstamp e34281bc-7d88-4eca-bace-535ac356030c)
-    (at 97.624999 55.814998 -90)
+    (at 101.5 47.675 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Arrow Part Number" "CRCW0603100KFKEAHP")
@@ -24656,7 +24656,7 @@
 
   (footprint "footprints:CRCW06032R20FKEAHP" (layer "B.Cu")
     (tstamp e746f1a5-62fc-4601-a07f-5408298486ac)
-    (at 104.624999 55.639998 90)
+    (at 108.5 47.5 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")
@@ -24939,7 +24939,7 @@
 
   (footprint "footprints:C0603C104K5RACTU" (layer "B.Cu")
     (tstamp e8e4b1c5-a613-46ca-9a1b-9eac737b2427)
-    (at 106.075001 93.565)
+    (at 105.775 91.5)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "5V0_Load_Converters.kicad_sch")
@@ -25360,7 +25360,7 @@
 
   (footprint "footprints:CRCW060347K0FKEAHP" (layer "B.Cu")
     (tstamp eac79be6-d5ff-4af2-9f15-27ac1d135caf)
-    (at 174.137499 98.714998)
+    (at 168.175 98.5)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "5V0_Load_Switches.kicad_sch")
@@ -25566,7 +25566,7 @@
 
   (footprint "footprints:CRCW060315K0FKEAHP" (layer "B.Cu")
     (tstamp ec039f0a-fed4-4a6d-80f4-6388d566f1eb)
-    (at 174.449999 65.114998)
+    (at 174.25 65.145)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "5V0_Load_Switches.kicad_sch")
@@ -25645,7 +25645,7 @@
 
   (footprint "footprints:SI2302DDS-T1-GE3" (layer "B.Cu")
     (tstamp eda223ff-5d15-4d2b-a524-28d3b0892707)
-    (at 168.637499 97.714998 -90)
+    (at 163.95 98.05 -90)
     (descr "SI2302DDS-T1-GE3-1")
     (tags "MOSFET (N-Channel)")
     (property "Height" "1.12")
@@ -26216,7 +26216,7 @@
 
   (footprint "footprints:744325240" (layer "B.Cu")
     (tstamp f82fc382-e67a-4418-9edd-6f29ff5888ba)
-    (at 121.349999 50.089998 -90)
+    (at 129.325 47)
     (descr "WE-HCI_105023")
     (tags "Inductor")
     (property "Height" "")
@@ -26229,15 +26229,15 @@
     (property "ki_description" "SMD-Flat Wire High Current Inductor WE-HCI")
     (path "/6f34948c-43a8-4614-b8ed-90c5b6b9b243/ce0a91f6-43c7-4a77-b9f5-18d8e365ab43")
     (attr smd)
-    (fp_text reference "L4" (at 5 6.5 90) (layer "B.SilkS")
+    (fp_text reference "L4" (at 5 6.5) (layer "B.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
       (tstamp a0b15169-3e80-432c-8e88-75d5ee32bdf2)
     )
-    (fp_text value "2.4uH" (at -0.09 -7 90) (layer "B.SilkS") hide
+    (fp_text value "2.4uH" (at -0.09 -7) (layer "B.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
       (tstamp a03c0ce7-8784-49e3-9b6e-1ffece88ff35)
     )
-    (fp_text user "${REFERENCE}" (at -0.01 0.02 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at -0.01 0.02) (layer "B.Fab")
         (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
       (tstamp 8cc76408-f95b-4633-a955-ad4e33a144ee)
     )
@@ -26261,9 +26261,9 @@
       (stroke (width 0.127) (type solid)) (layer "B.Fab") (tstamp 09c73a0e-802a-4210-aa1d-5b86d70af180))
     (fp_line (start 5.3 5.1) (end 5.3 -5.1)
       (stroke (width 0.127) (type solid)) (layer "B.Fab") (tstamp 6c9b450c-bcd0-41c9-a5fd-99a1fd133bfa))
-    (pad "1" smd roundrect (at -3.825 0 270) (size 3.85 4) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -3.825 0) (size 3.85 4) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 60 "Net-(Q28-Substrate)") (pinfunction "1") (pintype "passive") (tstamp baf9e4a5-f57d-457e-b59c-917864ee745e))
-    (pad "2" smd roundrect (at 3.825 0 270) (size 3.85 4) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 3.825 0) (size 3.85 4) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 153 "Net-(L4-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 2711d68c-4fcc-41aa-b9ba-d0f56fa961f8))
     (model "744325240.stp"
       (offset (xyz 0 0 0.09999999999))
@@ -26327,7 +26327,7 @@
 
   (footprint "footprints:C0603C104K5RACTU" (layer "B.Cu")
     (tstamp f9e69556-9797-4828-9714-d3db35741032)
-    (at 104.624999 73.639998 90)
+    (at 103 67.775 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "3V3_Load_Converters.kicad_sch")

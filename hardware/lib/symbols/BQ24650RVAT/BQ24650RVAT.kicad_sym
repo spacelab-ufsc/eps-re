@@ -30,7 +30,7 @@
         (name "REGN" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at 81.28 59.69 180) (length 7.62)
+      (pin output line (at 81.28 57.15 180) (length 7.62)
         (name "LODRV" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )

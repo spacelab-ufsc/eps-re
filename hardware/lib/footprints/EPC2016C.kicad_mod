@@ -49,7 +49,7 @@
   (pad "4" smd roundrect (at -0.003 0) (size 0.18 1.362) (layers "F.Cu") (roundrect_rratio 0.5) (tstamp e6b7afb6-4d79-4946-9003-0698bb5a4a1b))
   (pad "5" smd roundrect (at 0.397 0) (size 0.18 1.362) (layers "F.Cu") (roundrect_rratio 0.5) (tstamp 12a4922d-533d-4702-98e9-11e060ff6210))
   (pad "6" smd roundrect (at 0.797 0) (size 0.18 1.362) (layers "F.Cu") (roundrect_rratio 0.5) (tstamp 52de738d-7e2a-4cd0-83a5-7174c6da4647))
-  (model "eec.models/EPC_-_EPC2016C.step"
+  (model "${KIPRJMOD}/lib/3dmodels/EPC2016C.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

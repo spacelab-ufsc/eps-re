@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Reliability Enhanced Electrical Power System")
+    (date "2023-08-03")
+    (rev "v0.0")
+    (comment 1 "João C. E. Barcellos <joaoclaudiobarcellos@gmail.com>")
+    (comment 2 "Laura Debastiani <laudebastiani@gmail.com>")
+  )
+
   (lib_symbols
     (symbol "C0603C104K5RACTU:C0603C104K5RACTU" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C44" (at 5.08 -1.397 0)

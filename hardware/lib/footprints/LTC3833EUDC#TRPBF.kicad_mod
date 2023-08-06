@@ -321,4 +321,9 @@
   (pad "19" smd roundrect (at -0.25 -1.950001) (size 0.25 0.799999) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ac8a5c94-8740-46e5-b799-6ca406b5e967))
   (pad "20" smd roundrect (at -0.750001 -1.950001) (size 0.25 0.799999) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp de124c4d-b216-412b-a505-28006a0a53bc))
   (pad "21" smd rect (at 0 0) (size 1.75 2.75) (layers "F.Cu" "F.Mask") (tstamp dbf486a9-0242-4dc3-8c92-90550d238797))
+  (model "${KIPRJMOD}/lib/3dmodels/LTC3833EUDC#TRPBF.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

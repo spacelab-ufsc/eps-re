@@ -4,6 +4,14 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Reliability Enhanced Electrical Power System")
+    (date "2023-08-03")
+    (rev "v0.0")
+    (comment 1 "João C. E. Barcellos <joaoclaudiobarcellos@gmail.com>")
+    (comment 2 "Laura Debastiani <laudebastiani@gmail.com>")
+  )
+
   (lib_symbols
     (symbol "744770112:744770112" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at 16.51 6.35 0)
@@ -5885,8 +5893,8 @@
     (property "voltage rating" "50 V" (at 26.67 -30.48 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid f121b1f5-37f4-4eab-b38a-91afc8819674))
-    (pin "2" (uuid 844100e6-d368-49d8-8fd6-c8dbd4de2dbe))
+    (pin "1" (uuid 7877f08b-0562-444e-ada0-055ba11d9534))
+    (pin "2" (uuid 008696bc-362a-495d-b455-751e12596c17))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -6663,7 +6671,7 @@
     (property "Datasheet" "~" (at 52.07 275.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 83e84a40-040f-4f0b-83b0-f4d17bc367f3))
+    (pin "1" (uuid 02e71b41-7628-47eb-ba8d-c32fad80479d))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -6696,7 +6704,7 @@
     (property "Datasheet" "~" (at 100.33 264.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 83660925-f569-4cd5-a066-6efc24ac791e))
+    (pin "1" (uuid 484e7102-2396-4961-9ae5-35c84b30d45a))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -7060,8 +7068,8 @@
     (property "Datasheet" "~" (at 52.07 243.84 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 4045184f-0c16-45a6-9e2a-b445dbd243eb))
-    (pin "2" (uuid f712556d-4cee-41f1-a51f-a01816cbd852))
+    (pin "1" (uuid bca18bdd-1471-44b2-845e-eddcdeb653b5))
+    (pin "2" (uuid 031c52c2-52fa-4584-9ad8-f226ea4f9fd2))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -7312,8 +7320,8 @@
     (property "voltage rating" "50 V" (at 100.33 180.34 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 8ff5533e-6301-41b5-aa9f-8a642cc6ab3c))
-    (pin "2" (uuid 04550db8-2b16-4139-af38-6e297446350a))
+    (pin "1" (uuid f2b81356-ad92-4ebd-88bc-48723df01dcc))
+    (pin "2" (uuid 47f2c4b8-fa95-414d-9d52-e1b05a5e2f53))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -7412,7 +7420,7 @@
     (property "Datasheet" "~" (at 35.56 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid af70308d-726c-41e6-872a-c0927a2007e0))
+    (pin "1" (uuid 7a5ce8ae-41e2-4440-8245-5cc6fcfa3a31))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -7744,8 +7752,8 @@
     (property "Datasheet" "" (at 52.07 264.16 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid adafad89-241f-480e-b833-2c2d16f84bc5))
-    (pin "2" (uuid bc06c321-6e13-42b6-a5d3-8506aafe9e98))
+    (pin "1" (uuid 41081f98-22f3-478d-b0b8-9a79272cbb6a))
+    (pin "2" (uuid 5215166c-7566-4fbc-8854-47121413d29f))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -8269,7 +8277,7 @@
     (property "Datasheet" "" (at 72.39 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c61a635f-1964-461c-a4ba-5c8612d2841e))
+    (pin "1" (uuid 9ac6c431-8f77-4e29-86b2-fb207faa17c6))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8666,7 +8674,7 @@
     (property "Datasheet" "~" (at 72.39 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c013350f-6a12-4fc9-be89-bb5d3550e52a))
+    (pin "1" (uuid b95219ee-d635-4b7a-b2a7-5dc1770aa965))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8894,12 +8902,12 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina199.pdf" (at 36.576 54.864 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 90e863cc-4e09-40e7-9c8b-10ef5ab622cb))
-    (pin "2" (uuid 55d90036-5871-4b15-aebd-b6894a5c3fbb))
-    (pin "3" (uuid b384daed-60dc-4f3c-8938-f70142e765c2))
-    (pin "4" (uuid 468732d3-a1fe-4283-88cc-64fb9f6aeb77))
-    (pin "5" (uuid 1bbb0265-1f26-4e07-bb61-020b70595f48))
-    (pin "6" (uuid 2e146edd-12a5-4d90-9cc0-2ae6e69a3baf))
+    (pin "1" (uuid 7fb9af5f-341e-4900-a993-04dad560b471))
+    (pin "2" (uuid 9c45e807-2813-4802-9c61-e6730761c984))
+    (pin "3" (uuid 271b5759-ea32-4c34-a900-be6cb9c783ad))
+    (pin "4" (uuid d92e8f15-8808-4797-868f-7b459461da81))
+    (pin "5" (uuid 590cf4a8-5c5d-4575-8740-3757bd3a718e))
+    (pin "6" (uuid 5ba520b9-d717-41f4-bc47-ca145236fc35))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -9738,12 +9746,12 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina199.pdf" (at 370.586 91.694 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a07b3eda-5602-4e49-bfbd-136355ee2b7a))
-    (pin "2" (uuid 4903b28f-fa4c-435c-8376-0efd2e3ab8e5))
-    (pin "3" (uuid 8036fa90-0103-4dcc-8cdf-2f42f5b1d627))
-    (pin "4" (uuid e69f7f88-c0fc-4548-b8e8-5b57ac1ad312))
-    (pin "5" (uuid 125ce4b6-829d-44b5-b1b7-f30672dcfe7a))
-    (pin "6" (uuid 52701161-ac96-4c26-8a77-3c689f621663))
+    (pin "1" (uuid e0ad6d50-055e-417f-a73d-a4150715c21a))
+    (pin "2" (uuid b2e259d9-fbce-4db1-abaf-71468268bcc8))
+    (pin "3" (uuid 93ea64c7-d2ff-4c8e-997c-0c6b8473ea4d))
+    (pin "4" (uuid 99ebe900-0b45-4f87-a65f-1b60e9ed7dd3))
+    (pin "5" (uuid 36421a3b-b0bb-4828-b1de-81229f86b748))
+    (pin "6" (uuid 409ac6d1-1c12-4ebe-89a0-6e93919bf38b))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -10607,7 +10615,7 @@
     (property "Datasheet" "~" (at 369.57 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 96b4205a-a51a-4f1f-a447-6dac4c38f225))
+    (pin "1" (uuid 479800eb-ec4e-4880-b98d-740e5f4c8a2d))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -10696,11 +10704,11 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv321a.pdf?ts=1685909774327&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMV321A%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-amps-null-prodfolderdynamic-cpc-pf-google-wwe_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC%2BSEARCH%2BADS%2526DCM%253Dyes%2526gclid%253DCj0KCQjw7PCjBhDwARIsANo7CglKgmrjg2-xP_kD7Sy3eRYNt96GS_9SDH6Nj_DKGAXoq9uQ8th2dkkaAoGDEALw_wcB%2526gclsrc%253Daw.ds" (at 82.55 255.27 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid e9daddf6-47e6-4a78-9fd4-302d47ddf9aa))
-    (pin "2" (uuid d654602f-0863-4016-b85b-40821e262fc9))
-    (pin "3" (uuid 11de8807-da12-493f-a1e8-af79197db64a))
-    (pin "4" (uuid f91e5d08-bc0e-4eca-a045-71e7398a50b0))
-    (pin "5" (uuid b6c9e210-99b3-4215-947d-241946555153))
+    (pin "1" (uuid a3079141-f8be-4478-8e37-728927508130))
+    (pin "2" (uuid 9ab41e4c-db61-4859-bf79-50b5fea7367e))
+    (pin "3" (uuid 586b30c6-ef96-4892-91c6-a0b96030838e))
+    (pin "4" (uuid fef75787-efed-44c6-8e89-72e2d202c04c))
+    (pin "5" (uuid e450d792-8cea-4509-aaa0-4d3a6b00da8d))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10761,7 +10769,7 @@
     (property "Datasheet" "" (at 100.33 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5717223b-687d-4849-95d8-63cf9ca09f9b))
+    (pin "1" (uuid ae867634-7761-4137-b17f-ea2b03dece03))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -11160,7 +11168,7 @@
     (property "Datasheet" "~" (at 26.67 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 68f6c961-77f1-4df6-8ab9-0cb2aef57724))
+    (pin "1" (uuid 324f8ac8-258b-4143-b448-47c2e28ada49))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -11829,8 +11837,8 @@
     (property "Datasheet" "WSL2010R0250FEA18" (at 35.56 27.94 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 09de6b86-84ac-4271-9f70-4705ff5e4087))
-    (pin "2" (uuid 44bc8f03-a1bc-4e41-af02-bec8bba9ca14))
+    (pin "1" (uuid 5190c6b4-65f1-411a-9ea1-07761f72d7f8))
+    (pin "2" (uuid 3563b534-e40e-406e-8b0e-6b600c0feeeb))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -12024,8 +12032,8 @@
     (property "voltage rating" "50 V" (at 360.68 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid b081cba2-b207-471b-9b60-9a622d99928b))
-    (pin "2" (uuid 8bc19164-8249-49c5-9d65-0f3974bd6b5e))
+    (pin "1" (uuid bdb8b7c8-ee42-48b6-b646-69a8508764d4))
+    (pin "2" (uuid 0f120527-1288-4ed0-a256-1063ea778959))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -12253,8 +12261,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/wsl2010r0200fea/vishay" (at 377.19 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid e3dddcca-cef1-4461-843c-f38d11cb88a4))
-    (pin "2" (uuid bc7a2f3f-4064-4ec3-b8f5-e5e0638dc62a))
+    (pin "1" (uuid 87c5ba1c-748b-4fc1-a0af-e44b6eca35ad))
+    (pin "2" (uuid 3e7800bc-1bab-4198-9fd5-75be4acda6d4))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"

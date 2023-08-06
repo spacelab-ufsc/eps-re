@@ -4,6 +4,14 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Reliability Enhanced Electrical Power System")
+    (date "2023-08-03")
+    (rev "v0.0")
+    (comment 1 "João C. E. Barcellos <joaoclaudiobarcellos@gmail.com>")
+    (comment 2 "Laura Debastiani <laudebastiani@gmail.com>")
+  )
+
   (lib_symbols
     (symbol "61300311121:61300311121" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 16.51 7.62 0)

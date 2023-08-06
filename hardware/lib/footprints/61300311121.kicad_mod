@@ -44,8 +44,8 @@
   (pad "1" thru_hole rect (at -2.54 0) (size 1.7 1.7) (drill 1.1) (layers "*.Cu") (tstamp 934d5b68-ba65-489e-8d27-f367ca261b35))
   (pad "2" thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1.1) (layers "*.Cu") (tstamp fa615ba3-bee8-4778-9cc2-187f53023bb4))
   (pad "3" thru_hole circle (at 2.54 0) (size 1.7 1.7) (drill 1.1) (layers "*.Cu") (tstamp 81ed845c-fea3-44ae-beeb-a153179628fe))
-  (model "eec.models/Wurth_Electronics_-_61300311121.step"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/lib/3dmodels/61300311121.stp"
+    (offset (xyz -2.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

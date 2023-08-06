@@ -35,8 +35,8 @@
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 5f8205d9-aa5e-4b20-a3e3-3294c8e73f5b))
   (pad "1" smd roundrect (at -4.95 0) (size 2.9 5.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 31a41ebc-72df-4603-82ac-e3767df47583))
   (pad "2" smd roundrect (at 4.95 0) (size 2.9 5.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 213235d0-b73b-43ad-a90b-f8e2eb2048d6))
-  (model "744770112.stp"
-    (offset (xyz 0 0 0.2))
+  (model "${KIPRJMOD}/lib/3dmodels/744770112.stp"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )

@@ -40,6 +40,6 @@
   (model "${KIPRJMOD}/lib/3dmodels/744325240.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 0 0 -90))
   )
 )

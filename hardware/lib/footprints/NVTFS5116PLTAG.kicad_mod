@@ -13,42 +13,6 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
     (tstamp b5ea5569-06eb-4f7b-a154-f70edaa58b7c)
   )
-  (fp_poly
-    (pts
-      (xy -0.499997 1.185002)
-      (xy -0.499997 -1.184996)
-      (xy 1.330003 -1.184996)
-      (xy 1.330003 1.185002)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp a05a66aa-0b17-40f0-96a3-27b3b77b2e59))
-  (fp_poly
-    (pts
-      (xy -0.319995 1.729997)
-      (xy -0.319995 -1.730001)
-      (xy 0.250005 -1.730001)
-      (xy 0.250005 1.729997)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp 34d5ccd3-2e02-4d3d-90ec-4b0a5c8ccb19))
-  (fp_poly
-    (pts
-      (xy -0.499997 1.185002)
-      (xy -0.499997 -1.184996)
-      (xy 1.330003 -1.184996)
-      (xy 1.330003 1.185002)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 4065dff5-4e43-469a-9d7b-bd1abb466165))
-  (fp_poly
-    (pts
-      (xy -0.319995 1.729997)
-      (xy -0.319995 -1.730001)
-      (xy 0.250005 -1.730001)
-      (xy 0.250005 1.729997)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 918ce4d1-1040-4987-882b-f39d8379476c))
   (fp_line (start -1.525001 -1.585001) (end -0.720001 -1.585001)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 4f373e1d-3c00-4e7d-8492-245058a60fd5))
   (fp_line (start -1.525001 1.585001) (end -0.720001 1.585001)
@@ -59,24 +23,6 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 17b191e2-5bee-4a9a-92da-186eb2289b74))
   (fp_circle (center -2.350003 -0.974999) (end -2.225002 -0.974999)
     (stroke (width 0.249999) (type solid)) (fill none) (layer "F.SilkS") (tstamp 5c73402d-a716-4422-876e-9716b28eb1af))
-  (fp_poly
-    (pts
-      (xy -0.499997 1.185002)
-      (xy -0.499997 -1.184996)
-      (xy 1.330003 -1.184996)
-      (xy 1.330003 1.185002)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 9b884bbf-61a2-4134-b309-709286856e6e))
-  (fp_poly
-    (pts
-      (xy -0.319995 1.729997)
-      (xy -0.319995 -1.730001)
-      (xy 0.250005 -1.730001)
-      (xy 0.250005 1.729997)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp b3715449-6a5d-44ff-9d89-ffaab4825c91))
   (fp_line (start -1.825 -1.754999) (end -1.825 1.754999)
     (stroke (width 0.15) (type solid)) (layer "F.CrtYd") (tstamp 6692e102-9d68-4932-94a2-2d5874c966a9))
   (fp_line (start -1.825 1.754999) (end 1.825 1.754999)
@@ -99,13 +45,33 @@
   (pad "2" smd roundrect (at -1.470002 -0.325001 90) (size 0.419999 0.660001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 44fbdd04-5a4c-4962-8660-06ff7862b64a))
   (pad "3" smd roundrect (at -1.470002 0.325001 90) (size 0.419999 0.660001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 86f14449-c2e2-492d-9f47-8b3abcfc30b3))
   (pad "4" smd roundrect (at -1.470002 0.974999 90) (size 0.419999 0.660001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 3fb6362a-8b7f-4f07-a85e-51a8ca8e0312))
-  (pad "5" smd roundrect (at 1.47 0.975002 90) (size 0.419999 0.660001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d5556dd0-a295-48ee-addb-04731850db24))
-  (pad "6" smd roundrect (at 1.47 0.324998 90) (size 0.419999 0.660001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 30888970-9ca5-409c-b11a-b08c4cb57908))
-  (pad "7" smd roundrect (at 1.47 -0.324998 90) (size 0.419999 0.660001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 54e0e16c-8339-4563-9cf0-7db6e7bc335d))
-  (pad "8" smd roundrect (at 1.47 -0.975002 90) (size 0.419999 0.660001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1581fc46-a5f6-4e92-893c-c38338cf2429))
-  (model "eec.models/On_Semiconductor_-_NVTFS5116PLTAG.step"
+  (pad "5-6-7-8" smd custom (at 1.47 -0.975002 90) (size 0.419999 0.660001) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -2.159999 -1.969997)
+          (xy 0.209999 -1.969997)
+          (xy 0.209999 -0.139997)
+          (xy -2.159999 -0.139997)
+        )
+        (width 0) (fill yes))
+      (gr_rect (start -2.160004 -0.32) (end -1.740004 0.330001) (width 0) (fill yes))
+      (gr_rect (start -1.51 -0.32) (end -1.09 0.330001) (width 0) (fill yes))
+      (gr_rect (start -0.860004 -0.32) (end -0.440004 0.330001) (width 0) (fill yes))
+      (gr_poly
+        (pts
+          (xy -2.704999 -1.789995)
+          (xy 0.754999 -1.789995)
+          (xy 0.754999 -1.219995)
+          (xy -2.704999 -1.219995)
+        )
+        (width 0) (fill yes))
+    ) (tstamp 1581fc46-a5f6-4e92-893c-c38338cf2429))
+  (model "${KIPRJMOD}/lib/3dmodels/NVTFS5116PLTAG.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 -180 180))
   )
 )

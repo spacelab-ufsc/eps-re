@@ -46,7 +46,7 @@
   (pad "1" smd roundrect (at -1.05 -0.95 90) (size 0.6 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1f7bf55b-0510-4c75-8a1a-a014786ef63d))
   (pad "2" smd roundrect (at -1.05 0.95 90) (size 0.6 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp fa48a462-5412-474c-b9a5-f548d00872fb))
   (pad "3" smd roundrect (at 1.05 0 90) (size 0.6 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp b02ea2e7-9f2a-4765-b458-7fdaae497579))
-  (model "SI2302DDS-T1-GE3.stp"
+  (model "${KIPRJMOD}/lib/3dmodels/SI2302DDS-T1-GE3.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

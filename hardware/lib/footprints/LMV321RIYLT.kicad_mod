@@ -48,7 +48,7 @@
   (pad "3" smd roundrect (at -1.3 0.95 90) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 5c2feb17-bad6-4564-9428-8d862f409d8c))
   (pad "4" smd roundrect (at 1.3 0.95 90) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 3b41f0d2-b412-4ba5-b01a-0f29dd77470b))
   (pad "5" smd roundrect (at 1.3 -0.95 90) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 7aba3209-f10d-4572-ace9-ba7bd44410e8))
-  (model "LMV321RIYLT.stp"
+  (model "${KIPRJMOD}/lib/3dmodels/LMV321RIYLT.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

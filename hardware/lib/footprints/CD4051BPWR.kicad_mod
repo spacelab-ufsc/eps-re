@@ -53,4 +53,9 @@
   (pad "14" smd roundrect (at 2.87 -0.975) (size 1.57 0.41) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp ed567896-712c-47f4-b3dd-da3684e7f5ba))
   (pad "15" smd roundrect (at 2.87 -1.625) (size 1.57 0.41) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp d2d97077-b70b-41ce-b43e-1b4d9a2f3550))
   (pad "16" smd roundrect (at 2.87 -2.275) (size 1.57 0.41) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 67cbae48-d5a9-4a19-bf14-c59e92381dda))
+  (model "${KIPRJMOD}/lib/3dmodels/CD4051BPWR.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

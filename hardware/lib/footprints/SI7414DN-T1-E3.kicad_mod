@@ -79,7 +79,7 @@
         )
         (width 0) (fill yes))
     ) (tstamp acfdae17-3518-4350-a751-61e4decc7fa5))
-  (model "eec.models/Vishay_-_SI7414DN-T1-E3.step"
+  (model "${KIPRJMOD}/lib/3dmodels/SI7414DN-T1-E3.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

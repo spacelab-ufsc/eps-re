@@ -8,8 +8,9 @@
     (title "Reliability Enhanced Electrical Power System")
     (date "2023-08-03")
     (rev "v0.0")
-    (comment 1 "João C. E. Barcellos <joaoclaudiobarcellos@gmail.com>")
-    (comment 2 "Laura Debastiani <laudebastiani@gmail.com>")
+    (comment 1 "Davi Figueiredo <figueiredo.davi7@gmail.com> ")
+    (comment 2 "João C. E. Barcellos <joaoclaudiobarcellos@gmail.com>")
+    (comment 3 "Laura Debastiani <laudebastiani@gmail.com>")
   )
 
   (lib_symbols

@@ -6,7 +6,7 @@
     (property "Value" "61300311121" (at 16.51 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "footprints:61300311121" (at 0 -13.64 0)
+    (property "Footprint" "footprints:three_position_jumper" (at 0 -13.64 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://katalog.we-online.de/em/datasheet/6130xx11121.pdf" (at 0 -17.78 0)

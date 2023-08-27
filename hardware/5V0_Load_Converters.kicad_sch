@@ -2670,6 +2670,49 @@
         )
       )
     )
+    (symbol "Jumper:Jumper" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "JP" (at 0 2.032 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "SolderJumper_2_Bridged" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "footprints:Jumper" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "solder jumper SPST" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Solder Jumper, 2-pole, closed/bridged" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SolderJumper*Bridged*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Jumper_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Jumper_1_1"
+        (pin passive line (at -1.27 0 0) (length 1)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 1.27 0 180) (length 1)
+          (name "B" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "LTC3833EUDC#TRPBF:LTC3833EUDC-TRPBF" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 27.94 10.16 0)
         (effects (font (size 1.524 1.524)))
@@ -2734,10 +2777,6 @@
           (name "VOSNS+" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at 48.26 -2.54 180) (length 7.62)
-          (name "VOUT" (effects (font (size 1.27 1.27))))
-          (number "20" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 5.08 -55.88 0) (length 7.62)
           (name "EPAD" (effects (font (size 1.27 1.27))))
           (number "21" (effects (font (size 1.27 1.27))))
@@ -2771,6 +2810,10 @@
         (pin passive line (at 48.26 -7.62 180) (length 7.62)
           (name "BOOST" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 48.26 -2.54 180) (length 7.62)
+          (name "VOUT" (effects (font (size 1.27 1.27))))
+          (number "20" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 5.08 -30.48 0) (length 7.62)
           (name "ITH" (effects (font (size 1.27 1.27))))
@@ -3464,6 +3507,137 @@
         )
       )
     )
+    (symbol "power:GNDPWR" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GNDPWR" (at 0 -3.302 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GNDPWR\" , global ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GNDPWR_0_1"
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 -1.27)
+            (xy -1.27 -2.032)
+            (xy -1.27 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.508 -1.27)
+            (xy -0.762 -2.032)
+            (xy -0.762 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy -0.254 -2.032)
+            (xy -0.254 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 -1.27)
+            (xy 0.254 -2.032)
+            (xy 0.254 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.27)
+            (xy -1.016 -1.27)
+            (xy -1.016 -1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.27)
+            (xy 0.762 -2.032)
+            (xy 0.762 -2.032)
+            (xy 0.762 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GNDPWR_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GNDPWR" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GNDS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GNDS" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GNDS\" , signal ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GNDS_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GNDS_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GNDS" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 74.93 170.18) (diameter 0) (color 0 0 0 0)
@@ -3495,6 +3669,9 @@
   )
   (junction (at 372.11 148.59) (diameter 0) (color 0 0 0 0)
     (uuid 1619c819-4dba-40f5-8c1f-a46cb5f21746)
+  )
+  (junction (at 337.82 148.59) (diameter 0) (color 0 0 0 0)
+    (uuid 17248e1b-a3ee-4ea6-94fb-ebe9d433a7b9)
   )
   (junction (at 134.62 184.15) (diameter 0) (color 0 0 0 0)
     (uuid 173db650-17c4-4424-ab43-939fcec112be)
@@ -3625,17 +3802,11 @@
   (junction (at 335.28 121.92) (diameter 0) (color 0 0 0 0)
     (uuid ad59fe3e-a602-42cc-828a-120a53bd14f9)
   )
-  (junction (at 201.93 184.15) (diameter 0) (color 0 0 0 0)
-    (uuid ae37902e-f3bb-482e-9e00-13f8f8216a30)
-  )
   (junction (at 118.11 125.73) (diameter 0) (color 0 0 0 0)
     (uuid b2596d53-a0bf-4e4a-bc15-e02f68fa5ee5)
   )
   (junction (at 292.1 48.26) (diameter 0) (color 0 0 0 0)
     (uuid b6b7f018-7355-45f5-a744-0d7c5b8ae153)
-  )
-  (junction (at 339.09 148.59) (diameter 0) (color 0 0 0 0)
-    (uuid b994b35e-cd0c-49bf-8b69-202c002cccff)
   )
   (junction (at 201.93 83.82) (diameter 0) (color 0 0 0 0)
     (uuid c0df450b-387b-4edc-9e32-c630cde53fe3)
@@ -3654,6 +3825,9 @@
   )
   (junction (at 381 195.58) (diameter 0) (color 0 0 0 0)
     (uuid c9a169c1-3fd7-4c05-ba3a-342bb5a42dfc)
+  )
+  (junction (at 201.93 184.15) (diameter 0) (color 0 0 0 0)
+    (uuid ca82f709-5773-443a-84c7-367eff2f3b5e)
   )
   (junction (at 290.83 66.04) (diameter 0) (color 0 0 0 0)
     (uuid cbfee459-5414-496b-9d20-e32c5066ded5)
@@ -3758,7 +3932,7 @@
     (stroke (width 0) (type default))
     (uuid 0fac8d4a-2e24-4017-a396-a4a6c0ea5b7f)
   )
-  (wire (pts (xy 337.82 148.59) (xy 339.09 148.59))
+  (wire (pts (xy 337.82 148.59) (xy 347.98 148.59))
     (stroke (width 1) (type default))
     (uuid 0fd3e3cd-9833-41ce-a33d-beee6fb6fc51)
   )
@@ -3785,6 +3959,10 @@
   (wire (pts (xy 354.33 26.67) (xy 354.33 29.21))
     (stroke (width 0) (type default))
     (uuid 19010f0d-e067-4175-8a04-34f75dcfe020)
+  )
+  (wire (pts (xy 245.11 104.14) (xy 245.11 95.25))
+    (stroke (width 0) (type default))
+    (uuid 195626b3-e115-4c03-98b9-0f4d72b0264a)
   )
   (wire (pts (xy 256.54 133.35) (xy 256.54 135.89))
     (stroke (width 0) (type default))
@@ -3857,6 +4035,10 @@
   (wire (pts (xy 162.56 68.58) (xy 162.56 83.82))
     (stroke (width 0) (type default))
     (uuid 289b7206-1fe2-465c-a6ba-4840b818053d)
+  )
+  (wire (pts (xy 227.33 104.14) (xy 245.11 104.14))
+    (stroke (width 0) (type default))
+    (uuid 2a100930-dcf5-4550-9370-0636415f6ae0)
   )
   (wire (pts (xy 346.71 121.92) (xy 354.33 121.92))
     (stroke (width 1) (type default))
@@ -3974,9 +4156,9 @@
     (stroke (width 0) (type default))
     (uuid 50063014-fa0a-4dc8-99ac-fcbb99f8b484)
   )
-  (wire (pts (xy 339.09 148.59) (xy 347.98 148.59))
-    (stroke (width 1) (type default))
-    (uuid 53153cc7-a672-457e-9f87-dcb6b038c750)
+  (wire (pts (xy 201.93 204.47) (xy 201.93 184.15))
+    (stroke (width 0) (type default))
+    (uuid 51e6bf67-fba4-4c75-96c9-4a3ff5a2fafe)
   )
   (wire (pts (xy 184.15 58.42) (xy 173.99 58.42))
     (stroke (width 0) (type default))
@@ -4062,7 +4244,7 @@
     (stroke (width 0) (type default))
     (uuid 66116658-596c-4219-b8f7-e83179e253b7)
   )
-  (wire (pts (xy 269.24 186.69) (xy 339.09 186.69))
+  (wire (pts (xy 269.24 186.69) (xy 337.82 186.69))
     (stroke (width 0) (type default))
     (uuid 66e122a8-5146-496b-b11a-ad73e9dd726d)
   )
@@ -4102,10 +4284,6 @@
     (stroke (width 0) (type default))
     (uuid 7062695a-3ee3-4385-a2dc-ff57ac2e4274)
   )
-  (wire (pts (xy 339.09 186.69) (xy 339.09 148.59))
-    (stroke (width 0) (type default))
-    (uuid 71bd8d7c-9716-45e4-9737-86f01fbf055f)
-  )
   (wire (pts (xy 347.98 48.26) (xy 347.98 49.53))
     (stroke (width 0) (type default))
     (uuid 73338631-ba97-4245-be7e-3a2fb3dc080a)
@@ -4137,6 +4315,10 @@
   (wire (pts (xy 256.54 148.59) (xy 287.02 148.59))
     (stroke (width 0) (type default))
     (uuid 7e3c16bc-2be8-4cbe-a70f-39012eeba594)
+  )
+  (wire (pts (xy 219.71 204.47) (xy 201.93 204.47))
+    (stroke (width 0) (type default))
+    (uuid 7ea5ee84-c87f-4281-8f73-2f34cb21a387)
   )
   (wire (pts (xy 194.31 68.58) (xy 201.93 68.58))
     (stroke (width 0) (type default))
@@ -4229,6 +4411,10 @@
   (wire (pts (xy 328.93 48.26) (xy 330.2 48.26))
     (stroke (width 1) (type default))
     (uuid 94a29429-3bae-4d02-bb31-d1f11416656b)
+  )
+  (wire (pts (xy 219.71 104.14) (xy 201.93 104.14))
+    (stroke (width 0) (type default))
+    (uuid 950c6e68-f807-4f7c-a73e-3e02add2a220)
   )
   (wire (pts (xy 347.98 166.37) (xy 347.98 172.72))
     (stroke (width 0) (type default))
@@ -4362,10 +4548,6 @@
     (stroke (width 0) (type default))
     (uuid be1d8062-cf0e-476f-97ad-4e00afa5d025)
   )
-  (wire (pts (xy 339.09 86.36) (xy 339.09 48.26))
-    (stroke (width 0) (type default))
-    (uuid bf84f37b-f0ad-43ea-a533-84f1ddf0bb15)
-  )
   (wire (pts (xy 194.31 83.82) (xy 201.93 83.82))
     (stroke (width 0) (type default))
     (uuid c0e7bbc1-dd2b-4531-b32f-f846dd90d606)
@@ -4422,6 +4604,10 @@
     (stroke (width 0) (type default))
     (uuid cd8688c1-7e29-4b21-854e-5ed2d5600f8c)
   )
+  (wire (pts (xy 337.82 151.13) (xy 337.82 186.69))
+    (stroke (width 0) (type default))
+    (uuid ce363357-84e9-4f93-831c-37058db07977)
+  )
   (wire (pts (xy 118.11 125.73) (xy 201.93 125.73))
     (stroke (width 1) (type default))
     (uuid ce496628-7c32-4ecc-a3d6-6114fe8f2075)
@@ -4441,6 +4627,10 @@
   (wire (pts (xy 270.51 125.73) (xy 270.51 124.46))
     (stroke (width 0) (type default))
     (uuid d2405ae7-18ed-441a-8f9e-ab325e0dec2c)
+  )
+  (wire (pts (xy 245.11 204.47) (xy 245.11 195.58))
+    (stroke (width 0) (type default))
+    (uuid d2c658ab-a3fe-4e61-8569-8b2429103d10)
   )
   (wire (pts (xy 389.89 148.59) (xy 389.89 170.18))
     (stroke (width 1) (type default))
@@ -4470,6 +4660,10 @@
     (stroke (width 0) (type default))
     (uuid d7a32a54-442b-416f-babd-2c8fa5f1f230)
   )
+  (wire (pts (xy 339.09 50.8) (xy 339.09 86.36))
+    (stroke (width 0) (type default))
+    (uuid d8f4a809-621b-427b-b9ae-86b5664ddffb)
+  )
   (wire (pts (xy 372.11 74.93) (xy 372.11 95.25))
     (stroke (width 0) (type default))
     (uuid d9e9bdee-af56-4503-a503-4501db24baf1)
@@ -4481,6 +4675,10 @@
   (wire (pts (xy 134.62 177.8) (xy 134.62 184.15))
     (stroke (width 0) (type default))
     (uuid dcac35f4-076b-412b-a69e-38787f300955)
+  )
+  (wire (pts (xy 227.33 204.47) (xy 245.11 204.47))
+    (stroke (width 0) (type default))
+    (uuid dd0a418d-2f20-428a-8049-0a1fcbaa0b32)
   )
   (wire (pts (xy 134.62 74.93) (xy 130.81 74.93))
     (stroke (width 0) (type default))
@@ -4557,6 +4755,10 @@
   (wire (pts (xy 372.11 148.59) (xy 372.11 170.18))
     (stroke (width 1) (type default))
     (uuid edaeed2f-14f7-4149-b899-cb47c9d44f83)
+  )
+  (wire (pts (xy 201.93 104.14) (xy 201.93 83.82))
+    (stroke (width 0) (type default))
+    (uuid f17de24b-bf68-4677-882a-7a1c0f58778f)
   )
   (wire (pts (xy 252.73 35.56) (xy 256.54 35.56))
     (stroke (width 0) (type default))
@@ -4648,6 +4850,10 @@
     (uuid dfadccf5-ead4-412f-8b95-05230c18fba8)
   )
 
+  (label "5V0_SENSE2+" (at 304.8 177.8 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 05ea6a34-d563-43fb-ba8b-9f053bf6cfa2)
+  )
   (label "5V0" (at 383.54 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 12256b7e-8325-4b1b-a31b-2629c4c7038b)
@@ -4660,6 +4866,14 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 31ef348a-49bf-47d8-9c38-1178aef97ed5)
   )
+  (label "5V0_SENSE1-" (at 306.07 86.36 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 499d8530-2f38-4c20-8431-8e1353479a84)
+  )
+  (label "5V0_SENSE2-" (at 304.8 186.69 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a34129fd-9150-47ca-9d4f-0be90cf1485d)
+  )
   (label "5V0" (at 245.11 30.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid aedc83bd-36bb-475d-bb8d-aa1bb13fcbf5)
@@ -4667,6 +4881,10 @@
   (label "5V0_VCC1" (at 134.62 46.99 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b1c0ea6c-6194-43f9-becb-870a635f5d5d)
+  )
+  (label "5V0_SENSE1+" (at 306.07 77.47 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c296e302-9688-4859-bddc-39bd570845de)
   )
   (label "5V0" (at 383.54 148.59 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -4847,8 +5065,8 @@
     (property "Datasheet" "WSL20108L000FEA18" (at 336.55 41.91 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 4e886484-9ff5-481b-a86d-336b2f5ff929))
-    (pin "2" (uuid 08d31a05-b3be-4c13-ad0c-93eb96ba7832))
+    (pin "1" (uuid 54f01656-1456-436d-aca7-2239931329c4))
+    (pin "2" (uuid 4a2572da-0529-4171-a878-c010641fd8f3))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -4866,44 +5084,6 @@
       (project "5V0_LoadConverter"
         (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
           (reference "R19") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 270.51 133.35 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 133a3552-5cfb-44d5-af1c-af8a35494eb5)
-    (property "Reference" "#PWR057" (at 270.51 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 270.51 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 270.51 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 270.51 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5d33909c-6e7e-4291-a0ee-333062e7609b))
-    (instances
-      (project "eps-re_project"
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR057") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR052") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4967,7 +5147,6 @@
     (pin "18" (uuid 67dc387f-e52a-42ef-a189-3d4188fa0914))
     (pin "19" (uuid 516b0028-9438-4d7d-a84b-fb8a8766015f))
     (pin "2" (uuid 866fc3d7-c67b-4167-9bcb-27e531aed420))
-    (pin "20" (uuid dd0ee694-f6cc-45d9-b5a9-01966c4c431a))
     (pin "21" (uuid 9bcd3592-b6c8-40e2-945a-3eaff74cb4c8))
     (pin "3" (uuid 62e6f0ac-a8ca-4cae-ad2f-4bb6724e88f4))
     (pin "5" (uuid fd3c43c5-1dc0-46ce-859c-23fb83479a79))
@@ -4976,6 +5155,7 @@
     (pin "9" (uuid d1b79030-ec4d-4c42-a6e1-8b399f0f4627))
     (pin "14" (uuid cdf61611-bc60-4d4c-9095-a37e2c2e3dce))
     (pin "16" (uuid 6a0479fe-4168-4006-9d90-08d1ccb3f16f))
+    (pin "20" (uuid dd0ee694-f6cc-45d9-b5a9-01966c4c431a))
     (pin "4" (uuid 4a12c23f-02a6-4cb7-a0c2-5ffe2bfa7d62))
     (pin "6" (uuid da2620d0-95d1-49a8-ac33-7f54ed2a4a9c))
     (instances
@@ -5020,8 +5200,8 @@
     (property "Manufacturer_Part_Number" "744325240" (at 325.12 844.45 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 1f70d085-7409-47ac-b9f0-36d68dd8f88b))
-    (pin "2" (uuid 668e0a82-386f-487f-9e2d-f93952cf6145))
+    (pin "1" (uuid 9e04f682-7b1e-4774-a8a2-0bf1aecf48c2))
+    (pin "2" (uuid cc469872-6f70-41c7-8e05-11eb58faf478))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -5246,8 +5426,8 @@
     (property "voltage rating" "35V" (at 325.12 -57.15 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 48855186-7507-4dfb-a037-63cb8c4be422))
-    (pin "2" (uuid 79bd4b67-e435-4694-8a65-5aece33ebefa))
+    (pin "1" (uuid 904750c7-6fd4-4ca5-aacc-828189e6e1ae))
+    (pin "2" (uuid b0858bcb-eba9-4c6b-b88f-87dcc1c4c653))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -5255,6 +5435,32 @@
         )
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
           (reference "C25") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Jumper:Jumper") (at 339.09 49.53 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1a5f9955-6d83-4500-8b41-ba4cf86ed3cd)
+    (property "Reference" "JP2" (at 337.058 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "SolderJumper_2_Bridged" (at 341.63 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "footprints:Jumper" (at 339.09 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 339.09 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c99b7c7d-4a2d-4547-a0c6-c5da46b85f96))
+    (pin "2" (uuid 52d6f89c-b338-48c2-b386-67b9bb4296c0))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "JP2") (unit 1)
         )
       )
     )
@@ -5350,8 +5556,8 @@
     (property "ipc land pattern name" "CAPC320250X250" (at 372.11 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 434046d6-2b04-427a-8642-c50b521d7d14))
-    (pin "2" (uuid d7286219-105b-4c96-84d2-b5827eb54f4c))
+    (pin "1" (uuid 3a42a5df-d27d-4823-b15e-9fae0cf8b9c4))
+    (pin "2" (uuid aeae94f5-6c6f-4f51-9fd2-0dac04f03ea0))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -5369,6 +5575,56 @@
       (project "5V0_LoadConverter"
         (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
           (reference "C27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 372.11 95.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 217c515b-268b-4985-8ec6-83fa8393a21b)
+    (property "Reference" "#PWR067" (at 372.11 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 371.983 99.06 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 372.11 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 372.11 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fbac8730-317b-4831-8c62-bdc65927c014))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "#PWR067") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 290.83 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 23145fd9-91f0-49f2-95a3-d03cf72fb8b5)
+    (property "Reference" "#PWR062" (at 290.83 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 290.703 69.85 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 290.83 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 290.83 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 78dffe0b-35c9-441b-85b3-84410f77c0e8))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -5461,8 +5717,8 @@
     (property "voltage rating" "25 V" (at 194.31 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid e78abd33-33a6-4516-bc36-deee153e05b7))
-    (pin "2" (uuid d8c022e5-d98d-4619-a91a-a15c1d7ba389))
+    (pin "1" (uuid cd622170-7a6f-4874-a4eb-ba7a2a45cd37))
+    (pin "2" (uuid 0b5b83d2-377b-477c-91fd-da7d1c8962ce))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -5572,8 +5828,8 @@
     (property "voltage rating" "50V" (at 335.28 -49.53 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 64cb983a-4227-40e9-99ea-f525e2853eb2))
-    (pin "2" (uuid 2146b585-d045-44ed-b807-b567e26c4f84))
+    (pin "1" (uuid b265a734-c3b2-4f24-b5c5-ce38b00cf4a8))
+    (pin "2" (uuid 4c0ec34f-53d5-4c5f-977f-49f7258bc5ab))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -5692,8 +5948,8 @@
     (property "voltage rating" "75V" (at 266.7 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid a7dfb117-5082-4977-b490-353949cf3f1c))
-    (pin "2" (uuid 11610d84-1c75-4482-a147-b10effea694d))
+    (pin "1" (uuid 8c319cfa-ffa8-425b-9cac-fe2e44e61894))
+    (pin "2" (uuid 78a60a33-e0fa-4f3f-8d2d-b5c5db435905))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -5974,8 +6230,8 @@
     (property "voltage rating" "50 V" (at 118.11 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 3cb7cbc5-600d-4345-8b89-359c001636e5))
-    (pin "2" (uuid 30f05cbb-8677-4054-a66f-d2d52f030765))
+    (pin "1" (uuid 0fa7b1f9-46a1-4569-b3ca-620bc9e3af04))
+    (pin "2" (uuid b5192e9d-ac62-45c4-aa68-410f7f03102b))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -6112,12 +6368,12 @@
     (property "typ forward diode voltage" "1.8V" (at 280.67 -44.45 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 4b6dba0d-b83b-4801-b674-c0b38afb29eb))
-    (pin "2" (uuid 69fccb86-3136-41a0-8b1f-bf7c2dc107a8))
-    (pin "3" (uuid add75f0f-9b43-4f7a-99a8-966c44135100))
-    (pin "4" (uuid 84d4998c-b52f-488b-be86-cd271ebbbcaf))
-    (pin "5" (uuid 5d5088fd-f5df-423a-9ae7-e795bf828e0d))
-    (pin "6" (uuid f47fbeb6-19a0-4dfb-a5e9-abc77dbdf8e4))
+    (pin "1" (uuid b4e9d366-b193-41e0-8958-65d80eff5eaa))
+    (pin "2" (uuid 9ad1eed8-ca61-43d7-bd67-9c01b36d4a1c))
+    (pin "3" (uuid d9745032-b7b1-4c21-805b-2c2b83a7b0b4))
+    (pin "4" (uuid 2e953795-7f7e-4013-bca0-bc9f7d3e6761))
+    (pin "5" (uuid 91ecf0f4-6f48-4002-95b1-8470df5f8eb0))
+    (pin "6" (uuid 4a74c779-f787-4853-be47-9ba1644117e8))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -6125,44 +6381,6 @@
         )
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
           (reference "Q3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 201.93 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 392576fd-9d72-44ba-8140-ec8e2072eb27)
-    (property "Reference" "#PWR054" (at 201.93 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 201.93 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 201.93 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 201.93 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2461c3c4-9efc-4e0e-afe5-6149d2782f0c))
-    (instances
-      (project "eps-re_project"
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR054") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR050") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -6183,8 +6401,8 @@
     (property "Datasheet" "CRCW060382K0FKEA" (at 170.18 66.04 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid a618a41b-7409-4143-a633-29fd578ba97c))
-    (pin "2" (uuid 63f87e5d-2ea6-4363-be67-22a2d0e59fdd))
+    (pin "1" (uuid 89a26295-d3f1-4b07-a2b2-38c02688879e))
+    (pin "2" (uuid dc3c6bb6-f842-43a0-ac82-d7477f2804ff))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -6194,77 +6412,27 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 118.11 133.35 0) (mirror y) (unit 1)
+  (symbol (lib_id "Jumper:Jumper") (at 337.82 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3c0368a7-1204-47d1-a1f5-f21e7d56ec1f)
-    (property "Reference" "#PWR053" (at 118.11 139.7 0)
+    (uuid 3bddd854-538f-4b00-a838-bda660751a46)
+    (property "Reference" "JP1" (at 335.788 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "Earth" (at 118.11 137.16 0)
+    (property "Value" "SolderJumper_2_Bridged" (at 340.36 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 118.11 133.35 0)
+    (property "Footprint" "footprints:Jumper" (at 337.82 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 118.11 133.35 0)
+    (property "Datasheet" "~" (at 337.82 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33500588-ba90-45fd-aba0-0d965145032d))
+    (pin "1" (uuid 9ff9ad45-7e92-4884-b09c-7b79fb787c95))
+    (pin "2" (uuid 8c14428c-8c00-414e-bbaf-07f1bbb4357d))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR053") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR056") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR06") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 290.83 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4100c05f-0cf5-4dcd-8916-195388bf466c)
-    (property "Reference" "#PWR059" (at 290.83 172.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 290.83 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 290.83 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 290.83 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid db070b65-ef2e-41f6-bb3a-830585dbc09f))
-    (instances
-      (project "eps-re_project"
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR059") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR062") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR012") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
     )
@@ -6339,44 +6507,6 @@
         )
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
           (reference "J20") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 118.11 33.02 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 45d59a00-1d71-435c-bc55-a609e3c9c4b4)
-    (property "Reference" "#PWR052" (at 118.11 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 118.11 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 118.11 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 118.11 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 131d85e1-8b64-47e6-ae83-1cf84f70adeb))
-    (instances
-      (project "eps-re_project"
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR052") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR056") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -6577,6 +6707,56 @@
     )
   )
 
+  (symbol (lib_id "power:GNDPWR") (at 290.83 166.37 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4ecb31f4-3177-42f5-961e-147a9b4685f7)
+    (property "Reference" "#PWR059" (at 290.83 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 290.703 170.18 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 290.83 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 290.83 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ea0395aa-f68f-47ce-b3c0-991cc89281e0))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 335.28 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 52deff2a-6ac2-4bcd-a1c5-7a4cf84c5530)
+    (property "Reference" "#PWR068" (at 335.28 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 335.153 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 335.28 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 335.28 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 41a66ad3-b606-430d-936c-ee56f7098e3d))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "#PWR068") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "WSL20105L000FEA:WSL20105L000FEA") (at 36.83 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 545bdd5a-f617-48b1-a583-566fdd5ddb9e)
@@ -6618,8 +6798,8 @@
     (property "Datasheet" "CRCW0603150KFKEAHP" (at 356.87 63.5 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 73a41b35-8a09-4886-9acd-90d4c821ce93))
-    (pin "2" (uuid 3944122a-56f6-4539-8abf-48ab6a11471b))
+    (pin "1" (uuid 65cb9c5b-57d7-46f2-8d5b-22a9d18104af))
+    (pin "2" (uuid cd2c6da7-63c6-462a-87e8-0913a9138bba))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -6632,39 +6812,80 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 201.93 184.15 0) (unit 1)
+  (symbol (lib_id "power:GNDPWR") (at 118.11 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6772cc19-2ea3-452c-a5cc-9347abf437e0)
-    (property "Reference" "#PWR055" (at 201.93 190.5 0)
+    (uuid 587f9fa9-7a1b-4d8b-bc81-90692a25dd5c)
+    (property "Reference" "#PWR053" (at 118.11 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "Earth" (at 201.93 187.96 0)
+    (property "Value" "GNDPWR" (at 117.983 137.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 118.11 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 201.93 184.15 0)
+    (property "Datasheet" "" (at 118.11 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 201.93 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cd5db72f-1ca2-4983-a03b-b7d7ca4d261b))
+    (pin "1" (uuid d4d2b82d-5c55-4170-8448-839afb4523cc))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR055") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR02") (unit 1)
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 335.28 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5fa0ae77-2bb3-4cc7-9081-c3708d000850)
+    (property "Reference" "#PWR065" (at 335.28 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 335.153 133.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 335.28 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 335.28 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4b04a591-36bb-41d9-b701-99dc70444605))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "#PWR065") (unit 1)
         )
       )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR04") (unit 1)
+    )
+  )
+
+  (symbol (lib_id "CRCW06030000Z0EAHP:CRCW06030000Z0EAHP") (at 217.17 204.47 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 64c6337d-67aa-44ff-93a8-778974277f16)
+    (property "Reference" "R76" (at 220.98 209.55 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "0.0R" (at 220.98 207.01 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Footprint" "footprints:CRCW06030000Z0EAHP" (at 219.71 214.63 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "CRCW06030000Z0EAHP" (at 222.25 212.09 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid d87f7a61-33e3-43bb-a6bf-2b53ce33c774))
+    (pin "2" (uuid fb9a6ba4-4985-44e1-944e-ae6d03a6bf42))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/fd86ef80-5a59-4dab-8bcd-7bed00669ccc"
+          (reference "R76") (unit 1)
+        )
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "RGND1") (unit 1)
         )
       )
     )
@@ -6766,8 +6987,8 @@
     (property "voltage rating" "75V" (at 92.71 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid ce490fe0-e22e-449d-8d1a-b95b84883059))
-    (pin "2" (uuid 124534bd-5010-453f-b041-8870b5efb727))
+    (pin "1" (uuid c86c604c-4392-483e-b6f4-1e1f2441c4aa))
+    (pin "2" (uuid ea969e08-0d2e-4b48-b2e9-ec145a6ff56d))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -6805,8 +7026,8 @@
     (property "Datasheet" "CRCW06032R20FKEAHP" (at 105.791 15.24 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 2a103465-dd1c-43cd-962b-b14aef761ab5))
-    (pin "2" (uuid 0eb4dc97-f5f4-4c17-a04d-90286c088adf))
+    (pin "1" (uuid ff4b9920-b720-435d-bc99-3f001acac756))
+    (pin "2" (uuid 1881c89c-5e67-4bc9-8db9-67e523cef220))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -6858,8 +7079,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0603100kfkeahp/vishay?region=nac" (at 185.42 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 8c1aba96-cd2b-4ff1-ab5c-1965604b6089))
-    (pin "2" (uuid d6cdf57e-6785-42ac-a817-015ef831721d))
+    (pin "1" (uuid 112d3981-1d5d-4f4b-acdb-39f8e2c41bfe))
+    (pin "2" (uuid cb2bf27b-c15f-4dec-9d05-38728b9ea50d))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -7005,6 +7226,31 @@
       (project "5V0_LoadConverter"
         (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
           (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDS") (at 194.31 184.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7666f4c5-68fa-4c2e-b384-c1b358abe928)
+    (property "Reference" "#PWR055" (at 194.31 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDS" (at 194.31 189.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 194.31 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 194.31 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6d8d5e47-ce9e-4a01-bb66-6f70948ede7a))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -7232,39 +7478,51 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 335.28 29.21 0) (unit 1)
+  (symbol (lib_id "power:GNDS") (at 194.31 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7d25107b-d574-432e-995e-d897b3811e05)
-    (property "Reference" "#PWR060" (at 335.28 35.56 0)
+    (uuid 858e7017-50f8-4694-9769-cab01f7e9833)
+    (property "Reference" "#PWR052" (at 194.31 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "Earth" (at 335.28 33.02 0)
+    (property "Value" "GNDS" (at 194.31 88.9 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 194.31 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 335.28 29.21 0)
+    (property "Datasheet" "" (at 194.31 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 335.28 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8f3eff8d-ffd5-460b-9e6d-0bfdde3f1ac9))
+    (pin "1" (uuid 205f155a-3b84-4324-af5a-f65d743508c5))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR060") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR012") (unit 1)
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 372.11 195.58 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 88233fa6-59b4-45f1-8119-220dace67ac1)
+    (property "Reference" "#PWR064" (at 372.11 200.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 371.983 199.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 372.11 196.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 372.11 196.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 09ee8be1-98f5-4d9f-a7c0-198bd8b8246d))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -7354,8 +7612,8 @@
     (property "voltage rating" "50V" (at 354.33 -46.99 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid dab06599-6827-4934-96cb-8de1c71a01bb))
-    (pin "2" (uuid daccdf05-002e-422a-8ef3-d2ebce571569))
+    (pin "1" (uuid 75e12b3a-2bf5-4a0d-811c-623591f2770c))
+    (pin "2" (uuid 7c87a46c-02ed-4409-9af0-864d1abed760))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -7465,8 +7723,8 @@
     (property "voltage rating" "50V" (at 346.71 -49.53 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid d8b5d02d-7501-4270-8d90-29ef011ef220))
-    (pin "2" (uuid bfb9cce3-58e3-463b-ac11-b35c1ccad2e5))
+    (pin "1" (uuid 1a9468da-c59e-4cad-a9c9-f13d244e9e96))
+    (pin "2" (uuid 53abeca7-55dd-4ac0-a42c-725f87329572))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -7484,82 +7742,6 @@
       (project "5V0_LoadConverter"
         (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
           (reference "C21") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 335.28 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 91a07ae2-2e25-4782-830a-d4cb1c06909a)
-    (property "Reference" "#PWR061" (at 335.28 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 335.28 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 335.28 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 335.28 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c8b6c951-ce97-4a65-9141-44a7e52f23b5))
-    (instances
-      (project "eps-re_project"
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR061") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR062") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 372.11 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 92a6fd5d-c968-4704-a66d-3e247b70405c)
-    (property "Reference" "#PWR062" (at 372.11 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 372.11 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 372.11 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 372.11 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8c6f1412-bb27-418b-bf02-05f60aa2bad7))
-    (instances
-      (project "eps-re_project"
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR062") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR058") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -7676,39 +7858,26 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 290.83 66.04 0) (unit 1)
+  (symbol (lib_id "power:GNDPWR") (at 270.51 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9da0e460-caea-4061-9ed6-3886dee09c1f)
-    (property "Reference" "#PWR058" (at 290.83 72.39 0)
+    (uuid 9e681ef9-6c2f-4546-ada7-4bd013cbc1ac)
+    (property "Reference" "#PWR057" (at 270.51 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "Earth" (at 290.83 69.85 0)
+    (property "Value" "GNDPWR" (at 270.383 137.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 270.51 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 290.83 66.04 0)
+    (property "Datasheet" "" (at 270.51 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 290.83 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 015f5e38-7df0-4265-9eab-5258d3205998))
+    (pin "1" (uuid 86d8180d-f0ce-45f3-bd20-a32194dd74b5))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR058") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR062") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -7855,9 +8024,9 @@
     (property "Manufacturer_Part_Number" "SI2302DDS-T1-GE3" (at 127 868.58 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 2627864b-e7d6-417a-8fd6-a71fb3a8e0ef))
-    (pin "2" (uuid 187dfb83-3ed5-4b62-852a-c2822e55096f))
-    (pin "3" (uuid 13bf788a-735d-46ef-9bf2-c091a90e712d))
+    (pin "1" (uuid 5deef889-5861-456a-8005-410ebe5a584c))
+    (pin "2" (uuid 4fbc1c86-a3cf-4f69-bb16-99db43d443be))
+    (pin "3" (uuid bb18f46d-89ec-4808-b2ca-8d9a4dc0d05a))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8148,44 +8317,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 270.51 33.02 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a886b557-97bb-4b83-ae33-a29d48f4a1da)
-    (property "Reference" "#PWR056" (at 270.51 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 270.51 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 270.51 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 270.51 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8af432ca-f5ef-4062-83f8-a0ced8e6f29f))
-    (instances
-      (project "eps-re_project"
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR056") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR052") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "GCM32ER71H475KA55L:GCM32ER71H475KA55L") (at 270.51 30.48 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac91d4bf-38e6-4d5e-a216-351a336e57da)
@@ -8267,8 +8398,8 @@
     (property "voltage rating" "50V" (at 270.51 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 3a1bc277-f049-41a5-a82c-8134bf27a017))
-    (pin "2" (uuid a9b0a355-4623-431b-8c0b-ebb8b2f8ae08))
+    (pin "1" (uuid 63e160af-743c-4762-9a4e-4b6b6d99ab7a))
+    (pin "2" (uuid 8fa3735e-4320-482d-9060-3a60381d65a0))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -8286,6 +8417,35 @@
       (project "5V0_LoadConverter"
         (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
           (reference "C15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "CRCW06030000Z0EAHP:CRCW06030000Z0EAHP") (at 217.17 104.14 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ae441077-36ea-4f42-a899-fe8220aaeb7b)
+    (property "Reference" "R76" (at 220.98 109.22 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "0.0R" (at 220.98 106.68 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Footprint" "footprints:CRCW06030000Z0EAHP" (at 219.71 114.3 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "CRCW06030000Z0EAHP" (at 222.25 111.76 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid 2f59f369-cccb-412f-b243-0b9e37db8e45))
+    (pin "2" (uuid a995a2de-e97f-49a5-ae8a-c14f7d3bea09))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/fd86ef80-5a59-4dab-8bcd-7bed00669ccc"
+          (reference "R76") (unit 1)
+        )
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "RGND2") (unit 1)
         )
       )
     )
@@ -8492,8 +8652,8 @@
     (property "ipc land pattern name" "CAPC320250X250" (at 389.89 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid e4577ff5-0a3b-4e26-ba9a-2084ca4a9b8f))
-    (pin "2" (uuid b6496d5c-5dea-4a2b-a6e7-5280c941d634))
+    (pin "1" (uuid 6cb614c8-6e00-4653-93d6-ff7457fcc5fa))
+    (pin "2" (uuid 3e891622-936b-4ad6-8fbb-eca904af5dec))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -8600,8 +8760,8 @@
     (property "voltage rating" "50 V" (at 256.54 -27.94 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 67b9aafa-1034-408b-8cee-03570a4c312e))
-    (pin "2" (uuid 82c71348-a20d-4dc6-9c86-373b2ca53091))
+    (pin "1" (uuid 9fcf68a3-6917-459e-8563-62d0a82d0872))
+    (pin "2" (uuid c56be1ec-8812-4ab4-ab4d-34ba982480c2))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -8732,44 +8892,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 372.11 195.58 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ba36c18d-08c1-4d75-aa46-68c2827d73cc)
-    (property "Reference" "#PWR070" (at 372.11 201.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 372.11 199.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 372.11 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 372.11 195.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2ec5110b-68ed-4d15-82ad-0b8d10d5c107))
-    (instances
-      (project "eps-re_project"
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-          (reference "#PWR070") (unit 1)
-        )
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
-          (reference "#PWR058") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-      (project "5V0_LoadConverter"
-        (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-          (reference "#PWR014") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "SS12FP:SS12FP") (at 256.54 39.37 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be3e276f-a4a3-4826-b10e-0d9282fc1aae)
@@ -8800,8 +8922,8 @@
     (property "Manufacturer_Part_Number" "SS12FP" (at 1050.19 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid a8c66cae-38f3-420f-a0e6-ce98d777a6d6))
-    (pin "2" (uuid f8713a3b-7ded-42d3-a7b8-ad3b92c52f4c))
+    (pin "1" (uuid 4f1baa8f-972a-49b6-942c-8fbcba654bfa))
+    (pin "2" (uuid 7af8f283-06ac-4367-a9fe-54898721c827))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8854,6 +8976,31 @@
         )
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
           (reference "Q2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 270.51 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c4fc7f84-2655-4798-9ef3-409bb0fde102)
+    (property "Reference" "#PWR069" (at 270.51 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 270.383 36.83 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 270.51 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 270.51 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c6e08f38-e52e-408d-85a4-93b98eb96cc9))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -8946,8 +9093,8 @@
     (property "voltage rating" "50 V" (at 359.41 -19.05 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 2698e1d2-79d4-43d8-991d-a0d6f6c41bc6))
-    (pin "2" (uuid 928d4467-ed4a-4f03-a22c-edd1ec5120d7))
+    (pin "1" (uuid cdd7f174-e0e0-407b-a696-51114d61e71d))
+    (pin "2" (uuid 3362e801-b92b-4c27-b2e0-420e598f9655))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -9009,8 +9156,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw060310r0fkeahp/vishay?region=nac" (at 260.096 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid fc5bb562-369e-46ca-80e1-8d7d1670e8bd))
-    (pin "2" (uuid 0972eefb-cb84-4fd7-a582-7bc93b03a5d4))
+    (pin "1" (uuid 0b06e696-2ea6-45d9-8cc1-478c70cce5b1))
+    (pin "2" (uuid 6a4314ee-f999-45d4-a5fc-47f9d0562944))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -9344,8 +9491,8 @@
     (property "ipc land pattern name" "CAPC320250X250" (at 381 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 2b33e8b0-5af9-4a4d-957c-a37d102e8187))
-    (pin "2" (uuid c052c363-6527-4302-aaa9-897d8022debb))
+    (pin "1" (uuid d1071760-90ed-40f8-9b2e-90e77490db6a))
+    (pin "2" (uuid d44ad241-bb8e-41b6-9aed-ece2f57a7098))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -9383,27 +9530,27 @@
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3833f.pdf" (at 196.85 27.94 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 742d851c-1dcd-44df-8bbd-e5f69178589d))
-    (pin "10" (uuid 266dad8e-c8fe-491e-a178-af02b7434439))
-    (pin "11" (uuid 9fd26ddc-aaba-4c78-a11d-f19cd1fea435))
-    (pin "12" (uuid 4d92b6f4-d651-4ef4-8229-4a2bd342a20c))
-    (pin "13" (uuid 10dc11fc-dbb1-473b-ae03-443a9151e0aa))
-    (pin "15" (uuid b14ee7d5-9937-4260-b05a-369bb433a100))
-    (pin "17" (uuid 0b63f480-9248-4852-a369-374966473ff9))
-    (pin "18" (uuid a1ea9989-a943-4ef5-8100-58c381b59af6))
-    (pin "19" (uuid d31fc8c0-d6bc-488b-982b-35aa2644d336))
-    (pin "2" (uuid e12b3050-b4d6-4fb0-acd2-49fc05899860))
-    (pin "20" (uuid e0c07c6d-bdb9-40f3-aa39-1e7f8958bac0))
-    (pin "21" (uuid 6c7e0128-c7ee-4a7f-ab04-2e92c45ddeaa))
-    (pin "3" (uuid 26d9c944-38fa-4002-95a3-49d83f7fc764))
-    (pin "5" (uuid e31803ee-84f7-4f20-9301-a54b63a94467))
-    (pin "7" (uuid 63a344bf-f6e4-4cf7-b3a2-d218e9dedaa8))
-    (pin "8" (uuid 1ad6d44a-3a86-4e59-8fd6-a609dc511096))
-    (pin "9" (uuid 36b9b21e-44e0-4b67-a8f4-533f70fa4601))
-    (pin "14" (uuid 4203e88e-d5cb-4291-8c97-0d5e08e39350))
-    (pin "16" (uuid b4394d38-c9fa-4016-ac1a-2bc9eb90fd58))
-    (pin "4" (uuid 33ccde3f-92a9-455e-801d-5a13e9446164))
-    (pin "6" (uuid 9e40cea0-bdd6-46ff-b403-5d885b5cc642))
+    (pin "1" (uuid 8993f68f-e1c7-4c9a-9abc-ab644aa58d32))
+    (pin "10" (uuid 762cae19-deb9-4186-b1aa-3d77759e5bb7))
+    (pin "11" (uuid c8b367f3-86dd-4a2f-9d75-9f63fa976787))
+    (pin "12" (uuid d6a7ac30-68b1-443b-9766-352d23fa31d8))
+    (pin "13" (uuid c70ef95e-3886-4718-8cdf-1f270ff392ca))
+    (pin "15" (uuid f776e2c0-232e-42cb-a104-e1ee96834939))
+    (pin "17" (uuid 1037c969-4cb6-4efb-be5c-d0c37111fca1))
+    (pin "18" (uuid 4c167601-bf7b-4d3f-8ba5-d55db66d33a2))
+    (pin "19" (uuid f455d006-9c70-475c-b5b1-719bf1b1cc28))
+    (pin "2" (uuid 90ff14db-3fcc-4012-8195-0e7271d1f97c))
+    (pin "21" (uuid d7703ff6-00d5-44cf-ae1a-cc30ffb4e37c))
+    (pin "3" (uuid 1a308e41-1f17-4ad2-920b-04f458e879a8))
+    (pin "5" (uuid d0e10141-5367-4ed6-9a46-c28165609859))
+    (pin "7" (uuid 730e7589-c77d-4fe3-833b-0df6a7e20a63))
+    (pin "8" (uuid c3e8c1b5-64a1-4eb5-82f8-114690010e43))
+    (pin "9" (uuid 9db09342-98f6-43d4-992e-6981c85c03d1))
+    (pin "14" (uuid 83c03046-6bf2-4601-9c34-ce54174e6fa6))
+    (pin "16" (uuid 17bcb124-e9f5-464b-ab1b-a5be0c10ac04))
+    (pin "20" (uuid 9aa3a4fd-1ee3-44f2-85fb-2f50584677f3))
+    (pin "4" (uuid 5e1dbc00-c8a7-475a-9347-c67c0d11bb6e))
+    (pin "6" (uuid e8a24394-c14e-4e94-b457-d9fd8874774e))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -9460,8 +9607,8 @@
     (property "Datasheet" "CRCW06030000Z0EAHP" (at 340.36 52.07 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 6330989a-e212-41c9-a84f-1d5c46b93744))
-    (pin "2" (uuid b4e68ddf-9831-4c36-a919-fd573e6cfe58))
+    (pin "1" (uuid 78744d3f-c889-40af-b33a-456d3c406d52))
+    (pin "2" (uuid ba6f61ce-6164-45ee-a9bd-ea54fdd34b1c))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/fd86ef80-5a59-4dab-8bcd-7bed00669ccc"
@@ -9561,8 +9708,8 @@
     (property "voltage rating" "50 V" (at 184.15 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid ffd6baa5-4d92-43bc-9c7e-68f1e3e71328))
-    (pin "2" (uuid 200b08f9-99a0-48a5-a4e4-5b99f0d4ef5d))
+    (pin "1" (uuid a15fa13b-6808-4b26-bf5c-3472a583345a))
+    (pin "2" (uuid d12d39cb-39da-42c8-98f2-c72ea7c79a0b))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -9672,8 +9819,8 @@
     (property "voltage rating" "50 V" (at 173.99 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 8ae96e28-e61a-4089-8ec0-7a8f4150a32b))
-    (pin "2" (uuid ba4eda94-602c-4da6-bed2-b498abc9346a))
+    (pin "1" (uuid 9b3a2550-4a15-4a9b-b673-69b3fdd0201c))
+    (pin "2" (uuid b8c12889-173c-4f12-a4bb-119ebb471907))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -9735,8 +9882,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw060310r0fkeahp/vishay?region=nac" (at 260.096 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 6db6a366-e1ce-412e-ba79-c91090b90b52))
-    (pin "2" (uuid 1b8ebf83-9f3f-4d31-8ad1-6365836d188b))
+    (pin "1" (uuid fe0656f7-275f-464f-8961-2529267e6d0e))
+    (pin "2" (uuid e38f7c54-a994-4b9e-bcfe-26bcc8c8164e))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -9789,9 +9936,9 @@
     (property "Manufacturer_Part_Number" "61300311121" (at 151.13 867.31 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 1495ec0a-5b5c-4cc7-bebd-2a681478ccef))
-    (pin "2" (uuid c11ca480-c55c-456b-ba7d-819a5caa326a))
-    (pin "3" (uuid be1c691d-e325-4132-9e6c-c24cdf60d02f))
+    (pin "1" (uuid bbc595bc-66a2-43e2-996c-e75d9207e4c3))
+    (pin "2" (uuid 790e67f6-d721-4f5f-acb5-ebb05da8f03a))
+    (pin "3" (uuid 9615bb7f-c392-4a40-a242-e126f5ac673c))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -9906,8 +10053,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw060310r0fkeahp/vishay?region=nac" (at 243.586 13.97 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 48271607-a50b-4bef-ac46-ba46e0899555))
-    (pin "2" (uuid 9a546205-e878-4139-9763-3929454bc1a4))
+    (pin "1" (uuid e9561e22-dd2b-4f6f-90bd-fc46cdbc6fa7))
+    (pin "2" (uuid 489130bc-b8a0-4900-8ae1-977bc575ee73))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -10128,8 +10275,8 @@
     (property "voltage rating" "25 V" (at 245.11 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 2058518a-ffd2-435c-bf05-de7b8b6e3420))
-    (pin "2" (uuid 66708f60-c370-4513-aa60-7e34b8a773a0))
+    (pin "1" (uuid b1d3d687-5472-427c-a11e-c0b63d8d9799))
+    (pin "2" (uuid 89710171-cf26-4b9b-af22-be18fdaf3c15))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -10147,6 +10294,31 @@
       (project "5V0_LoadConverter"
         (path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
           (reference "C11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 118.11 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e2674979-e201-4874-8be2-4fc323497eba)
+    (property "Reference" "#PWR070" (at 118.11 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 117.983 36.83 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 118.11 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 118.11 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a57e3098-ae51-4aa6-b12a-22a478d86760))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -10362,8 +10534,8 @@
     (property "voltage rating" "75V" (at 92.71 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 16e6dda4-90e3-4468-87af-7a693be2283d))
-    (pin "2" (uuid 4bcba144-fdea-4e99-bcd5-d4d8942c3716))
+    (pin "1" (uuid 8ff50bee-8d59-4e0d-ab9e-39f14ada657f))
+    (pin "2" (uuid ab5918a6-b9ea-49c8-96d5-048218b1974c))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -10500,12 +10672,12 @@
     (property "typ forward diode voltage" "1.8V" (at 279.4 -62.23 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 2c4bddc4-9ac1-41de-8ace-f960ab0e8ba5))
-    (pin "2" (uuid 0a88f8cc-5320-4af0-9194-1bbaec4ff291))
-    (pin "3" (uuid 56dce291-e03d-4e0f-a31c-c9f59025784a))
-    (pin "4" (uuid 4d454ae7-2611-493e-8c3c-6ab2305039d0))
-    (pin "5" (uuid f25a832d-d261-4579-9017-d55593ca5906))
-    (pin "6" (uuid bd08b307-54c3-43f1-995f-7e3c91401247))
+    (pin "1" (uuid 3d867d8d-edb2-4a3d-a625-427af5c047d2))
+    (pin "2" (uuid 7d4b11a2-bffc-45cd-831d-b1382663cd89))
+    (pin "3" (uuid 19513878-68eb-4933-b753-78add93119dd))
+    (pin "4" (uuid 09ed3215-ff99-4390-8e3e-61e2da9bf3c0))
+    (pin "5" (uuid f7d5ef1c-c83d-4f26-a4ed-5236017eda11))
+    (pin "6" (uuid a0597aaf-58a7-497d-a6b8-db44733c5a31))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10788,8 +10960,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0603100kfkeahp/vishay?region=nac" (at 128.27 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 9c2c0574-c712-4214-aba8-0251eb597369))
-    (pin "2" (uuid 645d940c-564c-4ff0-a993-c0b62172b11f))
+    (pin "1" (uuid ea9035db-0c11-4268-abd2-dc65b04f3735))
+    (pin "2" (uuid 92b7cb42-0f6e-4a55-ac0d-3a491c9b821f))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -11120,8 +11292,8 @@
     (property "Datasheet" "CRCW06030000Z0EAHP" (at 340.36 76.2 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid d6b6b8b1-234e-4d9b-b775-509151da64a9))
-    (pin "2" (uuid ece67177-4e61-4ee3-a43d-8f0889e413d9))
+    (pin "1" (uuid 87b74842-e475-4895-86dc-3ee1539159d8))
+    (pin "2" (uuid 7ba76c08-cd7d-4afd-be1c-9ee918c8913a))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/fd86ef80-5a59-4dab-8bcd-7bed00669ccc"

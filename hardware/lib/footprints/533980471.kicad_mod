@@ -109,7 +109,7 @@
   (pad "4" smd roundrect (at 1.875 -1.25) (size 0.8 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp dc0f13d5-2310-4695-b4eb-9a8dea2b2c58))
   (pad "5" smd roundrect (at -4.425 1.5) (size 2.1 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.119048) (tstamp 45546cd9-427b-4742-aa73-62259820bd20))
   (pad "6" smd roundrect (at 4.425 1.5) (size 2.1 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.119048) (tstamp af6da2a3-4c1f-47f5-bd0e-7a34d97e4822))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical.wrl"
+  (model "${KIPRJMOD}/lib/3dmodels/533980471.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

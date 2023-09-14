@@ -49,4 +49,9 @@
   (pad "1" smd roundrect (at -2.856 -0.92) (size 1.4 1.39) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e22edd1d-e2c6-406b-998e-4b160ce8f086))
   (pad "2" smd roundrect (at -2.856 0.92) (size 1.4 1.39) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1caad442-5cad-4a53-9a3f-412279216e41))
   (pad "3" smd roundrect (at 1.126 0) (size 4.86 3.36) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 858682e7-5cb6-4411-bcae-5a6233adbf49))
+  (model "${KIPRJMOD}/lib/3dmodels/PDS1040L-13.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

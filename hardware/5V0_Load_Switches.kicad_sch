@@ -2587,8 +2587,8 @@
     (property "voltage rating" "75V" (at -58.42 166.37 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 97571efe-4671-4887-8251-70fb9be9c817))
-    (pin "2" (uuid f6e4fcc5-c266-4fd6-b75a-7c5b79e2cc3a))
+    (pin "1" (uuid b42d433f-8ca3-4d72-b347-3c197850d3e9))
+    (pin "2" (uuid 472a97d0-178f-44c4-8b13-936b87f0f60b))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/4f028e55-4c46-47b6-9c45-f6b50d9d4db8"
@@ -2674,7 +2674,7 @@
     (property "Datasheet" "" (at 50.8 160.02 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 19ea8a15-1327-4dfd-9606-5bdc9f869a37))
+    (pin "1" (uuid 12e5f777-1521-4302-ac21-dfddefc4055a))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -3210,8 +3210,8 @@
     (property "voltage rating" "50 V" (at 81.28 99.06 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid dcb4d198-23fb-4931-b4a2-0323746060d0))
-    (pin "2" (uuid 37ad29b1-ca19-4498-b380-b6842cb398b9))
+    (pin "1" (uuid 04f2cd52-ea36-490e-9ccf-ed1add1286bd))
+    (pin "2" (uuid da855876-7b93-42d8-a8fd-371333104e05))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -3404,7 +3404,7 @@
     (property "Datasheet" "" (at 50.8 181.61 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid ba9ddf44-d336-4a20-9e0f-a020e67a8195))
+    (pin "1" (uuid d17f50a9-67a2-411f-ade3-9a528b86e14b))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -3656,7 +3656,7 @@
     (property "Datasheet" "" (at 81.28 163.83 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid c754caca-47fd-4e92-ab0e-76ae1bdda3df))
+    (pin "1" (uuid 1a827f49-adb9-481b-9e3c-b610781c2276))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -3832,7 +3832,7 @@
     (property "Datasheet" "" (at 22.86 181.61 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid e11e9de2-c6c9-42e8-9882-a61ca9a66b78))
+    (pin "1" (uuid b415f40c-7eb4-4e8c-8cb7-7482f1ce766a))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -4212,7 +4212,7 @@
     (property "Datasheet" "" (at 81.28 181.61 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 58e6b892-594b-4677-bc22-624457a9c6ac))
+    (pin "1" (uuid 5fd3eb02-64d3-48bc-8f5b-8857536becd0))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -4702,11 +4702,11 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv321a.pdf?ts=1685909774327&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMV321A%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-amps-null-prodfolderdynamic-cpc-pf-google-wwe_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC%2BSEARCH%2BADS%2526DCM%253Dyes%2526gclid%253DCj0KCQjw7PCjBhDwARIsANo7CglKgmrjg2-xP_kD7Sy3eRYNt96GS_9SDH6Nj_DKGAXoq9uQ8th2dkkaAoGDEALw_wcB%2526gclsrc%253Daw.ds" (at 50.8 171.45 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 03c8f679-7c62-4050-a27d-d02f842c2ee0))
-    (pin "2" (uuid 140eb3a5-2e07-405c-b97e-226489746378))
-    (pin "3" (uuid 2ed1e97c-309c-4b75-866d-141966de897f))
-    (pin "4" (uuid 7e6309bb-5152-426a-a88e-2ed307b47dfd))
-    (pin "5" (uuid 260a8e2d-0d10-4e2e-8bfd-4fc616596bfe))
+    (pin "1" (uuid 6393e741-7188-4402-a4d2-f30c28e19162))
+    (pin "2" (uuid a88a98cf-1543-41fd-9260-ae1d70343879))
+    (pin "3" (uuid 26060526-16a4-4641-bd24-f7baa20d6435))
+    (pin "4" (uuid 896579f7-4307-4fba-8bfa-70ea694be196))
+    (pin "5" (uuid 1357f87b-bdf0-42ab-9c3a-8ee1b95c83ff))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -4784,8 +4784,8 @@
     (property "Datasheet" "~" (at 22.86 170.18 0)
       (effects (font (size 0.8 0.8)))
     )
-    (pin "1" (uuid a6f2394d-0d9b-497c-994a-474d99ae88bb))
-    (pin "2" (uuid 05377907-ad76-4013-932a-e386a1de9468))
+    (pin "1" (uuid 63a58dec-cf35-40d9-a1b6-44427f5569b9))
+    (pin "2" (uuid da27c5e0-d504-41a4-b5f0-8dfbabd64a2d))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"

@@ -5166,12 +5166,12 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina199.pdf" (at 42.926 56.134 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid c607649a-1c94-4f94-94e7-968f610fcb9d))
-    (pin "2" (uuid a23bbe3d-371e-4105-a550-0d828163b678))
-    (pin "3" (uuid 215331ee-a5e4-470f-8a75-e5943c631299))
-    (pin "4" (uuid 84009870-8060-4081-b79b-1d6bc78cb14e))
-    (pin "5" (uuid 49f91805-1274-4f19-959c-aeb3d7a0b20a))
-    (pin "6" (uuid 8bd6860b-1a4a-411d-8269-b6a69ccc95f2))
+    (pin "1" (uuid a79fa037-0d9f-4de0-aa10-6209d2eef373))
+    (pin "2" (uuid 42bb35b6-7aac-411f-9801-00c31cf58943))
+    (pin "3" (uuid efccb20c-9b32-4707-8180-f5a3cb0c34d5))
+    (pin "4" (uuid 15532f66-d9b2-4667-b772-b63a069e1f2e))
+    (pin "5" (uuid c94507cf-5369-427a-bf57-26c44709e2f1))
+    (pin "6" (uuid e3154796-a7fe-4050-b15f-7ca49d2ce4e5))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -5370,8 +5370,8 @@
     (property "voltage rating" "50 V" (at 33.02 -29.21 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 910367f8-bdfa-41ee-be3e-37cd28bdd505))
-    (pin "2" (uuid fd0808b3-cd99-4310-96c7-8c58833364b4))
+    (pin "1" (uuid 65f163bb-a572-4df4-8483-1a5bdc06009e))
+    (pin "2" (uuid 65948367-475e-4d3c-a50e-e2579165def8))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/b2d6a676-b7d9-423e-8a54-05279452700b"
@@ -6859,8 +6859,8 @@
     (property "Datasheet" "WSL20105L000FEA" (at 41.91 34.29 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid df245c5b-84bd-42fb-98fb-6810b70481fd))
-    (pin "2" (uuid f9946da3-5d6b-4107-8d4a-790df83d46fc))
+    (pin "1" (uuid 8e013670-a8ec-439d-9839-c96251cec67b))
+    (pin "2" (uuid 1a97b67a-3382-46cb-9c7f-654f6387bd30))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -8555,7 +8555,7 @@
     (property "Datasheet" "" (at 41.91 53.34 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 11482fb9-0541-48ea-be81-ec8b323c5213))
+    (pin "1" (uuid f23fd18c-4137-456d-bfa7-03180c980df3))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"

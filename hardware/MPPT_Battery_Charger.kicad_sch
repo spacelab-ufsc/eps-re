@@ -5896,7 +5896,7 @@
     (property "Datasheet" "" (at 149.86 193.04 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid c3ba89d5-86e0-41a4-9a58-b1d160b27228))
+    (pin "1" (uuid 249c328f-7984-49cb-88ad-aa2504190742))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -5990,8 +5990,8 @@
     (property "voltage rating" "50V" (at 269.24 71.12 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 9c468834-de59-428e-8102-f7926b3017be))
-    (pin "2" (uuid b43dd91e-4fff-45e9-aaee-5abd5bd6da84))
+    (pin "1" (uuid 6f7cbe2d-b353-4f90-9f9b-7f723be38a0a))
+    (pin "2" (uuid c9592699-3a01-40d7-ac4a-841ee2d32f5a))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -6024,8 +6024,8 @@
     (property "Datasheet" "CRCW060330K1FKEAHP" (at 149.86 78.74 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid 226743c6-f28e-42e0-993d-3751e507593f))
-    (pin "2" (uuid e56ee57a-e758-47d2-86c4-3f253fafa927))
+    (pin "1" (uuid ea171bea-03db-4380-afe6-14cc5337a02d))
+    (pin "2" (uuid 7e9e8825-c191-45d6-b123-1638d5bfa853))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -6065,8 +6065,8 @@
     (property "Manufacturer_Part_Number" "744770112" (at 245.11 857.15 0)
       (effects (font (size 0.8 0.8)) (justify left top) hide)
     )
-    (pin "1" (uuid adc41553-4ab3-429f-b071-19103b70d491))
-    (pin "2" (uuid b3ab6a6f-1c25-4506-93a9-40efb947e373))
+    (pin "1" (uuid 4b64f5f6-c5d1-41f2-a0c3-d77281e13eae))
+    (pin "2" (uuid d926a45a-56f0-4d3d-a67b-d82e60d7c1d4))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -6211,7 +6211,7 @@
     (property "Datasheet" "" (at 223.52 85.09 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid ac1b96dc-01fc-4544-a0b3-5b7ca584e701))
+    (pin "1" (uuid a85a5ff8-e5fb-4291-b784-851adc669863))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -6236,7 +6236,7 @@
     (property "Datasheet" "" (at 102.87 53.34 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid df41dabf-4f86-47a8-8efe-ca5e008af34d))
+    (pin "1" (uuid b70d2abd-3f02-47b0-8401-cbba22d48804))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -6330,8 +6330,8 @@
     (property "voltage rating" "50V" (at 139.7 -15.24 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 5b8035c7-6722-46f8-abeb-b9b328f5abd7))
-    (pin "2" (uuid 23ec6c9c-1e1a-4ac1-a087-890dde234d67))
+    (pin "1" (uuid 94d52fc5-79be-4ab3-8ddb-19fea7e8bc84))
+    (pin "2" (uuid 4173beb5-95cd-4e35-9d91-91b3ad450046))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -6364,8 +6364,8 @@
     (property "Datasheet" "CRCW080520K0FKEAHP" (at 143.51 36.83 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid 9f0ca0e4-a128-402b-9f90-a91d7c58b2cc))
-    (pin "2" (uuid 697afbb6-adef-48cc-b9a3-889216d0186b))
+    (pin "1" (uuid ff241456-24cb-4e86-b90e-81e65dc3893c))
+    (pin "2" (uuid 94db597a-8937-4646-85b9-eceeb09b814e))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -6546,8 +6546,8 @@
     (property "Datasheet" "~" (at 127 200.66 0)
       (effects (font (size 0.8 0.8)))
     )
-    (pin "1" (uuid 18a4fbaa-b245-4655-af0a-1e9b95233c97))
-    (pin "2" (uuid a952d324-2b4b-47cb-aa74-5ef4fc55a70a))
+    (pin "1" (uuid 2a3d7a14-65d9-4769-8603-afa19ce1b08d))
+    (pin "2" (uuid 8b6d62e9-8846-472c-a7fc-0d63bcd59e95))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -6580,7 +6580,7 @@
     (property "Datasheet" "" (at 102.87 168.91 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 6b09bc8d-f193-4394-9e77-17651a6faa3e))
+    (pin "1" (uuid 657a9428-cd6b-408a-99c4-12fdfff1a875))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -6674,8 +6674,8 @@
     (property "voltage rating" "50 V" (at 196.85 135.89 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 2d6e2266-06cd-4bf9-8815-6735264efa69))
-    (pin "2" (uuid 1276a6f1-8ad7-4baf-a10b-d434aae4e25e))
+    (pin "1" (uuid 8b41c7ba-612c-4221-8590-89c2bde8fff2))
+    (pin "2" (uuid 1095d577-fa85-4871-8799-a7ec6e4cdb0b))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -6859,11 +6859,11 @@
     (property "typ forward diode voltage" "0.75V" (at 223.52 66.04 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 86b516d5-e862-4f36-8d57-9fb3d7a14d4b))
-    (pin "2" (uuid e8963559-97d6-4ae5-802c-f0130da60b92))
-    (pin "3" (uuid 7f9ca3ea-160e-4257-b0b3-c2601ff2e833))
-    (pin "4" (uuid 901457e7-5654-49ee-b4eb-37f515700664))
-    (pin "5-6-7-8" (uuid 70d75872-a92d-48d2-9dcf-ab38fef31e51))
+    (pin "1" (uuid 5adc5522-4a67-4855-a796-f71142f08f4e))
+    (pin "2" (uuid 7eb053c8-b5a7-4bc7-92d7-639162da6750))
+    (pin "3" (uuid 325e4d30-f175-4038-aa42-a060e122c485))
+    (pin "4" (uuid fa52478c-381e-4309-9482-25a0f9a2ed8c))
+    (pin "5-6-7-8" (uuid 15da6ed4-a00c-44c5-b8b8-554cf8c42041))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -6888,7 +6888,7 @@
     (property "Datasheet" "" (at 100.33 265.43 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid a928a699-d6e2-449a-8831-9c7b853dd060))
+    (pin "1" (uuid f67ed546-270a-47cb-b866-73fcfc2a8931))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -6916,8 +6916,8 @@
     (property "Datasheet" "CRCW080520K0FKEAHP" (at 143.51 162.56 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid fe86db42-4991-432b-b6e1-6f8e2b98d8af))
-    (pin "2" (uuid 5bcef780-1278-48d0-9c02-813911507c2a))
+    (pin "1" (uuid 3924135a-d9e0-43fd-ab70-f33350470e1d))
+    (pin "2" (uuid 2c334e6c-0297-48af-bc23-93ac7d6e2660))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -7042,8 +7042,8 @@
     (property "voltage rating" "50V" (at 264.16 -6.35 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 5ec88316-29c0-4092-9c30-a62575d41ed3))
-    (pin "2" (uuid 62bcef5c-397c-4dfe-92bd-6cd209f41ce8))
+    (pin "1" (uuid 1153206a-125c-436f-acd3-c4ebd79c6486))
+    (pin "2" (uuid 9b7192d1-7439-46af-882a-79fb205e4d6c))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -7128,9 +7128,9 @@
     (property "Manufacturer_Part_Number" "SI2302DDS-T1-GE3" (at 128.27 956.21 0)
       (effects (font (size 0.8 0.8)) (justify left top) hide)
     )
-    (pin "1" (uuid fd996883-6313-4e53-8058-5d9eadccb90d))
-    (pin "2" (uuid bb91f211-0389-455d-804c-43836e9b90f6))
-    (pin "3" (uuid 568b3454-4efc-4682-a46b-d63e12a6a9e3))
+    (pin "1" (uuid bca7d433-e26d-4e69-980c-d32c3d5ab34e))
+    (pin "2" (uuid 9f4f115b-c1be-48b0-95eb-44feeabadaf2))
+    (pin "3" (uuid 81df70c5-d6b8-496c-9338-c35ae6a5b378))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -7186,8 +7186,8 @@
     (property "Datasheet" "CRCW080520K0FKEAHP" (at 143.51 46.99 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid 9b487618-c761-41ad-955a-3abea4de1130))
-    (pin "2" (uuid a703df61-3373-442c-be33-fbf40dc62ad9))
+    (pin "1" (uuid dc5668e4-3f3c-49dd-abb8-e9ecc0ea95f6))
+    (pin "2" (uuid c61418d4-9388-4054-935d-a4428107ac73))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -7268,8 +7268,8 @@
     (property "Datasheet" "~" (at 256.54 62.23 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 5d31fed2-70e6-4c48-9b4d-98319d85590c))
-    (pin "2" (uuid 9cf85be1-7d41-4699-8842-c4ccb6287a99))
+    (pin "1" (uuid 0bcbb982-d35a-435f-aac4-cbeafd913634))
+    (pin "2" (uuid ef79fc05-937a-42d2-8600-f7cb3d2296c6))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -7300,8 +7300,8 @@
     (property "Datasheet" "~" (at 52.07 243.84 0)
       (effects (font (size 0.8 0.8)))
     )
-    (pin "1" (uuid bca18bdd-1471-44b2-845e-eddcdeb653b5))
-    (pin "2" (uuid 031c52c2-52fa-4584-9ad8-f226ea4f9fd2))
+    (pin "1" (uuid 6be641ba-150c-4ece-8a86-b69d1e62df74))
+    (pin "2" (uuid 6dcfa3e4-8d6a-4d0d-bd1c-aed88a6f3f48))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -7382,9 +7382,9 @@
     (property "Manufacturer_Part_Number" "BAT54" (at -598.07 60.96 0)
       (effects (font (size 0.8 0.8)) (justify left top) hide)
     )
-    (pin "1" (uuid 4824b513-5a7a-4f47-9239-81645deb0c2c))
-    (pin "2" (uuid 0f106069-090f-4d57-8bb2-73345b888ff5))
-    (pin "3" (uuid 3213856f-5dc4-44e6-9c36-f4ed4a87e0ae))
+    (pin "1" (uuid 13a7738d-607a-4622-9a72-cd64432445b4))
+    (pin "2" (uuid 511bbd26-b6d3-4a95-88da-da92c38107f2))
+    (pin "3" (uuid 73a3097f-79a6-4eb7-8039-9a75c6b9f2bb))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -7511,8 +7511,8 @@
     (property "voltage rating" "50 V" (at 100.33 180.34 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid f2b81356-ad92-4ebd-88bc-48723df01dcc))
-    (pin "2" (uuid 47f2c4b8-fa95-414d-9d52-e1b05a5e2f53))
+    (pin "1" (uuid 96839348-fc77-4221-9526-92de4dca6fc6))
+    (pin "2" (uuid c642ed59-7c65-479f-8cd2-ebbabee12ca5))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -7545,7 +7545,7 @@
     (property "Datasheet" "" (at 267.97 77.47 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 2bbbe995-1517-4308-a326-f54cf57fbf12))
+    (pin "1" (uuid 6a2e7aa0-0156-4121-a180-8358360651b4))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -7639,8 +7639,8 @@
     (property "voltage rating" "50V" (at 269.24 -44.45 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 9b85247c-4eca-481d-8b8f-309a1e67a6d6))
-    (pin "2" (uuid 498572e3-bb60-4ab7-b65f-54bb70ab9f08))
+    (pin "1" (uuid 15be4356-392b-4a23-8e9c-6e24539a0c21))
+    (pin "2" (uuid 0a7d701c-4d5f-4b10-8ec8-85b9276551e3))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -7751,8 +7751,8 @@
     (property "wavelength" "569nm" (at 137.16 12.7 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid bbe9c00f-21ee-4fc1-8965-340cd1a85b13))
-    (pin "2" (uuid 4bf53b8a-c612-46e5-81df-5b9bd97b5d59))
+    (pin "1" (uuid d3eacd0a-dbbb-4775-8a28-9affb6ff0a37))
+    (pin "2" (uuid 436576c5-9f86-4490-8760-9027f55d4133))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -7777,24 +7777,24 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq24650.pdf?ts=1685914040130&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ24650%252Fpart-details%252FBQ24650RVAT%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Docb-tistore-promo-app_opn_en-cpc-storeic-google-wwe%2526utm_content%253DDevice%2526ds_k%253DBQ24650RVAT%2526DCM%253Dyes%2526gclid%253DCj0KCQjw7PCjBhDwARIsANo7CgkhoGmoalu53NU2y7_FyP19jaRhmzRcCapYNJKmB6NLoc6D-WQx8vwaAg7FEALw_wcB%2526gclsrc%253Daw.ds" (at 118.11 252.73 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "10" (uuid add41305-53bf-46bf-a6f0-763c53e5add0))
-    (pin "12" (uuid 180aa491-8b8c-43ee-9699-957e7fc3e0aa))
-    (pin "13" (uuid b6f192e1-0d4f-4044-a691-add07319d190))
-    (pin "14" (uuid 527cdb9d-50b4-4a20-9752-916213278b85))
-    (pin "15" (uuid c2c63673-4d97-4394-9b80-1a5dfe0ee7b7))
-    (pin "16" (uuid ef2f5915-9fa3-4f28-9fa2-9fc4bcd7c3b5))
-    (pin "2" (uuid e31f8bd1-06a8-42b2-814f-186777805de8))
-    (pin "3" (uuid 2da9f2ed-a679-4044-b583-8634fa89de68))
-    (pin "4" (uuid 81232184-d067-4257-b7e4-b4bef7e6b66b))
-    (pin "5" (uuid 95be7823-62fc-402a-a49b-e01c1d62db21))
-    (pin "6" (uuid 9f562eff-2402-4477-bc14-c3ca72be2677))
-    (pin "8" (uuid 4c0d7ea1-f22b-4b44-8bef-e3469fd57405))
-    (pin "9" (uuid 4e473492-78c1-40df-b172-ebdac73affe1))
-    (pin "1" (uuid dbcdf21b-c9f8-4622-81f7-a60c394f6b0c))
-    (pin "11" (uuid be974c9c-8742-42d0-9a0f-7a276cc07565))
-    (pin "17" (uuid f4dd1ee5-056f-4384-9f75-738356d22ec0))
-    (pin "18" (uuid 0fe5f0ed-f154-4b03-aaa4-42b716ebe775))
-    (pin "7" (uuid eba31c0e-35fd-4e6f-ab21-f4f82acff133))
+    (pin "10" (uuid eb5b751e-8188-4c91-8de6-38a8a16165d7))
+    (pin "12" (uuid 71698527-bacf-42b4-b5cd-8dc773206038))
+    (pin "13" (uuid a45e152f-22a1-4e41-aafd-323a1ea0ddc6))
+    (pin "14" (uuid fec34fe6-fc82-4fa4-ae80-11e0b1cf3a99))
+    (pin "15" (uuid b2e859b8-55d8-41a2-8473-4b69fde0d734))
+    (pin "16" (uuid 05db0edd-ff79-4689-bfd8-3ff0143503ad))
+    (pin "2" (uuid 63d44c73-b8d8-4839-ba26-13116d1a06c1))
+    (pin "3" (uuid 4ff5f087-2614-43d1-9bbe-08ec012bebc3))
+    (pin "4" (uuid 497cca9f-55cf-45e4-9d48-519f784c296a))
+    (pin "5" (uuid 9df2265d-2e8a-42b2-b667-9db791816fb1))
+    (pin "6" (uuid e1f5b1f6-668c-404b-b349-86d3fc44964d))
+    (pin "8" (uuid c68d4a81-704c-4d4d-9cc4-2d89faa99eef))
+    (pin "9" (uuid 960bc46c-a0bc-4102-8e2d-f4a2209fc576))
+    (pin "1" (uuid cf330723-ff4f-4f70-a8c0-17d9749fa792))
+    (pin "11" (uuid b42ece6e-0db0-4794-9f80-b05bcb9b9c89))
+    (pin "17" (uuid cf369568-e737-42f0-a867-a2c3fd62d378))
+    (pin "18" (uuid 25070c03-6e8f-4885-ba20-91ad7f77eb15))
+    (pin "7" (uuid 89f89fec-0db4-495b-a6a0-acabdba8c7c2))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -7827,8 +7827,8 @@
     (property "Datasheet" "" (at 52.07 264.16 0)
       (effects (font (size 0.8 0.8)))
     )
-    (pin "1" (uuid 41081f98-22f3-478d-b0b8-9a79272cbb6a))
-    (pin "2" (uuid 5215166c-7566-4fbc-8854-47121413d29f))
+    (pin "1" (uuid 75279eae-48fc-490b-82bb-5196d58beedb))
+    (pin "2" (uuid 91afa9fb-b6d3-4eb6-a26e-fa92ebe2c37d))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -7853,7 +7853,7 @@
     (property "Datasheet" "" (at 198.12 39.37 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 1df17d47-b5a3-47ca-92c9-119223a11632))
+    (pin "1" (uuid 1ce3d0ac-32b9-4ffe-b7f5-c0b58b41864e))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -7878,8 +7878,8 @@
     (property "Datasheet" "CRCW20102R00FKEF" (at 109.22 147.32 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid ac8092e3-57e3-4ba5-a9e0-ca69447c1ca4))
-    (pin "2" (uuid 2cc8a86c-0a2f-4afd-9f8f-2d6b1f72cd62))
+    (pin "1" (uuid 9116be14-81d6-4146-afe4-64f199af78a5))
+    (pin "2" (uuid a5da3754-b2c9-4eb6-8753-348da1a8c4a5))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/4f028e55-4c46-47b6-9c45-f6b50d9d4db8"
@@ -7985,7 +7985,7 @@
     (property "Datasheet" "" (at 266.7 36.83 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 151158e4-581d-49e6-9776-1b7397109108))
+    (pin "1" (uuid 65dcb74a-14ea-4675-a5a5-220d85d4aa34))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -8079,8 +8079,8 @@
     (property "voltage rating" "50V" (at 140.97 100.33 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 013a1ecb-7e9c-48dc-9a9d-967303d4b66d))
-    (pin "2" (uuid 701af318-e366-4423-a75c-5add28a2a3fc))
+    (pin "1" (uuid 7ba0cd5b-49fb-43d5-be40-c4201e1e2675))
+    (pin "2" (uuid 43e70be3-0725-4bfe-9f31-dce9812bb1a4))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8182,8 +8182,8 @@
     (property "voltage rating" "50V" (at 214.63 -19.05 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid f75ccc6c-e277-4952-88ef-b039904158f9))
-    (pin "2" (uuid c98d0973-cf34-4701-aa26-acd9997f9dc7))
+    (pin "1" (uuid 3ba5bf51-5561-4333-8c00-c8110966d32f))
+    (pin "2" (uuid 2b660784-f2da-4742-973a-130e37d8b4c6))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8244,7 +8244,7 @@
     (property "Datasheet" "" (at 72.39 262.89 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 0d92fa9a-31c8-4efb-ab5f-0b85b7feb662))
+    (pin "1" (uuid d8134bac-a774-47ef-83b5-41b5b5a466e4))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -8350,8 +8350,8 @@
     (property "wavelength" "569nm" (at 137.16 128.27 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 22b3fa71-595a-4626-8a2e-c676598acb3f))
-    (pin "2" (uuid b480957c-7a5f-4371-b9a8-6def48bb5c5f))
+    (pin "1" (uuid 71da6ad9-d2dd-4df6-b3d3-36d85291c639))
+    (pin "2" (uuid 7fae5232-a3ba-40dd-8495-53d736b6caa4))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -8376,7 +8376,7 @@
     (property "Datasheet" "" (at 72.39 241.3 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 9ac6c431-8f77-4e29-86b2-fb207faa17c6))
+    (pin "1" (uuid 2ecbe7ba-7472-49d6-b777-fb679ebbf877))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8433,8 +8433,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0603100kfkeahp/vishay?region=nac" (at 134.62 139.7 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 776eb2b4-1b20-4b78-8994-7f2f6556a44a))
-    (pin "2" (uuid 3209b56e-81dd-40c3-ac54-3ff41a3d6e08))
+    (pin "1" (uuid 7822671b-0987-4f57-930b-91fd9b5f63ef))
+    (pin "2" (uuid cb4e3c74-e0bb-4c89-b007-d4702a952e80))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8467,8 +8467,8 @@
     (property "Datasheet" "CRCW080520K0FKEAHP" (at 138.43 144.78 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid a416f99d-6e2c-4b57-8aa0-6afbbdfa85d7))
-    (pin "2" (uuid 584a1071-f668-4a8b-b5e8-c63845774e72))
+    (pin "1" (uuid 9eadeba4-d7fb-4967-a73f-ae5f899478f0))
+    (pin "2" (uuid af032553-1c38-452f-bce7-6ca97195a955))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/4f028e55-4c46-47b6-9c45-f6b50d9d4db8"
@@ -8496,8 +8496,8 @@
     (property "Datasheet" "WSL2010R0330FEA" (at 254 167.64 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid 27a22809-5987-47a7-a7d6-b31ab17653bf))
-    (pin "2" (uuid a34ae434-9af1-410a-b91f-8fd8d549be34))
+    (pin "1" (uuid 6726a4ed-8fa0-4edf-9328-5b660522ac19))
+    (pin "2" (uuid 9d3259b8-1a3e-4317-8673-a40626f845a2))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8530,8 +8530,8 @@
     (property "Datasheet" "~" (at 127 85.09 0)
       (effects (font (size 0.8 0.8)))
     )
-    (pin "1" (uuid 89966250-e9f8-439a-a1b4-a15998f0aec1))
-    (pin "2" (uuid e11b656b-0643-4c85-9826-1a03fd44ad12))
+    (pin "1" (uuid 31f8b224-3c60-4805-bb47-4c1f761e98d3))
+    (pin "2" (uuid 255dacd8-e5fc-4005-8be9-10628c3d60f9))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8633,8 +8633,8 @@
     (property "voltage rating" "50V" (at 198.12 78.74 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 1aec47e2-272f-4a56-8d09-43be1ed4376f))
-    (pin "2" (uuid 9a7b99e0-3cf0-48e1-9562-83a5d298592b))
+    (pin "1" (uuid 7c563ee1-2b3a-4f94-aa82-79c061132be3))
+    (pin "2" (uuid cac1ff17-fa87-4fa9-bc97-14a50c8d2c73))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8667,7 +8667,7 @@
     (property "Datasheet" "" (at 149.86 77.47 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 17f2d6c2-d9c4-42eb-a5f3-d75351afc92a))
+    (pin "1" (uuid a319542a-b72e-45c2-88d9-bbfacf0f5e8e))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -8764,8 +8764,8 @@
     (property "voltage rating" "50V" (at 102.87 82.55 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 73b6f90e-ccad-49b2-90f5-bd029d49b757))
-    (pin "2" (uuid f1100f84-8b8f-44b8-86a9-c86b36d27e16))
+    (pin "1" (uuid dd0b1275-e882-4d91-a65c-f74040165c21))
+    (pin "2" (uuid 0969f873-5172-4d5e-956b-670b8303d97f))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8867,8 +8867,8 @@
     (property "voltage rating" "50V" (at 214.63 96.52 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid a74931fa-e160-4736-9320-635c7689e41d))
-    (pin "2" (uuid d68b3a67-94ff-4d96-ba1c-73af6bc100ae))
+    (pin "1" (uuid 17893fce-5e3e-4df0-a0bc-4651b3854fdc))
+    (pin "2" (uuid e9fcbb4b-2870-4516-9d05-63cc4cf865a8))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -8901,7 +8901,7 @@
     (property "Datasheet" "" (at 176.53 111.76 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 3d618da5-3b37-4a55-9087-c6ef08151ae4))
+    (pin "1" (uuid 2b0bf126-61d9-41c7-83a2-60e2a2d87f5c))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -8926,8 +8926,8 @@
     (property "Datasheet" "CRCW060330K1FKEAHP" (at 149.86 194.31 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid 44c7cfb9-2404-47a1-b785-b791963500bc))
-    (pin "2" (uuid a7eb1815-e6b4-4a53-8419-1f8d702d5c3b))
+    (pin "1" (uuid f56b0401-e6c3-4dcb-a5d4-0abd0cd0418e))
+    (pin "2" (uuid 5db2568a-0e5a-44f9-a624-5071ad4bfe42))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -8952,7 +8952,7 @@
     (property "Datasheet" "" (at 214.63 58.42 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid c0132c57-5948-4a16-ab3a-918cfb9d8616))
+    (pin "1" (uuid 30111a29-0269-4c3c-9b47-831acb872420))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -8977,8 +8977,8 @@
     (property "Datasheet" "~" (at 256.54 176.53 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 2dd05f54-f597-4469-9146-f9aca015d475))
-    (pin "2" (uuid ebb38642-cee4-4614-a8ee-44c0cb3848f9))
+    (pin "1" (uuid 78ab9333-4e0d-46fd-85a2-75d8065d87f3))
+    (pin "2" (uuid 4f70805a-92fb-49c7-86b0-45b8c71b7cae))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -9319,11 +9319,11 @@
     (property "typ forward diode voltage" "0.75V" (at 223.52 33.02 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 1223ec0f-954a-4f3b-97df-7ca7d8812e19))
-    (pin "2" (uuid b4d5201b-283e-4ff3-9d6f-42ca71061b4e))
-    (pin "3" (uuid 083fbc9f-87e1-4d9c-8d74-2fbe26b5002a))
-    (pin "4" (uuid 0267918b-5c23-4042-9cc2-0d74d57868c6))
-    (pin "5-6-7-8" (uuid a35391b7-496a-444d-89b2-a64e2df352d0))
+    (pin "1" (uuid 6862b632-73fa-4d65-878e-94bd68cf060d))
+    (pin "2" (uuid 5157fe31-d40b-43a3-9d08-86412ec9e2fc))
+    (pin "3" (uuid f7783798-7cac-42c7-8ce4-2f8ab1c9d78a))
+    (pin "4" (uuid dcce8774-c8d8-4f50-9e91-d51162ebc807))
+    (pin "5-6-7-8" (uuid 97948ced-36df-4381-9fdc-b457a983bfce))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -9417,8 +9417,8 @@
     (property "voltage rating" "50 V" (at 196.85 -12.7 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 36130db3-1a66-4afd-bfd6-272781aa9941))
-    (pin "2" (uuid c2be2782-c1b0-466d-baf1-6eaf7ad38480))
+    (pin "1" (uuid 65c84eba-5ba7-438d-b671-223d5c92b42d))
+    (pin "2" (uuid c433006d-3696-4199-893f-22b3718e22d1))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -9574,11 +9574,11 @@
     (property "typ forward diode voltage" "0.75V" (at 223.52 -82.55 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid b8bf436a-e85f-4cd0-b4b9-3f9bcb338b6d))
-    (pin "2" (uuid 794ef3e6-4054-47fa-bcf6-fbbfc94c0dd3))
-    (pin "3" (uuid fa03c733-4705-44da-9178-49b530e923f4))
-    (pin "4" (uuid 2a7a9603-51a4-4536-a3ed-b788d8c5f2ed))
-    (pin "5-6-7-8" (uuid aa223a03-d952-4358-a086-9743dbed7b77))
+    (pin "1" (uuid 12a26c4e-9377-498c-977c-a9a7edb65488))
+    (pin "2" (uuid eccb0cf4-4674-4fae-9d70-47856654f0b4))
+    (pin "3" (uuid 389eee1a-553e-444d-b457-f90a26db1e3f))
+    (pin "4" (uuid aa3de48c-9995-464d-95ce-638bd0a2f839))
+    (pin "5-6-7-8" (uuid c5e5e082-3b0b-4fae-af0e-6a64977fb820))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -9697,8 +9697,8 @@
     (property "voltage rating" "50V" (at 270.51 111.76 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid e521d1c6-e21c-4e29-b74e-0c7c31e5821d))
-    (pin "2" (uuid bde30477-9118-4063-becc-8d7917a044da))
+    (pin "1" (uuid 932a206e-a7e2-403c-81c0-b4857d8ca27e))
+    (pin "2" (uuid d18c2207-6d16-4950-8299-6f4bc1fb3ff7))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -9803,8 +9803,8 @@
     (property "voltage rating" "50V" (at 262.89 68.58 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid cd8cbab5-326f-4806-b6e3-1bde1dc97c97))
-    (pin "2" (uuid e97ab4d3-bd75-44aa-8e75-5f62e38fe8a4))
+    (pin "1" (uuid c5e1a500-babc-437d-9fd4-723987a951e7))
+    (pin "2" (uuid dc27e93b-1519-4511-ad5a-4c40dfa3734a))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -9884,8 +9884,8 @@
     (property "Datasheet" "~" (at 127 90.17 0)
       (effects (font (size 0.8 0.8)))
     )
-    (pin "1" (uuid 4cbd488e-dfaf-4f02-99f4-68b00812c2ae))
-    (pin "2" (uuid 9fb3be5c-b3e8-4cbc-8038-617e75daa40d))
+    (pin "1" (uuid ce3359f9-c2cd-47c8-a84d-6c5c48b7e1c4))
+    (pin "2" (uuid c6608b18-58fb-48d9-830e-32f89e52598a))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -9987,8 +9987,8 @@
     (property "voltage rating" "50V" (at 198.12 -36.83 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid e7a8e878-4d84-4f8c-b58c-ed59dcfe9bae))
-    (pin "2" (uuid bb3c11f8-6d8c-407d-96c5-48490580c920))
+    (pin "1" (uuid 09f3ea59-eefa-4eca-a432-cfea4667589d))
+    (pin "2" (uuid ef59c3a5-3a17-42af-a0c7-148bacb8fdca))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10064,9 +10064,9 @@
     (property "Manufacturer_Part_Number" "BAT54" (at -598.07 176.53 0)
       (effects (font (size 0.8 0.8)) (justify left top) hide)
     )
-    (pin "1" (uuid fb235015-786c-4721-9328-416bab9c2f19))
-    (pin "2" (uuid e4f5fc5e-6660-43b2-b108-3f97133076bf))
-    (pin "3" (uuid 724bf5f4-13ed-44e4-b84b-2293ed2e0d33))
+    (pin "1" (uuid 5d352132-38a1-4ab0-b0c6-191ad2685516))
+    (pin "2" (uuid 94d6efb0-7087-4d1e-ab5b-8f61f30210b5))
+    (pin "3" (uuid dbde55ee-19f2-4cb5-8dff-0a08f8fc7145))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10148,8 +10148,8 @@
     (property "Manufacturer_Part_Number" "744770112" (at 245.11 971.45 0)
       (effects (font (size 0.8 0.8)) (justify left top) hide)
     )
-    (pin "1" (uuid 74491a84-f339-4ad3-8f89-166cde715c2f))
-    (pin "2" (uuid 398f8894-fa22-40cd-a840-fcd76e64c87f))
+    (pin "1" (uuid d8c7ccea-bf20-4a46-9f48-76a33da3998d))
+    (pin "2" (uuid 956f9a85-1354-4130-81bc-281aa1d8df81))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10207,8 +10207,8 @@
     (property "Datasheet" "~" (at 151.13 186.69 0)
       (effects (font (size 0.8 0.8)))
     )
-    (pin "1" (uuid fa5c61cb-737d-467e-9b07-82d8546b63aa))
-    (pin "2" (uuid d3042f54-7e12-4613-80ff-445f45420609))
+    (pin "1" (uuid 3d6f8bc6-91c8-4218-b9d8-62a7b236bbea))
+    (pin "2" (uuid dd5a0194-3623-4fe2-bdfa-4b581642141b))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10265,8 +10265,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0603100kfkeahp/vishay?region=nac" (at 134.62 39.37 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid a3d0a2f0-9bb2-436c-a332-535273286434))
-    (pin "2" (uuid 8341b04f-3ed8-482e-8baf-f7d85d634e63))
+    (pin "1" (uuid d19296c1-fead-44e2-856b-1eb2cb69e0a8))
+    (pin "2" (uuid 0c58157b-b09d-4e0b-a104-670f898b1aab))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10299,7 +10299,7 @@
     (property "Datasheet" "" (at 266.7 152.4 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 0d9c0ed2-8671-497b-ba55-d11a6a015688))
+    (pin "1" (uuid 7e37aeea-412e-4b19-8551-86fc4843c24c))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -10396,8 +10396,8 @@
     (property "voltage rating" "50V" (at 262.89 -46.99 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid f2b32ed1-5568-46ac-9660-ef9ad15aac65))
-    (pin "2" (uuid b1611431-9c48-4a1d-aace-83c32078b968))
+    (pin "1" (uuid 92cf5023-a367-4c59-9d5f-af96f240f285))
+    (pin "2" (uuid 7b91a00f-318a-46da-bf39-679a111391e0))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10458,7 +10458,7 @@
     (property "Datasheet" "" (at 124.46 53.34 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 3f511cd4-6a4d-4c12-8682-76fcf7758086))
+    (pin "1" (uuid 241fa3f4-a92b-4b6d-9aca-ea68f2d934b3))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -10483,8 +10483,8 @@
     (property "Datasheet" "CRCW080520K0FKEAHP" (at 143.51 152.4 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid 3825ffb3-2b1f-4581-a1c1-ad83bf35313c))
-    (pin "2" (uuid 89e785c7-d33f-451b-aeeb-9eb04e807dc8))
+    (pin "1" (uuid f5924607-d9e4-403e-ab7c-b9c330166d4b))
+    (pin "2" (uuid 59b3c2e0-898e-4ab9-9c32-2dd40dcf58e2))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -10578,8 +10578,8 @@
     (property "voltage rating" "50 V" (at 196.85 19.05 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 3e7c2b90-587d-4335-a707-8c6d641450b5))
-    (pin "2" (uuid 6189035b-d5c4-4e6c-8613-bb6050c7ff31))
+    (pin "1" (uuid 55e8364a-3c96-4410-9089-0967cb192467))
+    (pin "2" (uuid c5321445-eb50-43e3-9f88-dcbcc18cde04))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10709,8 +10709,8 @@
     (property "voltage rating" "50 V" (at 196.85 102.87 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 130e9367-d2db-4909-8551-38218d6f539d))
-    (pin "2" (uuid 720d4b0b-6272-4142-a141-a1552d50328d))
+    (pin "1" (uuid ba6b52cf-d201-445a-ac83-dba77cc52c73))
+    (pin "2" (uuid 86816009-ec2c-45d4-b4d0-de255c5c964f))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10755,9 +10755,9 @@
     (property "MANUFACTURER" "Diodes" (at 171.45 139.7 0)
       (effects (font (size 0.8 0.8)) (justify bottom) hide)
     )
-    (pin "1" (uuid 5c110422-fc81-484d-9192-23dea8bd9d6d))
-    (pin "2" (uuid 2e44e629-2cb5-4aad-ae28-17c6faa1d59c))
-    (pin "3" (uuid b5b42a1e-f447-4bc5-8501-6dff75e16843))
+    (pin "1" (uuid b4551bba-c595-4c64-8014-72d7917e8144))
+    (pin "2" (uuid 78769363-e89c-4279-8830-b5e088a29c63))
+    (pin "3" (uuid fc061e29-4d09-4c0e-9b45-8d6b85592f51))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10790,11 +10790,11 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv321a.pdf?ts=1685909774327&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMV321A%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-amps-null-prodfolderdynamic-cpc-pf-google-wwe_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC%2BSEARCH%2BADS%2526DCM%253Dyes%2526gclid%253DCj0KCQjw7PCjBhDwARIsANo7CglKgmrjg2-xP_kD7Sy3eRYNt96GS_9SDH6Nj_DKGAXoq9uQ8th2dkkaAoGDEALw_wcB%2526gclsrc%253Daw.ds" (at 82.55 255.27 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid a3079141-f8be-4478-8e37-728927508130))
-    (pin "2" (uuid 9ab41e4c-db61-4859-bf79-50b5fea7367e))
-    (pin "3" (uuid 586b30c6-ef96-4892-91c6-a0b96030838e))
-    (pin "4" (uuid fef75787-efed-44c6-8e89-72e2d202c04c))
-    (pin "5" (uuid e450d792-8cea-4509-aaa0-4d3a6b00da8d))
+    (pin "1" (uuid 70afbdf6-8bd0-434d-abe1-60be3bc2b295))
+    (pin "2" (uuid cb69503f-ed6c-42e2-9a40-22b4f101012f))
+    (pin "3" (uuid 505f2c61-5020-400d-b1f0-4abe09db26c5))
+    (pin "4" (uuid 29eb07e7-19d6-464a-b3fd-a493e8d9bc85))
+    (pin "5" (uuid 19c4c90b-bce9-4e64-887c-681b897c4403))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10855,7 +10855,7 @@
     (property "Datasheet" "" (at 100.33 241.3 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid ae867634-7761-4137-b17f-ea2b03dece03))
+    (pin "1" (uuid 75f13bed-53c2-434e-a514-381784c99646))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -10888,8 +10888,8 @@
     (property "Datasheet" "CRCW080520K0FKEAHP" (at 138.43 29.21 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid dba537f5-fe82-46a5-b6d1-7db562927a77))
-    (pin "2" (uuid 48a57b72-2bf0-4e3f-8af6-30cd62d02eb9))
+    (pin "1" (uuid d41ca638-001a-4606-9b1b-637d9a09b8ae))
+    (pin "2" (uuid 93b59b75-853d-48be-9b32-5b3f0bed9dfc))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/4f028e55-4c46-47b6-9c45-f6b50d9d4db8"
@@ -10986,8 +10986,8 @@
     (property "voltage rating" "50V" (at 270.51 -3.81 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 9e488b29-5a1a-4018-999f-aec26132f468))
-    (pin "2" (uuid bd515c03-da38-4ea5-aec2-5c788a6ca596))
+    (pin "1" (uuid c52cd91d-1e80-4bc6-8e07-ea595b866c7d))
+    (pin "2" (uuid e8234a9e-b560-449c-b265-718fb4e996cb))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -11053,7 +11053,7 @@
     (property "Datasheet" "" (at 198.12 154.94 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 7da1af3e-ea2a-4e95-94be-56c4dcf8f7d5))
+    (pin "1" (uuid 745a0202-f420-40d7-8001-bbed350bcfcd))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -11078,7 +11078,7 @@
     (property "Datasheet" "" (at 124.46 167.64 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 3b563d43-2cfa-4a93-89d8-9d63619122f7))
+    (pin "1" (uuid 1ee3fc79-98cb-4c09-aa49-b7e1ce2ed278))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -11118,9 +11118,9 @@
     (property "Manufacturer_Part_Number" "SI2302DDS-T1-GE3" (at 128.27 840.64 0)
       (effects (font (size 0.8 0.8)) (justify left top) hide)
     )
-    (pin "1" (uuid 3fdab541-8fab-4f9e-aefc-692cb5f892cb))
-    (pin "2" (uuid 27e446c7-3785-4b44-b06f-880f2c9e0c75))
-    (pin "3" (uuid e7ebd069-b493-437b-9b2e-ab31bc5407c4))
+    (pin "1" (uuid 88f7d5c4-eccd-4390-8565-ef7301d0621b))
+    (pin "2" (uuid 53897b74-363b-4b97-8293-fea137cb9972))
+    (pin "3" (uuid 84ced0f9-ac98-4b40-b2ce-2e09e5aab053))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -11148,7 +11148,7 @@
     (property "Datasheet" "" (at 267.97 193.04 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 25f83bb8-380f-49b1-bd10-aa2bba565663))
+    (pin "1" (uuid 22b78fe3-0b13-4c33-b96e-049883c8f65e))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -11197,8 +11197,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw060310r0fkeahp/vishay?region=nac" (at 219.71 22.606 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid b423b783-c0b2-44aa-9109-1f41d6003109))
-    (pin "2" (uuid 845a6bcf-9d57-47f9-b528-f1cdd170ed55))
+    (pin "1" (uuid 6567d879-bf3f-4611-9769-c367d0618be0))
+    (pin "2" (uuid b8ae945b-8097-44d5-aa0d-89ab5c1f7679))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -11295,8 +11295,8 @@
     (property "voltage rating" "50V" (at 102.87 -33.02 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 458e74f9-657d-41b4-83a6-b746d5d897e7))
-    (pin "2" (uuid 25b0bbc1-ffe0-4d51-a6b9-193a02a45ac3))
+    (pin "1" (uuid ec13e2da-0e46-4ac4-8b6b-1cf44dd29dfd))
+    (pin "2" (uuid 4296bccb-4752-44dd-97e5-3fe9bb55a89f))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -11329,7 +11329,7 @@
     (property "Datasheet" "" (at 140.97 176.53 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 21c64ec0-3776-4169-b3f9-299ceb044ba3))
+    (pin "1" (uuid 73be231d-df50-4c27-a1c7-b7bb53910396))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -11385,7 +11385,7 @@
     (property "Datasheet" "" (at 139.7 60.96 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 3d1bd875-981d-425e-9114-fbf039b48bb5))
+    (pin "1" (uuid d29988b5-4f8e-4c08-80c9-96b62dfd35e7))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -11434,8 +11434,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw060310r0fkeahp/vishay?region=nac" (at 219.71 138.176 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid a6316215-6ead-4a94-a9ac-ead7a871d181))
-    (pin "2" (uuid 260cbc24-8523-443a-b53c-c918d0059b0b))
+    (pin "1" (uuid 5a1c5e1f-2dad-4cb7-9fbb-b7fd2f42009e))
+    (pin "2" (uuid 0560104c-5147-431c-992e-759fa78d2b22))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -11538,8 +11538,8 @@
     (property "wavelength" "569nm" (at 137.16 123.19 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 975ccb23-e243-4cb0-a82a-dc4708811249))
-    (pin "2" (uuid e86100b1-fb5d-46da-bd2d-210b5784c024))
+    (pin "1" (uuid 77aa82c0-822e-4dc5-b660-8d10683a3f0d))
+    (pin "2" (uuid 74ab01a3-6cbb-4a8b-8408-e21524a4ae72))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -11687,11 +11687,11 @@
     (property "typ forward diode voltage" "0.75V" (at 223.52 -49.53 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid db12d2c2-6d81-46d9-a018-74b2225a1509))
-    (pin "2" (uuid 0e209ea6-98ef-4226-9c93-1efe61a17ab1))
-    (pin "3" (uuid 36d55d18-d3c3-4d1e-aaf6-111bec905cdd))
-    (pin "4" (uuid 9571e48b-3593-4d7e-87cd-02dbdd2cfb86))
-    (pin "5-6-7-8" (uuid 90be93a0-8650-4243-8990-1a5dc703082c))
+    (pin "1" (uuid 742095c2-39d8-4c42-adfe-cf2efd937557))
+    (pin "2" (uuid 416ce35c-2214-4294-a146-7f169f57aae9))
+    (pin "3" (uuid 36303508-f5fe-408c-8786-f8258697801c))
+    (pin "4" (uuid cba408a1-7d7b-4075-958f-b9098fa5b06a))
+    (pin "5-6-7-8" (uuid a4f4dd81-298b-47ea-ad10-686b029e168d))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -11794,8 +11794,8 @@
     (property "wavelength" "569nm" (at 137.16 7.62 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid e5906894-f3eb-4cfe-a668-e422b8973101))
-    (pin "2" (uuid 2daa162f-7a39-42d9-8625-a77a5743b0d7))
+    (pin "1" (uuid 1b188642-bfa8-48a4-bcec-8551f8248517))
+    (pin "2" (uuid c2e88bcb-892b-41ef-afec-2a418c2d7a5b))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -11820,7 +11820,7 @@
     (property "Datasheet" "" (at 176.53 120.65 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 761ed06a-35e3-493d-99c7-bfd1cb7acf17))
+    (pin "1" (uuid 38ba8177-b7e6-4147-8d59-417fb08495a7))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -11973,8 +11973,8 @@
     (property "voltage rating" "50V" (at 264.16 109.22 0)
       (effects (font (size 0.8 0.8)) (justify left) hide)
     )
-    (pin "1" (uuid 43340276-af56-44be-9bf9-3614b29db1ab))
-    (pin "2" (uuid e04e4158-5e89-4640-a54f-dc9ea30a2701))
+    (pin "1" (uuid dfa9ad7d-0775-4313-904d-9ab8b24e4c10))
+    (pin "2" (uuid 7c96f4e0-b9c3-4f9c-ac00-2c6df12cf816))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -12033,8 +12033,8 @@
     (property "Datasheet" "~" (at 127 205.74 0)
       (effects (font (size 0.8 0.8)))
     )
-    (pin "1" (uuid 415fafe0-37f2-4e69-976b-8cc3dd267969))
-    (pin "2" (uuid a98a9b2c-6e3c-4da3-bb17-99d38a816b86))
+    (pin "1" (uuid 49660bae-a04f-437d-9f1b-8b4d49f2e065))
+    (pin "2" (uuid 1ddd1e2c-ffc3-4fff-823f-b8a2ce668aa5))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -12067,7 +12067,7 @@
     (property "Datasheet" "" (at 52.07 276.86 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 07773246-dcbf-4f78-92e3-af3e1982c731))
+    (pin "1" (uuid 3f69f416-8cce-4850-a97a-8099f615992d))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
@@ -12207,8 +12207,8 @@
     (property "Datasheet" "~" (at 151.13 71.12 0)
       (effects (font (size 0.8 0.8)))
     )
-    (pin "1" (uuid 43844bea-aae2-4ed0-b91b-d738a529415e))
-    (pin "2" (uuid 4d644d44-10f9-4406-90cb-1443ba65161e))
+    (pin "1" (uuid f6affb0f-9cef-4f8b-aa37-486c8d95619e))
+    (pin "2" (uuid 082fb727-921a-4700-9d90-3a14fb3b041a))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -12241,8 +12241,8 @@
     (property "Datasheet" "CRCW20102R00FKEF" (at 109.22 30.48 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid 243bd123-f9cb-4b1e-8a60-07e6a8e974d4))
-    (pin "2" (uuid 5def882f-bbf6-4701-8c6d-0f87b7678f66))
+    (pin "1" (uuid e30b990e-17c5-4ca1-9ae9-cdbf32d365de))
+    (pin "2" (uuid ba096cdd-44ad-42be-ac91-ba936b2cb634))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/4f028e55-4c46-47b6-9c45-f6b50d9d4db8"
@@ -12328,7 +12328,7 @@
     (property "Datasheet" "" (at 214.63 173.99 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid a18c9293-3cce-4282-96bf-f1e8d0b63b09))
+    (pin "1" (uuid 415455cb-9529-4e8c-957d-7cbd6f7c9253))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
@@ -12365,9 +12365,9 @@
     (property "MANUFACTURER" "Diodes" (at 171.45 24.13 0)
       (effects (font (size 0.8 0.8)) (justify bottom) hide)
     )
-    (pin "1" (uuid ab6a69be-ac57-46c0-a659-4edbd72f4034))
-    (pin "2" (uuid f3c1cba6-ba0a-4be2-9cae-53fc807cf2b3))
-    (pin "3" (uuid e5e7b2b9-856d-46f3-8c63-a9951119f27b))
+    (pin "1" (uuid caead114-c3b9-4cab-a334-0c44075724fd))
+    (pin "2" (uuid 48031d34-55b6-4d19-b82e-0664990330f5))
+    (pin "3" (uuid 49f57f43-ef08-49c4-8077-608526ca87e7))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -12400,24 +12400,24 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq24650.pdf?ts=1685914040130&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ24650%252Fpart-details%252FBQ24650RVAT%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Docb-tistore-promo-app_opn_en-cpc-storeic-google-wwe%2526utm_content%253DDevice%2526ds_k%253DBQ24650RVAT%2526DCM%253Dyes%2526gclid%253DCj0KCQjw7PCjBhDwARIsANo7CgkhoGmoalu53NU2y7_FyP19jaRhmzRcCapYNJKmB6NLoc6D-WQx8vwaAg7FEALw_wcB%2526gclsrc%253Daw.ds" (at 118.11 137.16 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "10" (uuid c1dcc56e-c8d9-47c4-aa75-f48dae191d24))
-    (pin "12" (uuid 43ce1a31-4f9b-4113-a3f9-69afe3a35d88))
-    (pin "13" (uuid d0089bbf-5be4-4b16-85e1-c406146b6b72))
-    (pin "14" (uuid 040a0801-c9de-48a2-858c-3e6083031b82))
-    (pin "15" (uuid 78ce8a52-9da8-4944-b769-c488fb7a415a))
-    (pin "16" (uuid 0e3646b9-f93e-4547-bfa8-ab080d9a89a1))
-    (pin "2" (uuid 7697745b-b689-4e37-8481-8337765ac1f6))
-    (pin "3" (uuid fa67aa15-e027-4c02-8128-7c46ffd7b437))
-    (pin "4" (uuid aab76081-ccc0-490f-8055-e78614919fd2))
-    (pin "5" (uuid bc75826e-21a5-4c2f-a311-cfd0513ed0a0))
-    (pin "6" (uuid 256f6b94-864b-4795-a641-764ed453b322))
-    (pin "8" (uuid 71cd970a-335a-405a-b8c9-415b6f065e84))
-    (pin "9" (uuid 2e119a0b-5a18-496b-93b7-2a0a52129d5a))
-    (pin "1" (uuid 9e9c9283-e4ec-46ab-b8b9-9504092d2c8f))
-    (pin "11" (uuid 577de9b6-59a3-4dc8-8a5e-b2df5de5313d))
-    (pin "17" (uuid 06247020-5588-4d48-9456-bff2260d1dfb))
-    (pin "18" (uuid 642fd8ff-0caa-420e-93f3-ae5a49427bc4))
-    (pin "7" (uuid ec4ad465-7a5b-4b88-90f2-1e3bb8a4285f))
+    (pin "10" (uuid f38b4aeb-5774-4bfd-be9f-1afdb8ac16aa))
+    (pin "12" (uuid 492afc8a-a0e9-4622-96fc-beccdc046dbb))
+    (pin "13" (uuid 961e44c7-8de8-4ef8-b504-e28d126d8b15))
+    (pin "14" (uuid bdf37ee2-2072-4a3d-8dae-fc93946ab967))
+    (pin "15" (uuid 1441c23f-cbaf-4070-8b1f-a783be8bfe29))
+    (pin "16" (uuid f88f0f96-5a9b-4b22-9c71-b5934d83b3f2))
+    (pin "2" (uuid fce7450f-f62a-4c1c-84d8-ffb69fe23da3))
+    (pin "3" (uuid f4c4eabe-4bf8-4ded-b2f8-6ab33a6900b9))
+    (pin "4" (uuid 5691df1f-b31b-4fa0-bcc4-c79b8c6f559f))
+    (pin "5" (uuid 54226e76-cd44-4f70-b0d7-f4a57068e663))
+    (pin "6" (uuid f95579f7-4266-4c4f-bb01-bfbe2ee7becd))
+    (pin "8" (uuid 0512cbfe-0da3-4758-9719-1bf86be8edfd))
+    (pin "9" (uuid 11212354-20c7-41d4-ad02-b716caf05f1b))
+    (pin "1" (uuid d8d64700-9f5f-40f5-a2e3-a0a1bad1a753))
+    (pin "11" (uuid ac694795-80e8-4862-a904-1fea71a39148))
+    (pin "17" (uuid 71ae0f3f-f349-4ab5-8160-3addc3c0a034))
+    (pin "18" (uuid a286becc-098e-4bbe-9f01-336b70860155))
+    (pin "7" (uuid ba78315f-7e62-4499-98af-b31a208c8e02))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -12475,8 +12475,8 @@
     (property "Datasheet" "WSL2010R0330FEA" (at 254 53.34 0)
       (effects (font (size 0.8 0.8) italic) hide)
     )
-    (pin "1" (uuid a4ede996-8bce-4e7e-84aa-c79fa5d85a61))
-    (pin "2" (uuid d3c4bd64-0ffb-4007-a2a6-360fd333a121))
+    (pin "1" (uuid 67ba3822-e6d8-4e82-8d83-9d0a3f891012))
+    (pin "2" (uuid 8605e4c4-1dd6-4924-a5df-53eda79c65c2))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6f34948c-43a8-4614-b8ed-90c5b6b9b243"
@@ -12509,7 +12509,7 @@
     (property "Datasheet" "" (at 223.52 200.66 0)
       (effects (font (size 0.8 0.8)) hide)
     )
-    (pin "1" (uuid 7d177168-5f0f-4e53-a68e-a07bb49e1170))
+    (pin "1" (uuid 2c556eda-6977-4457-8c03-b2408ac35017))
     (instances
       (project "eps-re_project"
         (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"

@@ -9822,31 +9822,6 @@
     )
   )
 
-  (symbol (lib_id "GNDS5:GNDS5") (at 176.53 227.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9b070061-49fc-498a-9ab7-d0785433ef87)
-    (property "Reference" "#PWR092" (at 176.53 233.68 0)
-      (effects (font (size 0.8 0.8)) hide)
-    )
-    (property "Value" "GNDS5" (at 176.53 231.14 0)
-      (effects (font (size 0.8 0.8)))
-    )
-    (property "Footprint" "" (at 176.53 227.33 0)
-      (effects (font (size 0.8 0.8)) hide)
-    )
-    (property "Datasheet" "" (at 176.53 227.33 0)
-      (effects (font (size 0.8 0.8)) hide)
-    )
-    (pin "1" (uuid a57c0b69-7c6f-451c-ab05-e7be5465199c))
-    (instances
-      (project "eps-re_project"
-        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
-          (reference "#PWR092") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "INA199C1DCKR:INA199xxDCK") (at 347.98 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b836a66-d004-4883-8d01-0a6f89185ca7)
@@ -12455,6 +12430,31 @@
       (project "EPSpg3"
         (path "/95ab2aaf-8d7f-4e6e-818d-723704a56097"
           (reference "U4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "GNDS6:GNDS6") (at 176.53 227.33 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid fcbb571c-2fa8-47da-88d1-609d5714c643)
+    (property "Reference" "#PWR092" (at 176.53 233.68 0)
+      (effects (font (size 0.8 0.8)) hide)
+    )
+    (property "Value" "GNDS6" (at 176.53 231.14 0)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Footprint" "" (at 176.53 227.33 0)
+      (effects (font (size 0.8 0.8)) hide)
+    )
+    (property "Datasheet" "" (at 176.53 227.33 0)
+      (effects (font (size 0.8 0.8)) hide)
+    )
+    (pin "1" (uuid 6f72554f-3441-4c21-af98-3f5b5af60586))
+    (instances
+      (project "eps-re_project"
+        (path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/0b69622c-4960-45c0-904b-657ff8db02ea"
+          (reference "#PWR092") (unit 1)
         )
       )
     )

@@ -16,6 +16,7 @@ preflight:
       command: git describe --exact-match --tags 2> /dev/null || git rev-parse --short HEAD
   update_xml: true
   run_erc: true
+  erc_warnings: false
   run_drc: true
   check_zone_fills: true
   ignore_unconnected: false

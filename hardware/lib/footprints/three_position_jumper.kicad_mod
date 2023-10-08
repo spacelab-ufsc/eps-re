@@ -1,6 +1,6 @@
 (footprint "three_position_jumper" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -1.84 -1.92) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp f37250bc-52f1-4ebf-abc9-7a0c19fbc209)

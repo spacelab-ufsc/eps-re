@@ -1,6 +1,6 @@
 (footprint "NVTFS5116PLTAG" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -2.18 -2.59) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp 0a4a91e9-5c32-497b-9ff9-457ec1cfd39e)

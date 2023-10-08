@@ -1,0 +1,55 @@
+(version 1)
+
+# Pad-to-pad clearance
+
+#(rule "PadClearanceInsideSameFootprint"
+#	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Parent == B.Parent")
+#	(constraint clearance(min 0.1mm))
+#)
+
+# Track-to-track clearance
+
+(rule "TrackClearance"
+	(constraint clearance (min 0,15mm))
+	(condition "A.Type == 'track' && B.Type == A.Type")
+)
+
+(rule "TrackToViaClearence"
+	(constraint clearance (min 0,15mm))
+	(condition "A.Type == 'track' && B.Type == 'via'")
+)
+
+(rule "PadToViaClearence"
+	(constraint clearance (min 0,25mm))
+	(condition "A.Type == 'pad' && B.Type == 'via'")
+)
+
+# Pass through for BQ24650
+
+(rule "PadToViaClearenceMPPT"
+	(constraint clearance (min 0mm))
+	(condition "A.insideArea('ThermalPad')")
+)
+
+(rule "HoleClearenceMPPT"
+	(constraint hole_clearance (min 0mm))
+	(condition "A.insideArea('ThermalPad')")
+)
+
+(rule "AnnularWidthMPPT"
+	(constraint annular_width (min 0mm))
+	(condition "A.insideArea('ThermalPad')")
+)
+
+(rule "HoleToHoleClearenceMPPT"
+	(constraint hole_to_hole (min 0mm))
+	(condition "A.insideArea('ThermalPad')")
+)
+
+# Silkscreen
+
+(rule "TextParameters"
+	(constraint text_thickness (min 0.125mm))
+	(constraint text_height (min 0.8mm))
+	(layer "?.Silkscreen")
+)

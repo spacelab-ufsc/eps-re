@@ -1,6 +1,6 @@
 (footprint "2053380004" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -6.074999 -4.7) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp 921d1032-a1d1-423b-8a16-ff62429ef053)

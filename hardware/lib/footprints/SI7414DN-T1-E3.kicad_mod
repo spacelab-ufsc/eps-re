@@ -1,6 +1,6 @@
 (footprint "SI7414DN-T1-E3" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -1.575 -2.425) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp 48884d50-3da2-4196-a50e-be8e7d0a9af1)
@@ -50,7 +50,6 @@
   (pad "3" smd roundrect (at -1.4351 0.2802) (size 0.9906 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c4190776-0b28-4752-84d3-3eda940ef4fa))
   (pad "4" smd roundrect (at -1.4351 0.9406) (size 0.9906 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 021b927f-cea1-43d0-acab-4c3f4a68f7ee))
   (pad "5-6-7-8" smd custom (at 0.5588 -0.05) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly

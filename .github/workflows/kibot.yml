@@ -20,7 +20,7 @@ on:
     - "**/*kibot.yml"
 
 env:
-  schema: "hardware/*.kicad_sch"
+  schema: "hardware/eps-re_project.kicad_sch"
   board: "hardware/*.kicad_pcb"
   dir: .
 

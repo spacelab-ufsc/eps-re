@@ -20,8 +20,8 @@ on:
     - "**/*kibot.yml"
 
 env:
-  schema: "hardware/eps-re_project.kicad_sch"
-  board: "hardware/*.kicad_pcb"
+  schema: "eps-re_project.kicad_sch"
+  board: "*.kicad_pcb"
   dir: .
   config: ../kibot.yml
 
@@ -67,9 +67,9 @@ jobs:
           name: ${{github.event.repository.name}}_docs
           if-no-files-found: error
           path: |
-            ${{env.dir}}/docs/**
-            !${{env.dir}}/**/*.ogv
-            !${{env.dir}}/**/*.log
+            hardware/docs/**
+            !hardware/**/*.ogv
+            !hardware/**/*.log
 # fabrications
   gerbers:
     runs-on: ubuntu-latest
@@ -88,9 +88,9 @@ jobs:
           name: ${{github.event.repository.name}}_gerbers
           if-no-files-found: error
           path: |
-            ${{env.dir}}/gerbers/**
-            !${{env.dir}}/**/*.ogv
-            !${{env.dir}}/**/*.log
+            hardware/gerbers/**
+            !hardware/**/*.ogv
+            !hardware/**/*.log
 # cad
   cad:
     runs-on: ubuntu-latest
@@ -109,9 +109,9 @@ jobs:
           name: ${{github.event.repository.name}}_cad
           if-no-files-found: error
           path: |
-            ${{env.dir}}/cad/**
-            !${{env.dir}}/**/*.ogv
-            !${{env.dir}}/**/*.log
+            hardware/cad/**
+            !hardware/**/*.ogv
+            !hardware/**/*.log
 # images
 #  render:
 #    runs-on: ubuntu-latest
@@ -130,6 +130,6 @@ jobs:
 #          name: ${{github.event.repository.name}}_img
 #          if-no-files-found: error
 #          path: |
-#            ${{env.dir}}/img/**
-#            !${{env.dir}}/**/*.ogv
-#            !${{env.dir}}/**/*.log
+#            hardware/img/**
+#            !hardware/**/*.ogv
+#            !hardware/**/*.log

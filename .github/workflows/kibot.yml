@@ -24,6 +24,10 @@ env:
   board: "hardware/*.kicad_pcb"
   dir: .
 
+defaults:
+  run:
+    working-directory: ./hardware
+
 jobs:
 # checks
   ERC:

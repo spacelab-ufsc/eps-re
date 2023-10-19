@@ -8,10 +8,6 @@ kibot:
 #     file_id: _XXX
 #     variant: XXX
 
-global:
-  filters:
-    - number: 58
-
 preflight:
   set_text_variables:
     - name: "date"

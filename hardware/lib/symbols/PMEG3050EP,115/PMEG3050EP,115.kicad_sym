@@ -30,78 +30,61 @@
     (property "ki_description" "NXP PMEG3050EP,115 SMT Schottky Diode, 30V 5A, 2-Pin SOD-128" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "PMEG3050EP,115_1_1"
+    (symbol "PMEG3050EP,115_0_1"
       (polyline
         (pts
-          (xy 5.08 0)
+          (xy 8.89 0)
           (xy 7.62 0)
         )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.604 -1.524)
-          (xy 6.604 -2.54)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -2.54)
-          (xy 6.604 -2.54)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 2.54)
-          (xy 7.62 -2.54)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 2.54)
-          (xy 8.636 2.54)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.636 1.524)
-          (xy 8.636 2.54)
-        )
-        (stroke (width 0.254) (type default))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy 12.7 0)
-          (xy 15.24 0)
+          (xy 11.43 0)
         )
-        (stroke (width 0.254) (type default))
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "PMEG3050EP,115_1_1"
+      (polyline
+        (pts
+          (xy 8.89 0)
+          (xy 8.89 -1.524)
+          (xy 9.652 -1.524)
+          (xy 9.652 -0.762)
+        )
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 7.62 0)
-          (xy 12.7 2.54)
-          (xy 12.7 -2.54)
-          (xy 7.62 0)
+          (xy 8.89 0)
+          (xy 8.89 1.524)
+          (xy 8.128 1.524)
+          (xy 8.128 0.762)
         )
-        (stroke (width 0.254) (type default))
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.938 1.524)
+          (xy 11.938 0)
+          (xy 11.938 -1.524)
+          (xy 8.89 0)
+          (xy 11.938 1.524)
+        )
+        (stroke (width 0) (type default))
         (fill (type outline))
       )
-      (pin passive line (at 2.54 0 0) (length 2.54)
+      (pin passive line (at 5.08 0 0) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 17.78 0 180) (length 2.54)
+      (pin passive line (at 15.24 0 180) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )

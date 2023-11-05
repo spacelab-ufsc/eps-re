@@ -88,4 +88,5 @@
   (lib (name "TESTPOINT")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TESTPOINTS/testpoint_smd.kicad_sym")(options "")(descr ""))
   (lib (name "CUHS20S40,H3F")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/CUHS20S40,H3F/CUHS20S40,H3F.kicad_sym")(options "")(descr ""))
   (lib (name "PMEG3050EP,115")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/PMEG3050EP,115/PMEG3050EP,115.kicad_sym")(options "")(descr ""))
+  (lib (name "MountingHole")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/MOUNTINGHOLES/mountinghole.kicad_sym")(options "")(descr ""))
 )

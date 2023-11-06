@@ -21,6 +21,9 @@
     (property "Package" "N/A" (at 1.27 -24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Observations" "The resistor CRCW06030000Z0EAHP (SMD 0603) is connected between pins 1 and 2" (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "JUMPER_SMD_0_1"
       (polyline
         (pts

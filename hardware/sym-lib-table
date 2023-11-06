@@ -23,7 +23,7 @@
   (lib (name "BQ24650RVAT")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/BQ24650RVAT/BQ24650RVAT.kicad_sym")(options "")(descr ""))
   (lib (name "PDS1040L-13")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/PDS1040L-13/PDS1040L-13.kicad_sym")(options "")(descr ""))
   (lib (name "BAT54")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/BAT54/BAT54.kicad_sym")(options "")(descr ""))
-  (lib (name "61300311121")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/61300311121/61300311121.kicad_sym")(options "")(descr ""))
+  (lib (name "JUMPER_SMD")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/61300311121/61300311121.kicad_sym")(options "")(descr ""))
   (lib (name "LTC3833EUDC#TRPBF")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/LTC3833EUDC#TRPBF/LTC3833EUDC#TRPBF.kicad_sym")(options "")(descr ""))
   (lib (name "SS12FP")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/SS12FP/SS12FP.kicad_sym")(options "")(descr ""))
   (lib (name "EPC2016C")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/EPC2016C/EPC2016C.kicad_sym")(options "")(descr ""))

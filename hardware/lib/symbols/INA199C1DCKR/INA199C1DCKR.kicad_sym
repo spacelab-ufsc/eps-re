@@ -6,7 +6,7 @@
     (property "Value" "INA199C1DCKR" (at 21.59 22.86 0) (do_not_autoplace)
       (effects (font (size 0.8 0.8)))
     )
-    (property "Footprint" "footprints:INA199C1DCKR " (at 21.59 2.54 0)
+    (property "Footprint" "footprints:INA199C1DCKR" (at 21.59 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina199.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1699134415152" (at 27.94 0 0)

@@ -15,7 +15,7 @@
     (property "Manufacturer" "EPC" (at 2.54 -27.94 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Package" "Die (specific to EPC2016C)" (at -3.81 -22.86 0)
+    (property "Package" "Non-standard" (at -3.81 -22.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "MPN" "EPC2016C" (at 7.62 -20.32 0)

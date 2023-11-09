@@ -12,7 +12,7 @@
     (property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf" (at 5.08 -5.08 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "MPN" "CRCW080520K0FKEAHP" (at 3.81 -7.62 0)
+    (property "MPN" "CRCW0805270KFKEAHP" (at 3.81 -7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Vishay" (at 5.08 -12.7 0)

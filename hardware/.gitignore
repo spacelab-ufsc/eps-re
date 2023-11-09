@@ -28,3 +28,11 @@ erc.rpt
 # Exported BOM files
 *.xml
 *.csv
+bom/
+
+# Exported Gerber files
+cam/
+
+# Exported Centroid files
+
+centroid/

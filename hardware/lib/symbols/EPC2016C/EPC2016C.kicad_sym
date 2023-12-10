@@ -1,0 +1,273 @@
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+  (symbol "EPC2016C" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "Q26" (at 17.78 2.54 0) (do_not_autoplace)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Value" "EPC2016C" (at 17.78 1.27 0) (do_not_autoplace)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Footprint" "footprints:EPC2016C" (at -16.51 -17.78 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "https://epc-co.com/epc/Portals/0/epc/documents/datasheets/EPC2016C_datasheet.pdf" (at -16.51 -15.24 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer" "EPC" (at 2.54 -27.94 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Package" "Non-standard" (at -3.81 -22.86 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "MPN" "EPC2016C" (at 7.62 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "EPC2016C_0_1"
+      (polyline
+        (pts
+          (xy 2.286 0)
+          (xy 3.048 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -3.81)
+          (xy 7.62 -3.302)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 8.89 8.89)
+          (xy 8.89 7.874)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -3.81)
+          (xy 10.16 -3.302)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.43 8.89)
+          (xy 11.43 7.874)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 -3.81)
+          (xy 12.7 -3.302)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "EPC2016C_1_1"
+      (polyline
+        (pts
+          (xy 3.048 0)
+          (xy 6.096 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.096 0)
+          (xy 6.096 5.08)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.858 0.508)
+          (xy 10.16 0.508)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.858 1.016)
+          (xy 6.858 0)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.858 3.048)
+          (xy 6.858 2.032)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.858 4.064)
+          (xy 6.858 5.08)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.858 4.572)
+          (xy 10.16 4.572)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -3.302)
+          (xy 12.7 -3.302)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 2.54)
+          (xy 10.16 2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.398 2.286)
+          (xy 9.398 2.286)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 0.508)
+          (xy 11.938 0.508)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 2.54)
+          (xy 10.16 -3.302)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 4.572)
+          (xy 10.16 7.874)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.43 7.874)
+          (xy 8.89 7.874)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.938 0.508)
+          (xy 11.938 4.572)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.938 3.048)
+          (xy 11.43 3.048)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.938 3.048)
+          (xy 12.446 3.048)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.938 4.572)
+          (xy 10.16 4.572)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 8.128 2.54)
+          (xy 9.398 3.302)
+          (xy 9.398 1.778)
+          (xy 8.128 2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 11.938 3.048)
+          (xy 11.43 2.286)
+          (xy 12.446 2.286)
+          (xy 11.938 3.048)
+        )
+        (stroke (width 0) (type default))
+        (fill (type outline))
+      )
+      (rectangle (start 4.318 7.112) (end 13.97 -2.032)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle (center 9.144 2.54) (radius 4.3255)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin passive line (at -1.27 0 0) (length 3.556)
+        (name "Gate" (effects (font (size 0 0))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 10.16 -6.35 90) (length 2.54)
+        (name "Substrate" (effects (font (size 0 0))))
+        (number "2" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 8.89 11.43 270) (length 2.54)
+        (name "Drain" (effects (font (size 0 0))))
+        (number "3" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 7.62 -6.35 90) (length 2.54)
+        (name "Source" (effects (font (size 0 0))))
+        (number "4" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 11.43 11.43 270) (length 2.54)
+        (name "Drain" (effects (font (size 0 0))))
+        (number "5" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 12.7 -6.35 90) (length 2.54)
+        (name "Source" (effects (font (size 0 0))))
+        (number "6" (effects (font (size 1.016 1.016))))
+      )
+    )
+  )
+)

@@ -1,0 +1,238 @@
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+  (symbol "SI7414DN-T1-E3" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "Q" (at 10.16 -5.08 0) (do_not_autoplace)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Value" "SI7414DN-T1-E3" (at 10.414 -6.35 0) (do_not_autoplace)
+      (effects (font (size 0.8 0.8)))
+    )
+    (property "Footprint" "footprints:SI7414DN-T1-E3" (at -15.24 -26.67 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "http://www.vishay.com/docs/71738/71738.pdf" (at -15.24 -24.13 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer" "Vishay" (at -2.54 -36.83 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Package" "PowerPAK1212-8" (at -7.62 -31.75 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "MPN" "SI7414DN-T1-E3" (at 0 -21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SI7414DN-T1-E3_0_1"
+      (polyline
+        (pts
+          (xy -1.778 -10.922)
+          (xy -2.54 -10.922)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.778 -10.922)
+          (xy 2.54 -10.922)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "SI7414DN-T1-E3_1_1"
+      (rectangle (start -5.588 -0.254) (end 4.064 -10.16)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle (center -0.762 -5.08) (radius 4.4432)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -7.62)
+          (xy -5.842 -7.62)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -7.62)
+          (xy -3.81 -2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.048 -7.112)
+          (xy 0.254 -7.112)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.048 -6.604)
+          (xy -3.048 -7.62)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.048 -4.572)
+          (xy -3.048 -5.588)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.048 -3.556)
+          (xy -3.048 -2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.048 -3.048)
+          (xy 0.254 -3.048)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -5.08)
+          (xy -3.048 -5.08)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -7.112)
+          (xy 0 -10.922)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -3.048)
+          (xy 0 0.508)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0 0.508)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.254 -7.112)
+          (xy 2.032 -7.112)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.778 -10.922)
+          (xy -1.778 -10.922)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.032 -7.112)
+          (xy 2.032 -3.048)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.032 -4.572)
+          (xy 1.524 -4.572)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.032 -4.572)
+          (xy 2.54 -4.572)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.032 -3.048)
+          (xy 0.254 -3.048)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -5.08)
+          (xy 0 -5.08)
+          (xy 0 -7.112)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -4.318)
+          (xy -1.27 -5.842)
+          (xy -2.54 -5.08)
+          (xy -1.27 -4.318)
+        )
+        (stroke (width 0) (type default))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 2.032 -4.572)
+          (xy 1.524 -5.588)
+          (xy 2.54 -5.588)
+          (xy 2.032 -4.572)
+        )
+        (stroke (width 0) (type default))
+        (fill (type outline))
+      )
+      (pin passive line (at 0 -13.97 90) (length 3)
+        (name "S" (effects (font (size 0 0))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 2.54 -13.97 90) (length 3)
+        (name "S" (effects (font (size 0 0))))
+        (number "2" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at -2.54 -13.97 90) (length 3)
+        (name "S" (effects (font (size 0 0))))
+        (number "3" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at -8.89 -7.62 0) (length 3.556)
+        (name "G" (effects (font (size 0 0))))
+        (number "4" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 0 5.08 270) (length 3.048)
+        (name "D" (effects (font (size 0 0))))
+        (number "5-6-7-8" (effects (font (size 1.016 1.016))))
+      )
+    )
+  )
+)

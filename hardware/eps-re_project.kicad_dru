@@ -1,0 +1,89 @@
+(version 1)
+
+# 7.4 - Track width and spacing.
+
+(rule "7.4.3a and 7.4.4a - Track-to-track clearance"
+	(constraint clearance (min 0.16mm) (opt 0.18mm))
+	(condition "A.Type == 'track' && B.Type == A.Type")
+)
+
+(rule "0.0.0 - Track-to-via clearence"
+	(constraint clearance (min 0.15mm))
+	(condition "A.Type == 'track' && B.Type == 'via'")
+)
+
+(rule "7.4.3a and 7.4.4a - Track width"
+	(constraint track_width (min 0.16mm) (opt 0.18mm))
+	(condition "A.Type == 'track'")
+)
+
+# 7.5 - Pad design.
+
+# OBS: for future versions, this sections should be reconsidered.
+# For instance, considering the rule 7.5.2g, we should put more
+# than 0.65mm. The hole size and the annular width should be 
+# reconsidered, too.
+
+(rule "7.5.2c - Annular ring of vias"
+	(constraint annular_width (min 0.2mm))
+	(condition "A.Type == 'via'")
+)
+
+(rule "7.5.2g - Diameter of vias"
+	(constraint via_diameter (min 0.65mm))
+	(condition "A.Type == 'via'")
+)
+
+(rule "0.0.1 - Hole size of vias"
+	(constraint hole_size (min 0.25mm))
+	(condition "A.Type == 'via'")
+)
+
+# 14.3 - Placement requirements.
+
+(rule "14.3.1a - Conductive patterns"
+	(constraint edge_clearance (min 0.7mm))
+	(condition "A.Type == 'track'")
+)
+
+(rule "14.3.3 - Pad-to-via (non-leaded) clearence"
+	(constraint clearance (min 0.3mm))
+	(condition "A.Type == 'pad' && B.Type == 'via'")
+)
+
+(rule "14.3.3 - Pad-to-pad clearence"
+	(constraint clearance (min 0.3mm))
+	(condition "A.Type == 'pad' && B.Type == 'pad' && A.Parent != B.Parent")
+)
+
+# Silkscreen rules, based on the PCBway tolerances.
+
+(rule "0.0.6 - PCBway tolerances regarding the text parameters"
+	(constraint text_thickness (min 0.15mm))
+	(constraint text_height (min 0.8mm))
+	(layer "?.Silkscreen")
+)
+
+# Pass through for BQ24650
+# OBS: this pass through could be used for other
+# components, if needed.
+
+(rule "0.0.2 - Pad-to-via clearence (specifically for BQ24650)"
+	(constraint clearance (min 0.0mm))
+	(condition "A.insideArea('ThermalPad') && B.insideArea('ThermalPad')")
+)
+
+(rule "0.0.3 - Hole clearence (specifically for BQ24650)"
+	(constraint hole_clearance (min 0.0mm))
+	(condition "A.insideArea('ThermalPad')")
+)
+
+(rule "0.0.4 - Annular width (specifically for BQ24650)"
+	(constraint annular_width (min 0.0mm))
+	(condition "A.insideArea('ThermalPad')")
+)
+
+(rule "0.0.5 - Hole-to-hole clearence (specifically for BQ24650)"
+	(constraint hole_to_hole (min 0.0mm))
+	(condition "A.insideArea('ThermalPad') && B.insideArea('ThermalPad')")
+)

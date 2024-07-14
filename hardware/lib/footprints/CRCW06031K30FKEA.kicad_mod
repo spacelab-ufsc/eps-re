@@ -21,8 +21,8 @@
   (fp_line (start -0.788 0.425) (end -0.788 -0.425) (layer F.Fab) (width 0.1))
   (pad 1 smd rect (at -0.75 0 0) (size 0.85 1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.75 0 0) (size 0.85 1) (layers F.Cu F.Paste F.Mask))
-  (model CRCW06031K30FKEA.stp
-    (at (xyz 0 0 0))
+  (model "${KIPRJMOD}/lib/3dmodels/CRCW06030000Z0EAHP.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

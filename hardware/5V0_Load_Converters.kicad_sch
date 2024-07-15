@@ -5735,7 +5735,7 @@
 				)
 			)
 		)
-		(symbol "WSL20108L000FEA18:WSL20108L000FEA18"
+		(symbol "WSL2010R0160FEA:WSL2010R0160FEA"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -5750,7 +5750,7 @@
 					)
 				)
 			)
-			(property "Value" "8m"
+			(property "Value" "16m"
 				(at 0 2.032 0)
 				(do_not_autoplace)
 				(effects
@@ -5759,7 +5759,7 @@
 					)
 				)
 			)
-			(property "Footprint" "footprints:WSL20108L000FEA18"
+			(property "Footprint" "footprints:WSL2010R0160FEA"
 				(at 8.89 5.08 0)
 				(effects
 					(font
@@ -5769,7 +5769,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/31057/wslhigh.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/30100/wsl.pdf"
 				(at 8.89 3.048 0)
 				(effects
 					(font
@@ -5779,7 +5779,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Current sense resistor, 1W, 0.008R, 1%"
+			(property "Description" "Current sense resistor, 0.5W, 0.016R, 1%"
 				(at 8.89 -4.572 0)
 				(effects
 					(font
@@ -5799,7 +5799,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "WSL20108L000FEA18"
+			(property "MPN" "WSL2010R0160FEA"
 				(at 8.89 -1.016 0)
 				(effects
 					(font
@@ -5819,7 +5819,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WSL20108L000FEA18_0_1"
+			(symbol "WSL2010R0160FEA_0_1"
 				(polyline
 					(pts
 						(xy -2.286 0) (xy -2.54 0)
@@ -5881,7 +5881,7 @@
 					)
 				)
 			)
-			(symbol "WSL20108L000FEA18_1_0"
+			(symbol "WSL2010R0160FEA_1_0"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -6240,12 +6240,6 @@
 		(uuid "1619c819-4dba-40f5-8c1f-a46cb5f21746")
 	)
 	(junction
-		(at 134.62 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "173db650-17c4-4424-ab43-939fcec112be")
-	)
-	(junction
 		(at 74.93 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6276,10 +6270,22 @@
 		(uuid "28a635e9-ac99-457b-8551-ba62e85e7a2f")
 	)
 	(junction
+		(at 144.78 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ceee184-6bca-4377-b61c-048b1f79230e")
+	)
+	(junction
 		(at 173.99 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d6fbd56-3c88-49b0-aa7e-eab0746109b9")
+	)
+	(junction
+		(at 144.78 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3719e6f5-b799-4f3c-b3bc-5d4beeb99bd5")
 	)
 	(junction
 		(at 162.56 83.82)
@@ -6292,12 +6298,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4120b341-f3ff-4414-935e-f75b31ece231")
-	)
-	(junction
-		(at 186.69 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49383e0d-64f8-43ce-9656-67f2d5708b20")
 	)
 	(junction
 		(at 245.11 195.58)
@@ -6346,12 +6346,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6660e1ac-cec5-4ecf-84f1-3c2786ba961a")
-	)
-	(junction
-		(at 186.69 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "669aa2a4-19e3-4919-9bd6-b887410adde6")
 	)
 	(junction
 		(at 245.11 86.36)
@@ -6432,12 +6426,6 @@
 		(uuid "8c590873-5e59-4996-bead-ba18fa165d5c")
 	)
 	(junction
-		(at 134.62 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d188923-267e-425a-bd6d-992f6378af01")
-	)
-	(junction
 		(at 359.41 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6450,6 +6438,12 @@
 		(uuid "8e8e629b-c179-4460-a07e-ca36b4d28620")
 	)
 	(junction
+		(at 337.82 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eaa1484-5aa0-4e19-b57b-5d2b4e3f1d28")
+	)
+	(junction
 		(at 347.98 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6460,12 +6454,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90abad69-e12f-408e-b956-d0223b2a694a")
-	)
-	(junction
-		(at 337.82 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9205d837-1ae5-4cd4-8eb0-f919cef36513")
 	)
 	(junction
 		(at 256.54 124.46)
@@ -6594,6 +6582,12 @@
 		(uuid "d4ac2741-ab12-4a69-a3ec-ef7992d4f549")
 	)
 	(junction
+		(at 186.69 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d753083f-7ffd-4bed-adb7-0e63810ee2a9")
+	)
+	(junction
 		(at 256.54 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6658,6 +6652,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f75b2ddf-26ab-4af7-ae3e-a034959dec86")
+	)
+	(junction
+		(at 186.69 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f864efa2-cf07-4742-849a-63440ab78002")
 	)
 	(junction
 		(at 162.56 184.15)
@@ -6742,6 +6742,16 @@
 			(type default)
 		)
 		(uuid "0826f08b-4ea8-4a7a-a0ec-0ad4c766904b")
+	)
+	(wire
+		(pts
+			(xy 201.93 43.18) (xy 186.69 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09acbf2d-e09b-4492-9dda-12dfe0cc8728")
 	)
 	(wire
 		(pts
@@ -6915,6 +6925,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 149.86) (xy 147.32 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1add6fd8-413c-477f-b080-eab55f9ee584")
+	)
+	(wire
+		(pts
 			(xy 33.02 35.56) (xy 33.02 39.37)
 		)
 		(stroke
@@ -6965,16 +6985,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 43.18) (xy 201.93 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "205bb098-205e-4408-b1e6-3c39bf2a4dba")
-	)
-	(wire
-		(pts
 			(xy 346.71 26.67) (xy 346.71 29.21)
 		)
 		(stroke
@@ -7015,6 +7025,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 147.32) (xy 144.78 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24dbaacd-c575-46f0-9bab-201cbd35e5a9")
+	)
+	(wire
+		(pts
 			(xy 335.28 21.59) (xy 346.71 21.59)
 		)
 		(stroke
@@ -7022,16 +7042,6 @@
 			(type default)
 		)
 		(uuid "25579a4d-a1fc-4fbe-bc8f-450c8683398e")
-	)
-	(wire
-		(pts
-			(xy 123.19 184.15) (xy 134.62 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2629e356-1038-4985-86fa-eeac76c1918e")
 	)
 	(wire
 		(pts
@@ -7095,7 +7105,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 46.99) (xy 189.23 46.99)
+			(xy 144.78 46.99) (xy 186.69 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7122,26 +7132,6 @@
 			(type default)
 		)
 		(uuid "2ce03452-2bfb-4bb6-985e-6fe4d177667c")
-	)
-	(wire
-		(pts
-			(xy 134.62 175.26) (xy 130.81 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2d2af9-4a78-480b-a38f-f8ec98d7dd0a")
-	)
-	(wire
-		(pts
-			(xy 134.62 46.99) (xy 186.69 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d442264-47d2-4543-987e-303bd5386aff")
 	)
 	(wire
 		(pts
@@ -7185,13 +7175,43 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 46.99) (xy 134.62 72.39)
+			(xy 144.78 184.15) (xy 162.56 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31c6aaf5-ca70-4607-9fba-43fa58e56d79")
+		(uuid "314b670f-a12b-42c0-becd-6d969f237cdc")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314f9354-4bf8-4868-9393-95f2a4c3663e")
+	)
+	(wire
+		(pts
+			(xy 186.69 147.32) (xy 189.23 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32478d63-d191-491f-a637-5b68397bfd5a")
+	)
+	(wire
+		(pts
+			(xy 147.32 175.26) (xy 144.78 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3284cf52-c6e7-45e3-8ffa-074d4dfee3a2")
 	)
 	(wire
 		(pts
@@ -7285,6 +7305,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 143.51) (xy 186.69 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fd4589-6483-4dbf-8f79-ed3fbc3e6ad6")
+	)
+	(wire
+		(pts
 			(xy 245.11 186.69) (xy 261.62 186.69)
 		)
 		(stroke
@@ -7292,6 +7322,16 @@
 			(type default)
 		)
 		(uuid "474e4490-7015-49ee-9b3b-235059e59bbb")
+	)
+	(wire
+		(pts
+			(xy 144.78 74.93) (xy 147.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a0a8fe-bc76-49dc-a672-18420270a7d9")
 	)
 	(wire
 		(pts
@@ -7415,16 +7455,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 147.32) (xy 186.69 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59e98d78-d4fb-4000-95f0-e6013dbab491")
-	)
-	(wire
-		(pts
 			(xy 245.11 72.39) (xy 347.98 72.39)
 		)
 		(stroke
@@ -7495,16 +7525,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 149.86) (xy 186.69 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f3bf2f7-1126-451b-bcb6-26edb4c5600c")
-	)
-	(wire
-		(pts
 			(xy 290.83 66.04) (xy 293.37 66.04)
 		)
 		(stroke
@@ -7512,6 +7532,16 @@
 			(type default)
 		)
 		(uuid "6212e664-8263-487e-af41-d844615c8ee6")
+	)
+	(wire
+		(pts
+			(xy 186.69 46.99) (xy 189.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6212eab3-ce78-488c-b7eb-07358e4ea2ec")
 	)
 	(wire
 		(pts
@@ -7575,16 +7605,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 143.51) (xy 130.81 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66116658-596c-4219-b8f7-e83179e253b7")
-	)
-	(wire
-		(pts
 			(xy 269.24 186.69) (xy 337.82 186.69)
 		)
 		(stroke
@@ -7602,16 +7622,6 @@
 			(type default)
 		)
 		(uuid "676ae638-adc5-4cb7-9187-70aa8f9ead55")
-	)
-	(wire
-		(pts
-			(xy 186.69 147.32) (xy 189.23 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c49e47-ccc4-41ef-9b81-12151a414b65")
 	)
 	(wire
 		(pts
@@ -7635,6 +7645,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 74.93) (xy 147.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bbc5040-716d-402b-8f46-ca2255fffa2e")
+	)
+	(wire
+		(pts
 			(xy 372.11 48.26) (xy 372.11 69.85)
 		)
 		(stroke
@@ -7652,6 +7672,16 @@
 			(type default)
 		)
 		(uuid "6edcdab5-6a11-48f4-a4f0-09e77754e3d4")
+	)
+	(wire
+		(pts
+			(xy 147.32 149.86) (xy 201.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f683e63-9319-4573-9ef7-824cef3b93b7")
 	)
 	(wire
 		(pts
@@ -7695,6 +7725,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 147.32) (xy 186.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75743287-b874-4926-8830-1023f089b467")
+	)
+	(wire
+		(pts
 			(xy 273.05 267.97) (xy 281.94 267.97)
 		)
 		(stroke
@@ -7712,16 +7752,6 @@
 			(type default)
 		)
 		(uuid "79d730e6-640f-495a-bc93-64ef1db5799a")
-	)
-	(wire
-		(pts
-			(xy 123.19 83.82) (xy 134.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79ff7883-49cb-496b-8b03-3389496d9b5a")
 	)
 	(wire
 		(pts
@@ -7795,16 +7825,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 77.47) (xy 134.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f92ad27-b051-4c82-9fe7-3e88ffac2f87")
-	)
-	(wire
-		(pts
 			(xy 74.93 170.18) (xy 115.57 170.18)
 		)
 		(stroke
@@ -7872,6 +7892,16 @@
 			(type default)
 		)
 		(uuid "85b6a098-843c-473b-b771-0619e6cb3fc4")
+	)
+	(wire
+		(pts
+			(xy 144.78 46.99) (xy 144.78 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fd9dbd-1ee0-4cad-83e2-9e341c9ef712")
 	)
 	(wire
 		(pts
@@ -7962,16 +7992,6 @@
 			(type default)
 		)
 		(uuid "8aadd862-2d4d-4997-9cd3-2c37fd152d00")
-	)
-	(wire
-		(pts
-			(xy 186.69 49.53) (xy 186.69 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8da27012-0ebb-46b6-941d-3363874692bc")
 	)
 	(wire
 		(pts
@@ -8105,26 +8125,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 43.18) (xy 130.81 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e767941-2f42-4e4e-98c5-8680988ad890")
-	)
-	(wire
-		(pts
-			(xy 130.81 143.51) (xy 201.93 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f6bd596-e6cc-4859-b123-867bb0340148")
-	)
-	(wire
-		(pts
 			(xy 292.1 48.26) (xy 316.23 48.26)
 		)
 		(stroke
@@ -8212,6 +8212,16 @@
 			(type default)
 		)
 		(uuid "a890fe7e-f200-48c3-b8f4-7289b38ad726")
+	)
+	(wire
+		(pts
+			(xy 144.78 177.8) (xy 144.78 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e0005f-30ec-4931-a9f2-9b9a806b2c45")
 	)
 	(wire
 		(pts
@@ -8332,16 +8342,6 @@
 			(type default)
 		)
 		(uuid "b6fec150-ec51-4dd1-ae63-518de40ad91b")
-	)
-	(wire
-		(pts
-			(xy 134.62 147.32) (xy 134.62 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8046010-bac3-423f-8991-60119846f448")
 	)
 	(wire
 		(pts
@@ -8502,6 +8502,16 @@
 			(type default)
 		)
 		(uuid "cc7e07ac-7642-4d1d-b6ed-65953d12827d")
+	)
+	(wire
+		(pts
+			(xy 186.69 43.18) (xy 186.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9f28bd-2edf-4afd-8f28-a149dd69265d")
 	)
 	(wire
 		(pts
@@ -8685,16 +8695,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 177.8) (xy 134.62 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcac35f4-076b-412b-a69e-38787f300955")
-	)
-	(wire
-		(pts
 			(xy 227.33 204.47) (xy 245.11 204.47)
 		)
 		(stroke
@@ -8705,16 +8705,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 74.93) (xy 130.81 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd913436-36f6-4b9d-b100-2f81af0b4cef")
-	)
-	(wire
-		(pts
 			(xy 346.71 127) (xy 346.71 129.54)
 		)
 		(stroke
@@ -8722,6 +8712,16 @@
 			(type default)
 		)
 		(uuid "de97acbb-3322-4d55-9563-4d1f46395604")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e244c8a9-9060-44f2-92be-68510aa19b1e")
 	)
 	(wire
 		(pts
@@ -8745,7 +8745,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 83.82) (xy 162.56 83.82)
+			(xy 123.19 83.82) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -8775,23 +8775,33 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 49.53) (xy 186.69 49.53)
+			(xy 186.69 143.51) (xy 186.69 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5cd7d80-481a-4df5-b5fe-be21e001947c")
+		(uuid "e5f797e8-ebfe-48cf-aee2-4d5148f61fad")
 	)
 	(wire
 		(pts
-			(xy 134.62 184.15) (xy 162.56 184.15)
+			(xy 123.19 184.15) (xy 144.78 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e665c72e-4627-4caa-8a56-66ecc349e820")
+	)
+	(wire
+		(pts
+			(xy 147.32 49.53) (xy 201.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e837f280-a401-413e-b555-34929f42f465")
 	)
 	(wire
 		(pts
@@ -8862,16 +8872,6 @@
 			(type default)
 		)
 		(uuid "ec45ecbb-c1d7-4b9b-9624-8acf6e8ea078")
-	)
-	(wire
-		(pts
-			(xy 201.93 149.86) (xy 186.69 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed245199-713f-497c-854c-413e6f80754a")
 	)
 	(wire
 		(pts
@@ -9377,7 +9377,7 @@
 		(uuid "2fc06d88-ec45-4e5f-b674-55ab463c35f5")
 	)
 	(label "5V0_VCC2"
-		(at 134.62 147.32 0)
+		(at 144.78 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9421,7 +9421,7 @@
 		(uuid "aedc83bd-36bb-475d-bb8d-aa1bb13fcbf5")
 	)
 	(label "5V0_VCC1"
-		(at 134.62 46.99 0)
+		(at 144.78 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9687,120 +9687,6 @@
 			(project "5V0_LoadConverter"
 				(path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WSL20108L000FEA18:WSL20108L000FEA18")
-		(at 334.01 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "105cb2d5-3671-4063-8152-882083a8f8c4")
-		(property "Reference" "R47"
-			(at 334.01 51.562 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "8m"
-			(at 334.01 50.292 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "footprints:WSL20108L000FEA18"
-			(at 325.12 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/31057/wslhigh.pdf"
-			(at 325.12 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Current sense resistor, 1W, 0.008R, 1%"
-			(at 325.12 43.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "WSL20108L000FEA18"
-			(at 325.12 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD 2010"
-			(at 325.12 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 325.12 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54f01656-1456-436d-aca7-2239931329c4")
-		)
-		(pin "2"
-			(uuid "4a2572da-0529-4171-a878-c010641fd8f3")
-		)
-		(instances
-			(project "eps-re_project"
-				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-			(project "5V0_LoadConverter"
-				(path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "5V0_LoadConverter"
-				(path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11886,7 +11772,8 @@
 	)
 	(symbol
 		(lib_id "JUMPER_SMD:JUMPER_SMD")
-		(at 134.62 172.72 0)
+		(at 144.78 172.72 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11894,7 +11781,7 @@
 		(dnp no)
 		(uuid "43cbe9b3-d9c2-4bd0-a888-d12194c11d59")
 		(property "Reference" "J20"
-			(at 140.97 168.91 0)
+			(at 138.43 168.91 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11903,7 +11790,7 @@
 			)
 		)
 		(property "Value" "N/A"
-			(at 134.62 193.04 0)
+			(at 144.78 193.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11913,7 +11800,7 @@
 			)
 		)
 		(property "Footprint" "footprints:three_position_jumper"
-			(at 134.62 186.36 0)
+			(at 144.78 186.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11923,7 +11810,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 133.35 189.23 0)
+			(at 146.05 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11933,7 +11820,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 172.72 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11942,7 +11829,7 @@
 			)
 		)
 		(property "Manufacturer" "N/A"
-			(at 148.59 200.66 0)
+			(at 130.81 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11952,7 +11839,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 151.13 967.64 0)
+			(at 128.27 967.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11962,7 +11849,7 @@
 			)
 		)
 		(property "Package" "N/A"
-			(at 135.89 196.85 0)
+			(at 143.51 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11971,7 +11858,7 @@
 			)
 		)
 		(property "Observations" "The resistor CRCW06030000Z0EAHP (SMD 0603) is connected between pins 1 and 2"
-			(at 134.62 182.88 0)
+			(at 144.78 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13025,7 +12912,7 @@
 		(dnp no)
 		(uuid "6e34f684-41d6-4899-a539-49990abfb902")
 		(property "Reference" "R39"
-			(at 193.04 50.292 0)
+			(at 193.04 43.942 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13034,7 +12921,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 193.04 49.022 0)
+			(at 193.04 45.212 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13130,16 +13017,16 @@
 		)
 	)
 	(symbol
-		(lib_id "WSL20108L000FEA18:WSL20108L000FEA18")
-		(at 334.01 148.59 180)
+		(lib_id "WSL2010R0160FEA:WSL2010R0160FEA")
+		(at 334.01 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "70aa60da-631a-4658-b29e-ebf10f156e06")
-		(property "Reference" "R48"
-			(at 334.01 151.892 0)
+		(uuid "72ddd707-b6da-49ea-a92a-7a55f2b3ad48")
+		(property "Reference" "R47"
+			(at 334.01 44.958 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13147,8 +13034,8 @@
 				)
 			)
 		)
-		(property "Value" "8m"
-			(at 334.01 150.622 0)
+		(property "Value" "16m"
+			(at 334.01 46.228 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13156,8 +13043,8 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:WSL20108L000FEA18"
-			(at 325.12 153.67 0)
+		(property "Footprint" "footprints:WSL2010R0160FEA"
+			(at 342.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13166,8 +13053,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/31057/wslhigh.pdf"
-			(at 325.12 151.638 0)
+		(property "Datasheet" "https://www.vishay.com/docs/30100/wsl.pdf"
+			(at 342.9 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13176,8 +13063,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Current sense resistor, 1W, 0.008R, 1%"
-			(at 325.12 144.018 0)
+		(property "Description" "Current sense resistor, 0.5W, 0.016R, 1%"
+			(at 342.9 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13186,8 +13073,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "WSL20108L000FEA18"
-			(at 325.12 147.574 0)
+		(property "MPN" "WSL2010R0160FEA"
+			(at 342.9 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +13084,7 @@
 			)
 		)
 		(property "Package" "SMD 2010"
-			(at 325.12 145.796 0)
+			(at 342.9 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13207,7 +13094,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 325.12 149.606 0)
+			(at 342.9 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13217,27 +13104,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b10ea30c-ade4-4aa0-8683-0e3fb0ba4130")
+			(uuid "399dc529-bbed-4ed8-abde-4f9ab9aae070")
 		)
 		(pin "2"
-			(uuid "57277923-f82a-40df-84cc-0ff8c485f0b0")
+			(uuid "29256783-e8ed-4d6c-88db-6e17c1ad846a")
 		)
 		(instances
 			(project "eps-re_project"
 				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-			(project "5V0_LoadConverter"
-				(path "/3a0235b6-2c7b-4806-a6ba-1cdafe09044d"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "5V0_LoadConverter"
-				(path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
-					(reference "R19")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -13356,7 +13231,7 @@
 		(dnp no)
 		(uuid "73f84eb6-31b4-4cb3-8996-41b5e5d9a7b0")
 		(property "Reference" "R40"
-			(at 193.04 150.622 0)
+			(at 193.04 144.272 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13365,7 +13240,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 193.04 149.352 0)
+			(at 193.04 145.542 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13676,6 +13551,108 @@
 			(project "5V0_LoadConverter"
 				(path "/859f9c7a-5843-4ab0-8e33-c147cdce4463"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WSL2010R0160FEA:WSL2010R0160FEA")
+		(at 334.01 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82653d27-abc6-468e-88fd-b90c42db9455")
+		(property "Reference" "R48"
+			(at 334.01 145.288 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "16m"
+			(at 334.01 146.558 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "footprints:WSL2010R0160FEA"
+			(at 342.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/30100/wsl.pdf"
+			(at 342.9 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current sense resistor, 0.5W, 0.016R, 1%"
+			(at 342.9 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WSL2010R0160FEA"
+			(at 342.9 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 2010"
+			(at 342.9 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 342.9 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae52fbbc-18c3-4133-96e5-3e81e26c67a4")
+		)
+		(pin "2"
+			(uuid "5ee655b4-51fc-4299-9609-85ac246609dc")
+		)
+		(instances
+			(project "eps-re_project"
+				(path "/2eebaa11-d7ed-4bfd-bc8e-988f68654d29/6cd5fe02-9b19-49bf-9109-b0a2c2f10c14"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -17339,7 +17316,8 @@
 	)
 	(symbol
 		(lib_id "JUMPER_SMD:JUMPER_SMD")
-		(at 134.62 72.39 0)
+		(at 144.78 72.39 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17347,7 +17325,7 @@
 		(dnp no)
 		(uuid "da9b56c2-8f77-4619-acbb-a235317d45ce")
 		(property "Reference" "J19"
-			(at 140.97 68.58 0)
+			(at 138.43 68.58 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17356,7 +17334,7 @@
 			)
 		)
 		(property "Value" "N/A"
-			(at 134.62 92.71 0)
+			(at 144.78 92.71 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17366,7 +17344,7 @@
 			)
 		)
 		(property "Footprint" "footprints:three_position_jumper"
-			(at 134.62 86.03 0)
+			(at 144.78 86.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17376,7 +17354,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 133.35 88.9 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17386,7 +17364,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 72.39 0)
+			(at 144.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17395,7 +17373,7 @@
 			)
 		)
 		(property "Manufacturer" "N/A"
-			(at 148.59 100.33 0)
+			(at 130.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17405,7 +17383,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 151.13 867.31 0)
+			(at 128.27 867.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17415,7 +17393,7 @@
 			)
 		)
 		(property "Package" "N/A"
-			(at 135.89 96.52 0)
+			(at 143.51 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17424,7 +17402,7 @@
 			)
 		)
 		(property "Observations" "The resistor CRCW06030000Z0EAHP (SMD 0603) is connected between pins 1 and 2"
-			(at 134.62 82.55 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

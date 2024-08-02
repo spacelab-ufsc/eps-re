@@ -9510,13 +9510,13 @@
 	)
 	(hierarchical_label "3V3_B_~{EN}"
 		(shape input)
-		(at 66.04 170.18 0)
+		(at 66.04 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.8 0.8)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "01e67b38-347f-4411-b63a-d2fd11fe1f1c")
 	)

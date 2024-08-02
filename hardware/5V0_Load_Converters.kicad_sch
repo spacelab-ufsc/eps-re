@@ -9570,13 +9570,13 @@
 	)
 	(hierarchical_label "5V0_B_~{EN}"
 		(shape input)
-		(at 66.04 170.18 0)
+		(at 66.04 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.8 0.8)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fcc00de6-ca56-486f-9929-3edae7cd06f5")
 	)

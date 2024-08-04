@@ -1,0 +1,6 @@
+[submodule "documentation"]
+	path = documentation
+	url = git@github.com:spacelab-ufsc/eps-re-documenation.git
+[submodule "hardware"]
+	path = hardware
+	url = git@github.com:spacelab-ufsc/eps-re-hardware.git

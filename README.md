@@ -40,7 +40,7 @@
 The **RE²PS** [[1]](#1) was designed to collect, store, and distribute energy for future SpaceLab missions, with a focus on increased robustness and reliability. Initially developed to support 1U and 2U CubeSats, this EPS can interface with up to 10 solar panels attached to the structure. It is also capable of operating the solar panels at their maximum power point (MPP). The collected energy is stored in lithium-ion batteries, and power distribution is managed by integrated DC-DC converters, generating 5V and 3.3V buses. This model is predominantly analog, enhancing its reliability in the challenging space environment. It also features redundancies in its energy harvesting unit (EHU) and power distribution unit (PDU).
 
 <p align="center">
-    <img src="https://github.com/spacelab-ufsc/eps-re/blob/master/figs/top.png"><img src="https://github.com/spacelab-ufsc/eps-re/blob/master/figs/bottom.png">
+    <img src="https://github.com/spacelab-ufsc/eps-re/blob/master/figs/top.svg"><img src="https://github.com/spacelab-ufsc/eps-re/blob/master/figs/bottom.svg">
 </p>
 
 <p align="center">
